@@ -21,11 +21,15 @@
 \BOOKMARK [2][-]{subsection.3.4.3}{3.4.3 解决方案}{section.3.4}% 21
 \BOOKMARK [1][-]{section.3.5}{3.5 脚步切割}{chapter.3}% 22
 \BOOKMARK [1][-]{section.3.6}{3.6 步长估算器}{chapter.3}% 23
-\BOOKMARK [1][-]{section.3.7}{3.7 方向估算器}{chapter.3}% 24
-\BOOKMARK [1][-]{section.3.8}{3.8 实验验证及结果分析}{chapter.3}% 25
-\BOOKMARK [1][-]{section.3.9}{3.9 本章小结}{chapter.3}% 26
-\BOOKMARK [0][-]{chapter.4}{第四章 \040基于脚步感知的无锚节点室内定位系统实现}{}% 27
-\BOOKMARK [0][-]{chapter.5}{第五章 \040总结与展望}{}% 28
-\BOOKMARK [0][-]{chapter*.4}{参考文献}{}% 29
-\BOOKMARK [0][-]{chapter*.5}{简历与科研成果}{}% 30
-\BOOKMARK [0][-]{chapter*.6}{致 \040谢}{}% 31
+\BOOKMARK [2][-]{subsection.3.6.1}{3.6.1 研究动机}{section.3.6}% 24
+\BOOKMARK [2][-]{subsection.3.6.2}{3.6.2 研究挑战}{section.3.6}% 25
+\BOOKMARK [2][-]{subsection.3.6.3}{3.6.3 实验观察}{section.3.6}% 26
+\BOOKMARK [2][-]{subsection.3.6.4}{3.6.4 解决方案}{section.3.6}% 27
+\BOOKMARK [1][-]{section.3.7}{3.7 方向估算器}{chapter.3}% 28
+\BOOKMARK [1][-]{section.3.8}{3.8 实验验证及结果分析}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.9}{3.9 本章小结}{chapter.3}% 30
+\BOOKMARK [0][-]{chapter.4}{第四章 \040基于脚步感知的无锚节点室内定位系统实现}{}% 31
+\BOOKMARK [0][-]{chapter.5}{第五章 \040总结与展望}{}% 32
+\BOOKMARK [0][-]{chapter*.4}{参考文献}{}% 33
+\BOOKMARK [0][-]{chapter*.5}{简历与科研成果}{}% 34
+\BOOKMARK [0][-]{chapter*.6}{致 \040谢}{}% 35

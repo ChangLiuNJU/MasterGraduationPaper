@@ -390,7 +390,7 @@ FootStep-Tracker处理由用户脚部嵌入的传感器芯片感知的传感器数据。
 为了将用户当前的行为进行分类，我们首先需要将传感器采集到的数据流进行分段。我们采用滑动窗口进行分割，并利用多种分类方式对窗口进行行为分类。
 通常情况下，人类的步频在1Hz到3Hz之间。电梯的加速和减速过程通常持续2秒左右。我们用一个窗口大小为40的滑动窗口来分割数据。每个窗口包含2秒内的数据，以保证整个窗口可以包含整个电梯加速减速和走路的过程。
 
-如图\ref{fig:activity_classifier}中的圆角矩形所示，我们将加速度z轴的数据窗口分为8个类。表\ref{table:classes}标出了这些类别简称与具体解释。
+如图\ref{fig:activity_classifier}中的圆角矩形所示，我们将加速度z轴的数据窗口分为8 个类。表\ref{table:classes}标出了这些类别简称与具体解释。首先，我们注意到上楼梯（UST），下楼梯（DST）和走路（WALK）较电梯超重 （EHG），电梯失重（EWL）和静止（SS）很明显具有较大的方差。
 
 \begin{figure}[!ht]
 \centering
@@ -426,8 +426,44 @@ SS & 静止站立\\
 \label{table:classes}
 \end{table}
 
+为了区分连个行为组，即上下楼梯，走路组和上下电梯，静止组，我们采用了以窗口方差为基础的决策树。
+图\ref{fig:cdf_activity} (a) 所示为两个运动组加速度z轴窗口方差的CDF（Cumulative Distribution Function）图。图中为700个不同行为窗口的统计结果。
+当用户静止站立或者乘坐电梯是，加速度计的z轴几乎一直为一个常量。
+但这三种行为时，这个常量加速度的大小是不同的。
+同时，在用户走路或者上下楼梯时，窗口的数据方差就会明显增大。
+如图\ref{fig:cdf_activity} (a) 所示，由两组动作的窗口方差统计结果来看，这两组动作窗口方差的分布之间有一个明显的分割。我们利用一个为9.064的方差阈值去区分这两组不同的窗口。
+
+对于走路，和上下楼梯而言，用阈值的方法想要区分开这三组动作不太容易。另一方面，正如我们上文所说，上下楼梯和走路的数据变化剧烈程度不同。我们使用隐式马尔科夫模型（Hidden Markov Model，HMM）来区分。
+对于静止站立和在电梯中失重和超重而言，窗口的均值是不同的。图\ref{fig:cdf_activity} (b) 显示了这三种不同动作的窗口均值CDF图。三种窗口的均值之间同样也存在较为明显的分割，我们采用类似的阈值方法来区分这三种行为。
+更进一步，如果用户的行为为在电梯中的超重状态（EHG），我们继续进行行为分类，并等待一个失重状态（EWL），将整个动作标记为一个电梯上升（EA）。
+相反的，我们将连续出现的一个失重和超重状态标记为电梯下降（ED）。
+从而我们完成了将用户当前的行为分类为上楼梯（UST）、下楼梯（DST）、走路（WALK）、电梯上升（EA）、电梯下降（ED）和静止站立（SS）几种不同的行为类别。
+
+\begin{figure}
+\vspace{-3mm}
+\centering
+	\begin{minipage}{0.5\linewidth}
+        \centerline{\includegraphics[width=0.95\textwidth]{Figure/cdf_walk_rest.eps}}
+        \centerline{(a)}
+    \end{minipage}%
+	\begin{minipage}{0.5\linewidth}
+        \centerline{\includegraphics[width=0.95\textwidth]{Figure/cdf_ele.eps}}
+        \centerline{(b)}
+    \end{minipage}
+\caption{不同行为窗口的方差和均值CDF图}
+\label{fig:cdf_activity}
+\end{figure}
 
 \section{脚步切割}
+
+为了估算走路时每一步的行走距离和行走方向，我们需要将原始的传感器数据流切分为
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.9\textwidth]{Figure/ay_entire_walk.eps}
+\caption{走路时的三轴加速度}
+\label{fig:acc_walk}
+\end{figure}
 
 \section{步长估算器}
 
