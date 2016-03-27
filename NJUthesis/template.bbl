@@ -1,0 +1,46 @@
+\begin{thebibliography}{6}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Book
+\bibitem[{刘云浩(2010)}]{IOTdaolun}
+\bibinfo{author}{刘云浩}, \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{物联网导论}. volume \bibinfo{volume}{201}.
+\newblock \bibinfo{publisher}{科学出版社}.
+%Type = Article
+\bibitem[{Evans(2011)}]{ciscoIoT}
+\bibinfo{author}{Evans, D.}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{The internet of things: How the next evolution of the
+  internet is changing everything}.
+\newblock \bibinfo{journal}{CISCO white paper} \bibinfo{volume}{1},
+  \bibinfo{pages}{1--11}.
+%Type = Unpublished
+\bibitem[{IDC(2014)}]{IotMarket}
+\bibinfo{author}{IDC}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Market in a minute: Internet of things}.
+\newblock
+  \bibinfo{note}{\url{http://www.idc.com/downloads/idc_market_in_a_minute_iot_infographic.pdf}}.
+%Type = Unpublished
+\bibitem[{Texas-Instruments(2014)}]{sensortag}
+\bibinfo{author}{Texas-Instruments}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Sensortag}.
+\newblock
+  \bibinfo{note}{\url{http://www.ti.com/lsds/ti/analog/sensors/overview.page}}.
+%Type = Misc
+\bibitem[{Wikipedia(2016a)}]{snake}
+\bibinfo{author}{Wikipedia}, \bibinfo{year}{2016}a.
+\newblock \bibinfo{title}{Snake (video game)}.
+\newblock
+  \bibinfo{note}{\url{https://en.wikipedia.org/wiki/Snake_(video_game)}}.
+%Type = Misc
+\bibitem[{Wikipedia(2016b)}]{WearableComputer}
+\bibinfo{author}{Wikipedia}, \bibinfo{year}{2016}b.
+\newblock \bibinfo{title}{Wearable computer}.
+\newblock
+  \bibinfo{note}{\url{https://en.wikipedia.org/wiki/Wearable_computer}}.
+
+\end{thebibliography}

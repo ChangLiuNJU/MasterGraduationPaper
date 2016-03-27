@@ -1,0 +1,31 @@
+\BOOKMARK [0][-]{cover.0}{NJU Cover}{}% 1
+\BOOKMARK [0][-]{abstract.0}{摘　要}{}% 2
+\BOOKMARK [0][-]{englishabstract.0}{Abstract}{}% 3
+\BOOKMARK [0][-]{chapter*.1}{目 \040录}{}% 4
+\BOOKMARK [0][-]{chapter.1}{第一章 \040绪论}{}% 5
+\BOOKMARK [1][-]{section.1.1}{1.1 研究背景：室内定位}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.2}{1.2 研究背景：可穿戴设备}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.3}{1.3 研究目的及意义}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.4}{1.4 本文的工作}{chapter.1}% 9
+\BOOKMARK [2][-]{subsection.1.4.1}{1.4.1 无锚节点的室内定位方案FootStep-Tracker}{section.1.4}% 10
+\BOOKMARK [2][-]{subsection.1.4.2}{1.4.2 基于脚步感知的无锚节点室内定位系统实现}{section.1.4}% 11
+\BOOKMARK [1][-]{section.1.5}{1.5 本文组织结构}{chapter.1}% 12
+\BOOKMARK [0][-]{chapter.2}{第二章 \040相关工作}{}% 13
+\BOOKMARK [0][-]{chapter.3}{第三章 \040基于脚步感知的无锚节点室内定位系统}{}% 14
+\BOOKMARK [1][-]{section.3.1}{3.1 问题场景描述}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.2}{3.2 系统概述}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.3}{3.3 系统部署}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.4}{3.4 行为分类器}{chapter.3}% 18
+\BOOKMARK [2][-]{subsection.3.4.1}{3.4.1 研究动机}{section.3.4}% 19
+\BOOKMARK [2][-]{subsection.3.4.2}{3.4.2 实验观察}{section.3.4}% 20
+\BOOKMARK [2][-]{subsection.3.4.3}{3.4.3 解决方案}{section.3.4}% 21
+\BOOKMARK [1][-]{section.3.5}{3.5 脚步切割}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.6}{3.6 步长估算器}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.7}{3.7 方向估算器}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.8}{3.8 实验验证及结果分析}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.9}{3.9 本章小结}{chapter.3}% 26
+\BOOKMARK [0][-]{chapter.4}{第四章 \040基于脚步感知的无锚节点室内定位系统实现}{}% 27
+\BOOKMARK [0][-]{chapter.5}{第五章 \040总结与展望}{}% 28
+\BOOKMARK [0][-]{chapter*.4}{参考文献}{}% 29
+\BOOKMARK [0][-]{chapter*.5}{简历与科研成果}{}% 30
+\BOOKMARK [0][-]{chapter*.6}{致 \040谢}{}% 31
