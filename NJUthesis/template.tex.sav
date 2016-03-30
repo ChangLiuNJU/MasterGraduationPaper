@@ -41,10 +41,9 @@
 \usepackage{enumitem}
 %旋转
 \usepackage{rotating}
-\usepackage{amsmath,amssymb,amsthm}
+
 \usepackage[linesnumbered,ruled,vlined]{algorithm2e}
 
-\newtheorem{myThm}{Theorem}
 
 \begin{document}
 
@@ -620,9 +619,7 @@ S_z &= \int_{T_l}^{T_d}\int_{T_l}^{t'}(a_{z}(t)sin(\theta(t))cos(\varphi))\ dtdt
 \label{eq:sn}
 \end{equation}
 
-为了估算步长，我们还需要估算角上度$\varphi$。如图\ref{fig:phi}所示，我们让用户直线行走一段固定的距离$s$，然后我们用$a_f$进行两次积分，得到沿着脚步方向的位移$s_f$。
-由于$\Delta{s_f}$与$\Delta{s}$之间的夹角为$\varphi$，我们通过$\varphi=arccos(\frac{\Delta{s}}{\Delta{s_f}})$得到$\varphi$。
-此外，由于$s_f$为$\Delta{s_f}$的和，$s$为$\Delta{s}$的和。因此我们有$\varphi=arccos(\frac{s}{s_f})$。
+为了估算步长，我们还需要估算角上度$\varphi$。如图\ref{fig:phi}所示，
 
 \begin{figure}[!ht]
 \centering
@@ -631,83 +628,9 @@ S_z &= \int_{T_l}^{T_d}\int_{T_l}^{t'}(a_{z}(t)sin(\theta(t))cos(\varphi))\ dtdt
 \label{fig:phi}
 \end{figure}
 
-图\ref{fig:after_calibration}所示为用户一个步长为1.23m的脚步，步长估算器的估算结果。
-图\ref{fig:after_calibration} (a) 显示了原始加速度数据$a_y$与校正过的前进方向数据$a_m$。
-图\ref{fig:after_calibration} (b) 显示了对应的位移数据。我们对原始加速度$a_y$和校正后的加速度$a_m$分别进行两次积分。
-对于$a_y$，我们得到的估算步长为1.86m。
-对于$a_m$，我们得到得估算步长为1.23m。
-参考于实际步长1.23m，我们的校正方法使得步长估算误差从0.63m减少为0.12m。
-
-\begin{figure}[!ht]
-\centering
-	\begin{minipage}{0.5\linewidth}
-        \centerline{\includegraphics[width=0.9\textwidth]{Figure/ay_calibrate.eps}}
-        \centerline{(a) 加速度矫正}
-    \end{minipage}%
-	\begin{minipage}{0.5\linewidth}
-        \centerline{\includegraphics[width=0.9\textwidth]{Figure/sy_calibrate.eps}}
-        \centerline{(b) 位移校正}
-    \end{minipage}
-\caption{步长估算的案例研究}
-\label{fig:after_calibration}
-\end{figure}
-
 \subsubsection{双脚校正机制}
 
-为了更近一步的减少累积误差，FootStep-Tracker将两个传感器分别嵌入用户的左右两个鞋子中，并分别的进行步长估算。由于在某一特定时刻，两个脚的累计步长，即两脚的位置不会相差太远，我们给出双脚校正的机制。当两个脚分别的累计步长相差达到1m以上时，我们将他们的平均值作为当前的用户行走距离，并重置双脚的累计步长。
-
 \section{方向估算器}
-
-\subsection{研究动机和挑战}
-
-为了得到用户的行为轨迹，我们同样需要计算出用户的行走方向。
-由于我们将传感器嵌入到用户的鞋子中，我们可以估算用户脚部走路时的相对转角。然而，脚部的相对转角并不是人体的行走方向变化。所以，我们需要通过估算出的脚部的方向变化而进一步估算用户行走方向的变化。
-
-\subsection{实验观察}
-
-当用户左/右转时，他们通常以垂直的方向为轴，如图\ref{fig:axes} (b) 所示，z轴与重力方向相反，因此我们主要关注与转弯动作最为相关的$g_z$。
-
-图\ref{fig:gzl_90_walking}所示为用户在一个90度左转时，传感器采集到的数据。图中红色方框为转弯时采集到的数据，对于一个90度的左转来说，左脚有两步导致了这次左转，右脚在左脚的这两步之间有一步。此外，当用户向前行走时，由于脚部轻微的左右摆动和八字脚的关系，$g_z$也有轻微的波动。
-
-\begin{figure}[!ht]
-\centering
-\includegraphics[width=0.9\textwidth]{Figure/gz_turn_l90.eps}
-\caption{用户左转时的传感器数据}
-\label{fig:gzl_90_walking}
-\end{figure}
-
-图\ref{fig:sketch_turn}为一个四步的左转。我们可以看到，用户绕着某个虚拟的点，我们记为原点$O$，左转了$\alpha$度。对于一只脚来说，为了完成这次$\alpha$的转弯，它需要先后转两次，分别为$\alpha_1,\alpha_2$。
-
-\begin{figure}[!ht]
-\centering
-\includegraphics[width=0.9\textwidth]{Figure/turn_sketch.eps}
-\caption{一个$\alpha$度的左转}
-\label{fig:sketch_turn}
-\end{figure}
-
-对于某个特定用户来说，我们假定在其行走的过程中，脚部方向（foot direction, $d_f$）和行走方向（moving direction，$d_m$）的夹角是不变的。
-在我们的场景中，这个假设是合理的。这是因为对于某一个特定的用户来说，其走路的习惯，例如八字脚的程度，在一个相当长的时间内是不变的。
-
-为了估算出用户的转弯角度$\alpha_i$，我们给出如下定理，
-
-\begin{myThm}
-假设脚部方向（foot direction, $d_f$）和行走方向（moving direction，$d_m$）的夹角$\varphi$ 是不变的。那么脚部的转角$\alpha_i$与人体转弯的角度$\beta_i$是相等的.
-\label{thm:equal}
-\end{myThm}
-
-\begin{proof}
-不失一般性，如图\ref{fig:turn_theta}所示， the user makes a turning with angle of degree $\alpha$ around the point $O$. Let the direction from $O$ to the foot as $d_o$, the foot direction as $d_f$, the moving direction as $d_m$, the angle between the foot direction and moving direction are $ \varphi_i $ and $ \varphi_{i+1} $, the variety angle of foot direction is $ \beta_i $, and the variety angle of moving direction is $ \gamma $.
-Since $d_w$ is orthogonal to $d_o$, then $\alpha_i=\gamma$. As the vertically opposite angles is equal, we can have that $ \gamma + \varphi_i +\lambda = \beta_i + \varphi_{i+1} + \lambda $. According to the assumption, $ \varphi_i = \varphi_{i+1} $, then $ \gamma = \beta_i $. So we have $ \alpha_i = \beta_i $.
-\end{proof}
-
-\begin{figure}[!ht]
-\centering
-\includegraphics[width=0.9\textwidth]{Figure/turn_theta.eps}
-\caption{Foot direction and moving direction}
-\label{fig:turn_theta}
-\end{figure}
-
-\subsection{解决方案}
 
 \section{实验验证及结果分析}
 

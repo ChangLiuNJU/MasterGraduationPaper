@@ -23,19 +23,23 @@
 \contentsline {subsection}{\numberline {3.4.2}实验观察}{11}{subsection.3.4.2}
 \contentsline {subsection}{\numberline {3.4.3}解决方案}{12}{subsection.3.4.3}
 \contentsline {section}{\numberline {3.5}脚步切割}{14}{section.3.5}
-\contentsline {section}{\numberline {3.6}步长估算器}{16}{section.3.6}
-\contentsline {subsection}{\numberline {3.6.1}研究动机}{16}{subsection.3.6.1}
+\contentsline {section}{\numberline {3.6}步长估算器}{15}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}研究动机}{15}{subsection.3.6.1}
 \contentsline {subsection}{\numberline {3.6.2}研究挑战}{16}{subsection.3.6.2}
 \contentsline {subsection}{\numberline {3.6.3}实验观察}{16}{subsection.3.6.3}
-\contentsline {subsection}{\numberline {3.6.4}解决方案}{16}{subsection.3.6.4}
-\contentsline {subsubsection}{\numberline {3.6.4.1}关键时间点抽取}{16}{subsubsection.3.6.4.1}
-\contentsline {subsubsection}{\numberline {3.6.4.2}步长估算}{16}{subsubsection.3.6.4.2}
-\contentsline {subsubsection}{\numberline {3.6.4.3}双脚校正机制}{16}{subsubsection.3.6.4.3}
-\contentsline {section}{\numberline {3.7}方向估算器}{16}{section.3.7}
-\contentsline {section}{\numberline {3.8}实验验证及结果分析}{16}{section.3.8}
-\contentsline {section}{\numberline {3.9}本章小结}{16}{section.3.9}
-\contentsline {chapter}{\numberline {第四章\hspace {0.3em}}基于脚步感知的无锚节点室内定位系统实现}{17}{chapter.4}
-\contentsline {chapter}{\numberline {第五章\hspace {0.3em}}总结与展望}{18}{chapter.5}
-\contentsline {chapter}{参考文献}{19}{chapter*.4}
-\contentsline {chapter}{简历与科研成果}{20}{chapter*.5}
-\contentsline {chapter}{致\CTEX@spaceChar \CTEX@spaceChar 谢}{21}{chapter*.6}
+\contentsline {subsection}{\numberline {3.6.4}解决方案}{18}{subsection.3.6.4}
+\contentsline {subsubsection}{\numberline {3.6.4.1}关键时间点抽取}{18}{subsubsection.3.6.4.1}
+\contentsline {subsubsection}{\numberline {3.6.4.2}步长估算}{19}{subsubsection.3.6.4.2}
+\contentsline {subsubsection}{\numberline {3.6.4.3}双脚校正机制}{21}{subsubsection.3.6.4.3}
+\contentsline {section}{\numberline {3.7}方向估算器}{22}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}研究动机和挑战}{22}{subsection.3.7.1}
+\contentsline {subsection}{\numberline {3.7.2}实验观察}{22}{subsection.3.7.2}
+\contentsline {subsection}{\numberline {3.7.3}解决方案}{24}{subsection.3.7.3}
+\contentsline {section}{\numberline {3.8}参考地点估计}{25}{section.3.8}
+\contentsline {section}{\numberline {3.9}实验验证及结果分析}{26}{section.3.9}
+\contentsline {section}{\numberline {3.10}本章小结}{26}{section.3.10}
+\contentsline {chapter}{\numberline {第四章\hspace {0.3em}}基于脚步感知的无锚节点室内定位系统实现}{27}{chapter.4}
+\contentsline {chapter}{\numberline {第五章\hspace {0.3em}}总结与展望}{28}{chapter.5}
+\contentsline {chapter}{参考文献}{29}{chapter*.4}
+\contentsline {chapter}{简历与科研成果}{30}{chapter*.5}
+\contentsline {chapter}{致\CTEX@spaceChar \CTEX@spaceChar 谢}{31}{chapter*.6}

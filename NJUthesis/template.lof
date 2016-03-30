@@ -12,6 +12,14 @@
 \contentsline {figure}{\numberline {3.4}{\ignorespaces 行为分类器框架}}{13}{figure.3.4}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces 不同行为窗口的方差和均值CDF图}}{14}{figure.3.5}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces 走路时的三轴加速度}}{15}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces 走路时脚步的运动轨迹及传感器数据}}{17}{figure.3.7}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces 八字脚情况}}{18}{figure.3.8}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces 估算角度$\varphi $.}}{21}{figure.3.9}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces 步长估算的案例研究}}{21}{figure.3.10}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces 用户左转时的传感器数据}}{22}{figure.3.11}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces 一个$\alpha $度的左转}}{23}{figure.3.12}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Foot direction and moving direction}}{24}{figure.3.13}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces 贪食蛇策略}}{25}{figure.3.14}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
