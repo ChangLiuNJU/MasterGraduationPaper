@@ -329,6 +329,7 @@ FootStep-Tracker´¦ÀíÓÉÓÃ»§½Å²¿Ç¶ÈëµÄ´«¸ĞÆ÷Ğ¾Æ¬¸ĞÖªµÄ´«¸ĞÆ÷Êı¾İ¡£
 \end{figure}
 
 \section{ĞĞÎª·ÖÀàÆ÷}
+\label{sec:activity_classifier}
 
 \subsection{ÑĞ¾¿¶¯»ú}
 
@@ -482,6 +483,7 @@ SS & ¾²Ö¹Õ¾Á¢\\
 \end{figure}
 
 \section{²½³¤¹ÀËãÆ÷}
+\label{sec:step_length_estimator}
 
 \subsection{ÑĞ¾¿¶¯»ú}
 
@@ -563,8 +565,8 @@ FootStep-Tracker¸ù¾İ·Ö¶ÎµÄÊı¾İ£¬¸ù¾İËã·¨\ref{alg:fpe}£¬´ÓÔ­Ê¼Êı¾İÁ÷Ö®ÖĞ³éÈ¡¹Ø¼üÊ
 ÔÚ×ÅµØÊ±¼ä£¨landing time£¬$T_d$£©Ê±£¬½Å¸ú×ÅµØ£¬$a_y$±äÎª¸ºÊı¡£ÎÒÃÇÔÚ¸ø¶¨µÄÊı¾İ¶ÎÖĞ£¬ÀëµØÊ±¼äºó£¬Ñ°ÕÒµÚÒ»¸ö$a_y<0$µÄµã×÷Îª×ÅµØÊ±¼ä¡£
 ÔÚ¾²Ö¹Ê±¼ä£¨rest time£¬$T_r$£©Ê±£¬$a_y,g_x$ÔÙ´ÎÎª0¡£ÎÒÃÇÔÚ¸ø¶¨µÄÊı¾İ¶ÎÖĞ£¬×ÅµØÊ±¼äºó£¬Ñ°ÕÒµÚÒ»¸ö$a_y,g_x$Îª0µÄµã×÷Îª¾²Ö¹Ê±¼ä¡£
 
-\begin{algorithm}[!ht]
-	\caption{¹Ø¼üÊ±¼ä³éÈ¡.}
+\begin{algorithm}
+    \caption{¹Ø¼üÊ±¼ä³éÈ¡}
 	\label{alg:fpe}
 	\KwIn {´«¸ĞÆ÷Êı¾İÁ÷$ a_y, g_x $, ÇĞ¸îºÃµÄ±¾²½Êı¾İ $D_{s}$}
 	\KwOut { Ì§½ÅÊ±¼ä£¨Uplift time $ T_{u} $£©, ÀëµØÊ±¼ä£¨liftoff time $ T_{l} $£©, ×ÅµØÊ±¼ä£¨landing time $ T_{d} $£©, ¾²Ö¹Ê±¼ä£¨rest time $ T_{r} $}£©
@@ -657,6 +659,7 @@ S_z &= \int_{T_l}^{T_d}\int_{T_l}^{t'}(a_{z}(t)sin(\theta(t))cos(\varphi))\ dtdt
 ÎªÁË¸ü½üÒ»²½µÄ¼õÉÙÀÛ»ıÎó²î£¬FootStep-Tracker½«Á½¸ö´«¸ĞÆ÷·Ö±ğÇ¶ÈëÓÃ»§µÄ×óÓÒÁ½¸öĞ¬×ÓÖĞ£¬²¢·Ö±ğµÄ½øĞĞ²½³¤¹ÀËã¡£ÓÉÓÚÔÚÄ³Ò»ÌØ¶¨Ê±¿Ì£¬Á½¸ö½ÅµÄÀÛ¼Æ²½³¤£¬¼´Á½½ÅµÄÎ»ÖÃ²»»áÏà²îÌ«Ô¶£¬ÎÒÃÇ¸ø³öË«½ÅĞ£ÕıµÄ»úÖÆ¡£µ±Á½¸ö½Å·Ö±ğµÄÀÛ¼Æ²½³¤Ïà²î´ïµ½1mÒÔÉÏÊ±£¬ÎÒÃÇ½«ËûÃÇµÄÆ½¾ùÖµ×÷Îªµ±Ç°µÄÓÃ»§ĞĞ×ß¾àÀë£¬²¢ÖØÖÃË«½ÅµÄÀÛ¼Æ²½³¤¡£
 
 \section{·½Ïò¹ÀËãÆ÷}
+\label{sec:step_direction_estimator}
 
 \subsection{ÑĞ¾¿¶¯»úºÍÌôÕ½}
 
@@ -690,14 +693,14 @@ S_z &= \int_{T_l}^{T_d}\int_{T_l}^{t'}(a_{z}(t)sin(\theta(t))cos(\varphi))\ dtdt
 
 ÎªÁË¹ÀËã³öÓÃ»§µÄ×ªÍä½Ç¶È$\alpha_i$£¬ÎÒÃÇ¸ø³öÈçÏÂ¶¨Àí£¬
 
-\begin{myThm}
+\begin{thm}
 ¼ÙÉè½Å²¿·½Ïò£¨foot direction, $d_f$£©ºÍĞĞ×ß·½Ïò£¨moving direction£¬$d_m$£©µÄ¼Ğ½Ç$\varphi$ ÊÇ²»±äµÄ¡£ÄÇÃ´½Å²¿µÄ×ª½Ç$\alpha_i$ÓëÈËÌå×ªÍäµÄ½Ç¶È$\beta_i$ÊÇÏàµÈµÄ.
 \label{thm:equal}
-\end{myThm}
+\end{thm}
 
 \begin{proof}
-²»Ê§Ò»°ãĞÔ£¬ÈçÍ¼\ref{fig:turn_theta}ËùÊ¾£¬ the user makes a turning with angle of degree $\alpha$ around the point $O$. Let the direction from $O$ to the foot as $d_o$, the foot direction as $d_f$, the moving direction as $d_m$, the angle between the foot direction and moving direction are $ \varphi_i $ and $ \varphi_{i+1} $, the variety angle of foot direction is $ \beta_i $, and the variety angle of moving direction is $ \gamma $.
-Since $d_w$ is orthogonal to $d_o$, then $\alpha_i=\gamma$. As the vertically opposite angles is equal, we can have that $ \gamma + \varphi_i +\lambda = \beta_i + \varphi_{i+1} + \lambda $. According to the assumption, $ \varphi_i = \varphi_{i+1} $, then $ \gamma = \beta_i $. So we have $ \alpha_i = \beta_i $.
+²»Ê§Ò»°ãĞÔ£¬ÈçÍ¼\ref{fig:turn_theta}ËùÊ¾£¬ÓÃ»§ÈÆ×Åµã$O$×ªÍäÁË$\alpha$½Ç¡£Áî´Ó$O$ µ½ÓÃ»§½ÅµÄ·½ÏòÎª$d_o$£¬½Å²½·½ÏòÎª$d_f$, ĞĞ×ß·½ÏòÎª$d_m$, Æä¼Ğ½ÇÎª$ \varphi_i $ ºÍ $ \varphi_{i+1} $£¬½Å²½·½ÏòµÄĞı×ª½ÇÎª $ \beta_i $, Ç°½ø·½ÏòµÄĞı×ª½ÇÎª$ \gamma $¡£
+ÓÉ$d_w$´¹Ö±ÓÚ$d_o$£¬ÄÇÃ´ÓĞ$\alpha_i=\gamma$. ÓÉÓÚ¶Ô¶¥½ÇÏàµÈ£¬ÎÒÃÇÓĞ$ \gamma + \varphi_i +\lambda = \beta_i + \varphi_{i+1} + \lambda $¡£¸ù¾İ¼ÙÉè£¬$ \varphi_i = \varphi_{i+1} $£¬ÄÇÃ´ $ \gamma = \beta_i $¡£ËùÒÔÎÒÃÇÓĞ$ \alpha_i = \beta_i $¡£
 \end{proof}
 
 \begin{figure}[!ht]
@@ -709,7 +712,125 @@ Since $d_w$ is orthogonal to $d_o$, then $\alpha_i=\gamma$. As the vertically op
 
 \subsection{½â¾ö·½°¸}
 
+FootStep-TrackerÀûÓÃµÍÍ¨ÂË²¨È¥µôÓÃ»§×ßÖ±ÏßÊ±µÄÊı¾İÔëÉù£¬½«×ªÍä²½´ÓÖ±ĞĞ²½ÖĞÌáÈ¡³öÀ´¡£´ËÍâ£¬¶ÔÓÚÒ»²½À´Ëµ£¬ÎÒÃÇ·¢ÏÖ½Å²¿³öÏÖ×ªÍäÔË¶¯µÄÊ±¼äÔÚÉÏÎÄÌáµ½µÄµÚ£¨3£©½×¶Î£¬´ÓÌ§½ÅÊ±¼äµ½×ÅÂ½Ê±¼ä¡£ÕâÊÇÒòÎªÔÚµÚ£¨1£©-£¨2£©½×¶Î£¬½Å¸úÌ§Æğ£¬×¼±¸ÏòÇ°ÒÆ¶¯¡£ÔÚµÚ£¨4£©-£¨5£©½×¶Î£¬½ÅÕıÔÚ×ÅµØ¡£ÕâĞ©½×¶ÎÖĞ£¬½Å²¿¶¼Ã»ÓĞÈÆ×ÅzÖáĞı×ª¡£ÎÒÃÇÊ¹ÓÃÉÏÎÄÌáµ½µÄËã·¨\ref{alg:fpe}£¬µÃµ½¸÷¸ö¹Ø¼üÊ±¼ä¡£
+
+ÎÒÃÇÍ¨¹ıµÃµ½µÄÌ§½ÅÊ±¼äºÍ×ÅµØÊ±¼ä£¬ÀûÓÃ¹«Ê½(\ref{eq:turn_degree})¼ÆËãÓÃ»§µÄ×ªÍä½Ç¶È¡£ÓÉÓÚ½Å²¿ÒÔzÖáÎªÖá£¬ÎÒÃÇ´ÓÌ§½ÅÊ±¼äµ½×ÅµØÊ±¼ä¶Ô$g_z$»ı·Ö£¬µÃµ½½Å²¿·½Ïò$d_f$µÄĞı×ª½Ç¶È$\beta_i$¡£È»ºó£¬¸ù¾İ¶¨Àí\ref{thm:equal}£¬ÎÒÃÇÓĞÇ°½ø·½ÏòµÄ×ª½ÇÓë½Å²¿·½ÏòµÄ×ª½ÇÏàµÈ£¬¼´${\alpha_i}={\beta_i}$¡£¶ÔÓÚ¶à²½µÄ×ªÍä£¬ÎÒÃÇ½«Ã¿Ò»²½µÄ×ªÍä½Ç¶ÈÀÛ¼Ó£¬´Ó¶øµÃµ½×ÜÌåµÄ×ªÍä½Ç¶È¡£
+
+\begin{equation}
+\begin{aligned}
+& \alpha   =\sum_{i=1}^{n} \alpha_i \\
+& \alpha_i =\beta_i =\int_{\mathit{T_{l}}}^{\mathit{T_{d}}}g_z(t) \ dt
+\label{eq:turn_degree}
+\end{aligned}
+\end{equation}
+
+\section{²Î¿¼µØµã¹À¼Æ}
+
+Í¨¹ı²½³¤¹ÀËãÆ÷\ref{sec:step_length_estimator}ºÍ·½Ïò¹ÀËãÆ÷\ref{sec:step_direction_estimator}£¬ÎÒÃÇ¿ÉÒÔ×¼È·µÄ¹ÀËãÓÃ»§µÄĞĞÎª¹ì¼£¡£
+È»¶ø£¬ÎÒÃÇÈÔÈ»ĞèÒª½«ĞĞÎª¹ì¼£Ç¶Èëµ½È«¾ÖµÄÊÒÄÚµØÍ¼ÖĞ¡£
+
+ÎªÁËÍ¨¹ıĞĞÎª¹ì¼£ºÍÊÒÄÚµØÍ¼È·¶¨ÓÃ»§µÄÈ·ÇĞÎ»ÖÃ£¬ÎÒÃÇÓĞÁËÈçÏÂÁ½¸öÏë·¨£ºÊ×ÏÈ£¬ÓÃ»§µÄĞĞÎª¹ì¼£ÊÜµ½ÊÒÄÚÎïÀíÍØÆË½á¹¹µÄÏŞÖÆ£¬Ò²¾ÍÊÇËµ£¬ÓÃ»§²»ÄÜ´©Ç½¡£µÚ¶ş£¬ÓÉÓÚ²Î¿¼µØµã£¬°üÀ¨Â¥ÌİºÍµçÌİ£¬ËüÃÇµÄÎ»ÖÃÔÚÊÒÄÚµØÍ¼ÖĞÊÇ¹Ì¶¨µÄ¡£ËùÒÔµ±ÓÃ»§ÔÚ½øĞĞ²Î¿¼ĞĞÎªÊ±£¬ÀıÈçÉÏµçÌİ¡¢ÉÏÂ¥Ìİ£¬ÎÒÃÇ¾Í¿ÉÒÔÈ·ÇĞµÄ¶¨Î»ÓÃ»§ÔÚ¼¸¸ö¿ÉÄÜµÄ²Î¿¼µØµãÉÏ¡£
+
+ÎªÁË¶¨Î»ÓÃ»§ºÍ¸ü½øÒ»²½µÄ×·×ÙºÍµ¼º½£¬ÎÒÃÇ²ÉÓÃÁËÌ°Ê³Éß²ßÂÔ\cite{snakegame}¡£ÈçÍ¼\ref{fig:Anakonda} (a) ËùÊ¾£¬ÓÃ»§³Ë×øµçÌİÀ´µ½»·¾³ÖĞ£¬È»ºóÓÒ×ª×ßÁËÒ»Ğ¡¶Î¾àÀë¡£´ËÊ±¸ù¾İĞĞ×ß¹ì¼£ºÍµçÌİµÄÎ»ÖÃ£¬ÓĞÈı¸ö¿ÉÄÜµÄÓÃ»§Î»ÖÃ¡£Ëæ×ÅÓÃ»§ĞĞ×ß£¬µ½ÁËÈçÍ¼ (b) µÄÊ±¿Ì£¬ÓÉÓÚµØÍ¼ÍØÆË»·¾³µÄÏŞÖÆ£¬¿ÉÄÜµÄĞĞ×ß¹ì¼£ (2) ºÍ (3) ±»ÅÅ³ıµôÁË£¬´Ó¶øÉ¸Ñ¡³öÈ·ÇĞµÄÓÃ»§ĞĞÎª¹ì¼£(1)¡£
+
+\begin{figure}[!ht]
+\centering
+	\begin{minipage}{0.5\linewidth}
+        \centerline{\includegraphics[width=0.9\textwidth]{Figure/Anakonda1.eps}}
+        \centerline{(a) ¿ÉÄÜµÄĞĞÎª¹ì¼£}
+    \end{minipage}%
+	\begin{minipage}{0.5\linewidth}
+        \centerline{\includegraphics[width=0.9\textwidth]{Figure/Anakonda2.eps}}
+        \centerline{(b) ¹ıÂËµô²»¿ÉÄÜµÄĞĞÎª¹ì¼£}
+    \end{minipage}
+\caption{Ì°Ê³Éß²ßÂÔ}
+\label{fig:Anakonda}
+\end{figure}
+
+ÓÉÓÚÎÒÃÇÒÑ¾­Í¨¹ıĞĞÎª·ÖÀàÆ÷\ref{sec:activity_classifier}£¬Èç¹ûÓÃ»§ÕıÔÚÉÏÏÂµçÌİ»òÕßÂ¥Ìİ£¬ÎÒÃÇÔÚµØÍ¼ÖĞÕÒµ½µçÌİºÍÂ¥ÌİµÄÎ»ÖÃ×÷Îª²Î¿¼µØµã¡£Í¨¹ıÌ°Ê³Éß²ßÂÔ£¬ÎÒÃÇ¿ÉÒÔ½øÒ»²½È·¶¨È·ÇĞµÄÓÃ»§Î»ÖÃ£¬½ø¶ø½øĞĞ³ÖĞø¶¨Î»¡£
+
 \section{ÊµÑéÑéÖ¤¼°½á¹û·ÖÎö}
+
+\subsection{ÏµÍ³ÊµÏÖ}
+
+\noindent\textbf{Ó²¼ş£º}ÎÒÃÇµÄÏµÍ³°üº¬ÓÉµÂÖİÒÇÆ÷¹«Ë¾Éú²úµÄCC2541 SensorTag\cite{sensortag}ºÍÒ»Ì¨ÈıĞÇGalaxy S5°²×¿ÖÇÄÜÊÖ»ú¡£
+
+\noindent\textbf{Èí¼ş£º}ÎÒÃÇµÄÏµÍ³²ÉÓÃJAVAÓïÑÔ£¬ÊµÏÖÓÚ°²×¿Æ½Ì¨¡£´«¸ĞÆ÷Í¨¹ıÀ¶ÑÀÏòÖÇÄÜÊÖ»ú´«ÊäÊı¾İ¡£ÖÇÄÜÊÖ»úÀûÓÃ´«¸ĞÆ÷Êı¾İ¶¨Î»ºÍ×·×ÙÓÃ»§µÄÎ»ÖÃ£¬²¢Ìá¹©Í¼ĞÎ½»»¥½çÃæ£¨Graphical User Interface£¬GUI£©¡£
+
+\subsection{ÊµÑéÉè¶¨}
+
+SensorTagµÄ²ÉÑùÆµÂÊÎª20Hz£¬ÆäÈçÍ¼\ref{fig:sensortag}ËùÊ¾µÄÇ¶ÈëÓÃ»§µÄĞ¬µæÖĞ¡£ÎÒÃÇÑ¡ÔñÎÒÃÇµÄÏµ°ì¹«Â¥×÷ÎªÎÒÃÇÆÀ¹ÀÊ¹ÓÃµÄÊÒÄÚ»·¾³£¬ÆäÃæ»ıÔ¼Îª56m$\times$63m¡£ÎÒÃÇ²ÉÓÃ·ÖÀà×¼È·ÂÊÆÀ¹ÀĞĞÎª·ÖÀàÆ÷£¬²ÉÓÃ¶¨Î»Îó²îÆÀ¹À²½³¤¹ÀËãÆ÷ºÍ·½Ïò¹ÀËãÆ÷¡£
+
+\subsection{ÆÀ¹ÀĞĞÎª·ÖÀàÆ÷}
+
+ÎªÁËÆÀ¹ÀĞĞÎª·ÖÀàÆ÷£¬ÎÒÃÇÊ×ÏÈ²É¼¯ÁËÉÏÎÄÖĞÌáµ½µÄ6¸öĞĞÎªµÄ´«¸ĞÆ÷Êı¾İ¡£
+¶ÔÓÚÃ¿Ò»¸öĞĞÎª£¬ÎÒÃÇÊÕ¼¯ÁËÀ´×Ô3¸öÓÃ»§µÄ500¸ö´°¿ÚµÄ¼ÓËÙ¶ÈºÍÍÓÂİÒÇÊı¾İ¡£
+È»ºóÎÒÃÇÀûÓÃÕâĞ©Êı¾İÀ´ÑµÁ·HMMÄ£ĞÍÒÔ¼°È·¶¨¾ö²ßÊ÷µÄãĞÖµ¡£
+ÎÒÃÇ½«ÑµÁ·ºÃµÄ·ÖÀàÆ÷ÔÚÏßÎªÖ®Ç°µÄ3¸öÓÃ»§ºÍ5¸öĞÂµÄÓÃ»§½øĞĞĞĞÎª·ÖÀà¡£
+ËûÃÇÔÚ»·¾³ÖĞ×ßÂ·»òÕßÊÇÉÏÏÂÂ¥Ìİ¡¢µçÌİ¡£
+Í¼\ref{fig:activity_classifier}ÏÔÊ¾ÁËĞĞÎª·ÖÀàÆ÷µÄ×¼È·ÂÊ¡£
+¶ÔÓÚÓÃ¾ö²ßÊ÷£¬¼´ÓÃÓÚ·ÖÀà¾²Ö¹Õ¾Á¢£¨SS£©£¬µçÌİÖĞµÄ³¬ÖØ×´Ì¬£¨EHG£©ºÍµçÌİÖĞµÄÊ§ÖØ×´Ì¬£¨EWL£©µÄ²¿·Ö£¬ËüÏà¶ÔÓÚHMM µÄ²¿·ÖÀ´Ëµ×¼È·ÂÊ¸ü¸ß¡£
+ÕâÊÇÒòÎª
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.7\textwidth]{Figure/eva_classification.eps}
+\caption{ĞĞÎª·ÖÀàÆ÷×¼È·ÂÊ}
+\label{fig:eva_activity_classificaton}
+\end{figure}
+
+\subsection{ÆÀ¹À²½³¤¹ÀËãÆ÷}
+
+\begin{figure}[!ht]
+\centering
+	\begin{minipage}{0.5\linewidth}
+        \centerline{\includegraphics[width=0.9\textwidth]{Figure/eva_stride_length.eps}}
+        \centerline{(a) ÓÃ»§Ö±ÏßĞĞ×ßµÄ¶¨Î»Îó²î}
+    \end{minipage}%
+	\begin{minipage}{0.5\linewidth}
+        \centerline{\includegraphics[width=0.9\textwidth]{Figure/eva_step_length_error_cdf.eps}}
+        \centerline{(b) ¶¨Î»Îó²îCDF}
+    \end{minipage}
+\caption{ÆÀ¹À²½³¤¹ÀËãÆ÷}
+\label{fig:eva_step_length}
+\end{figure}
+
+\subsection{ÆÀ¹À·½Ïò¹ÀËãÆ÷}
+
+\begin{figure}[!ht]
+\centering
+	\begin{minipage}{0.5\linewidth}
+        \centerline{\includegraphics[width=0.9\textwidth]{Figure/theta_cal_l.eps}}
+        \centerline{(a) ½Ç¶ÈÎó²î}
+    \end{minipage}%
+	\begin{minipage}{0.5\linewidth}
+        \centerline{\includegraphics[width=0.9\textwidth]{Figure/eva_turn_cla.eps}}
+        \centerline{(b) ·ÖÀàºóµÄ½Ç¶ÈÎó²î}
+    \end{minipage}
+\caption{ÆÀ¹À·½Ïò¹ÀËãÆ÷}
+\label{fig:eva_step_direction}
+\end{figure}
+
+\subsection{ÕæÊµ»·¾³ÖĞµÄ¶¨Î»ÑùÀıÑĞ¾¿}
+
+\begin{figure}[!ht]
+\centering
+	\begin{minipage}{0.33\linewidth}
+        \centerline{\includegraphics[width=0.9\textwidth]{Figure/eva_path.eps}}
+        \centerline{(a) ½Ç¶ÈÎó²î}
+    \end{minipage}%
+	\begin{minipage}{0.33\linewidth}
+        \centerline{\includegraphics[width=0.9\textwidth]{Figure/eva_error_turn.eps}}
+        \centerline{(b) ·ÖÀàºóµÄ½Ç¶ÈÎó²î}
+    \end{minipage}%
+    \begin{minipage}{0.33\linewidth}
+        \centerline{\includegraphics[width=0.9\textwidth]{Figure/eva_path_users.eps}}
+        \centerline{(b) ·ÖÀàºóµÄ½Ç¶ÈÎó²î}
+    \end{minipage}
+\caption{ÕæÊµ»·¾³ÖĞµÄ°¸ÀıÆÀ¹À}
+\label{fig:eva_case_study}
+\end{figure}
+
 
 \section{±¾ÕÂĞ¡½á}
 

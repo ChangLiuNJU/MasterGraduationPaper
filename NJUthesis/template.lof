@@ -20,6 +20,11 @@
 \contentsline {figure}{\numberline {3.12}{\ignorespaces 一个$\alpha $度的左转}}{23}{figure.3.12}
 \contentsline {figure}{\numberline {3.13}{\ignorespaces Foot direction and moving direction}}{24}{figure.3.13}
 \contentsline {figure}{\numberline {3.14}{\ignorespaces 贪食蛇策略}}{25}{figure.3.14}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces 行为分类器准确率}}{27}{figure.3.15}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces 评估步长估算器}}{27}{figure.3.16}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces 评估方向估算器}}{28}{figure.3.17}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Walking Path.}}{29}{figure.3.18}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces 真实环境中的案例评估}}{29}{figure.3.19}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
