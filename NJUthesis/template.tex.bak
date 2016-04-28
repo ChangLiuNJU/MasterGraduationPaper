@@ -196,7 +196,7 @@ Realistic experiment results show that, FootStep-Tracker is able to achieve an a
 
 \section{±¾ÎÄµÄ¹¤×÷}
 
-±¾ÎÄÌá³öÁËFootStep-Tracker£¬Ò»ÖÖÎÞÃª½ÚµãµÄÊÒÄÚ¶¨Î»ÏµÍ³¡£ÆäÍêÈ«ÀûÓÃ´«¸ÐÆ÷Éè±¸¸ÐÖªÓÃ»§µÄ½Å²½ÔË¶¯£¬´Ó¶ø½øÐÐÊÒÄÚ¶¨Î»¡£ÎÒÃÇ´´ÐÂµÄ½â¾ö·½°¸»ùÓÚÈçÏÂµÄ¹Û²ì£¬ÓÃ»§µÄÐÐ¶¯ÓëÓÃ»§½Å²¿µÄ¶¯×÷ÃÜÇÐÏà¹Ø£¬ÀýÈçÅÜ²½¡¢×ßÂ·¡¢×ªÍäµÈ¶¯×÷£¬ÔÚ½Å²¿µÄÔË¶¯·½Ê½ÉÏ¶¼ÓÐºÜ´ó²î±ð¡£ÎÒÃÇÀûÓÃÇ¶ÈëÓÃ»§½Å²¿µÄÐ¡ÐÍ´«¸ÐÆ÷£¬ÀýÈç¼ÓËÙ¶È¼Æ¡¢ÍÓÂÝÒÇµÈ¸ÐÖªÓÃ»§µÄÐÐÎª£¬´Ó¶ø½øÒ»²½½øÐÐ¶ÔÓÃ»§µÄÊÒÄÚ¶¨Î»¡£ÈçÍ¼\ref{fig:sensortag}ËùÊ¾£¬ÎÒÃÇ½«Ð¡ÐÍµÄ´«¸ÐÆ÷Ð¾Æ¬SensorTag\cite{sensortag}·Ö±ðÇ¶ÈëÓÃ»§Ë«½ÅµÄÐ¬µæÖÐ£¬Í¨¹ýÀ¶ÑÀ½«´«¸ÐÆ÷²É¼¯µ½µÄÊý¾Ý·¢ËÍ¸ø¸øÓÃ»§ÊÖ³ÖµÄÖÇÄÜÊÖ»ú£¬½ø¶øÔÚÖÇÄÜÊÖ»úÉÏ½øÐÐÊý¾ÝµÄ·ÖÎö¼ÆËã£¬Íê³É¶ÔÓÃ»§µÄÊÒÄÚ¶¨Î»Óë×·×Ù¡£FootStep-TrackerÍ¨¹ýÇ¶ÈëµÄ¼ÓËÙ¶È¼ÆºÍÍÓÂÝÒÇ£¬¿ÉÒÔ¾«È·µÄ¸ÐÖªÓÃ»§µÄÐÐ×ß¹ì¼££¬°üº¬ÐÐ×ß·½ÏòÓëÐÐ×ß¾àÀë¡£¸ü½øÒ»²½£¬Í¨¹ý¼ì²âÓÃ»§µÄÐÐÎª£¬ÀýÈçÉÏÏÂÂ¥ÌÝ»òÕß³Ë×øµçÌÝ£¬FootStep-Tracker¿ÉÒÔ¸ù¾ÝÊÒÄÚ»·¾³ÖÐÌØ¶¨µÄÎ»ÖÃ£¬ÀýÈçµçÌÝºÍÂ¥ÌÝ£¬½øÐÐ¶Ô¹ÀËãÎ»ÖÃµÄÐ£×¼¡£FootStep-Tracker»¹¿ÉÒÔÀûÓÃÊÒÄÚ¿Õ¼äµÄÍØÆË½á¹¹¶Ô¹ÀËã³öµÄ¿ÏÄÜµÄ¶àÌõÓÃ»§ÐÐÎª¹ì¼£½øÐÐ¹ýÂËÉ¸Ñ¡£¬½ø¶øÊÕÁ²Îª×¼È·µÄÐÐÎª¹ì¼£¡£
+±¾ÎÄÌá³öÁËFootStep-Tracker£¬Ò»ÖÖÎÞÃª½ÚµãµÄÊÒÄÚ¶¨Î»ÏµÍ³¡£ÆäÍêÈ«ÀûÓÃ´«¸ÐÆ÷Éè±¸¸ÐÖªÓÃ»§µÄ½Å²½ÔË¶¯£¬´Ó¶ø½øÐÐÊÒÄÚ¶¨Î»¡£ÎÒÃÇ´´ÐÂµÄ½â¾ö·½°¸»ùÓÚÈçÏÂµÄ¹Û²ì£¬ÓÃ»§µÄÐÐ¶¯ÓëÓÃ»§½Å²¿µÄ¶¯×÷ÃÜÇÐÏà¹Ø£¬ÀýÈçÅÜ²½¡¢×ßÂ·¡¢×ªÍäµÈ¶¯×÷£¬ÔÚ½Å²¿µÄÔË¶¯·½Ê½ÉÏ¶¼ÓÐºÜ´ó²î±ð¡£ÎÒÃÇÀûÓÃÇ¶ÈëÓÃ»§½Å²¿µÄÐ¡ÐÍ´«¸ÐÆ÷£¬ÀýÈç¼ÓËÙ¶È¼Æ¡¢ÍÓÂÝÒÇµÈ¸ÐÖªÓÃ»§µÄÐÐÎª£¬´Ó¶ø½øÒ»²½½øÐÐ¶ÔÓÃ»§µÄÊÒÄÚ¶¨Î»¡£ÈçÍ¼\ref{fig:sensortag}ËùÊ¾£¬ÎÒÃÇ½«Ð¡ÐÍµÄ´«¸ÐÆ÷Ð¾Æ¬SensorTag\cite{sensortag}·Ö±ðÇ¶ÈëÓÃ»§Ë«½ÅµÄÐ¬µæÖÐ£¬Í¨¹ýÀ¶ÑÀ½«´«¸ÐÆ÷²É¼¯µ½µÄÊý¾Ý·¢ËÍ¸ø¸øÓÃ»§ÊÖ³ÖµÄÖÇÄÜÊÖ»ú£¬½ø¶øÔÚÖÇÄÜÊÖ»úÉÏ½øÐÐÊý¾ÝµÄ·ÖÎö¼ÆËã£¬Íê³É¶ÔÓÃ»§µÄÊÒÄÚ¶¨Î»Óë×·×Ù¡£FootStep-TrackerÍ¨¹ýÇ¶ÈëµÄ¼ÓËÙ¶È¼ÆºÍÍÓÂÝÒÇ£¬¿ÉÒÔ¾«È·µÄ¸ÐÖªÓÃ»§µÄÐÐ×ß¹ì¼££¬°üº¬ÐÐ×ß·½ÏòÓëÐÐ×ß¾àÀë¡£¸ü½øÒ»²½£¬Í¨¹ý¼ì²âÓÃ»§µÄÐÐÎª£¬ÀýÈçÉÏÏÂÂ¥ÌÝ»òÕß³Ë×øµçÌÝ£¬FootStep-Tracker¿ÉÒÔ¸ù¾ÝÊÒÄÚ»·¾³ÖÐÌØ¶¨µÄÎ»ÖÃ£¬ÀýÈçµçÌÝºÍÂ¥ÌÝ£¬½øÐÐ¶Ô¹ÀËãÎ»ÖÃµÄÐ£×¼¡£FootStep-Tracker»¹¿ÉÒÔÀûÓÃÊÒÄÚ¿Õ¼äµÄÍØÆË½á¹¹¶Ô¹ÀËã³öµÄ¿ÉÄÜµÄ¶àÌõÓÃ»§ÐÐÎª¹ì¼£½øÐÐ¹ýÂËÉ¸Ñ¡£¬½ø¶øÊÕÁ²Îª×¼È·µÄÐÐÎª¹ì¼£¡£
 
 \begin{figure}
 \centering
@@ -253,7 +253,7 @@ Realistic experiment results show that, FootStep-Tracker is able to achieve an a
 
 \subsection{»ùÓÚ½Å²½¸ÐÖªµÄÎÞÃª½ÚµãÊÒÄÚ¶¨Î»ÏµÍ³ÊµÏÖ}
 
-ÎÒÃÇÀûÓÃÕæÊµµÄÊµÑéÉè±¸ÊµÏÖÁËFootStep-TrakcerÏµÍ³¡£ÈçÍ¼\ref{fig:imp_overview}ËùÊ¾£¬¸ÃÏµÍ³°üÀ¨½Å²½¸ÐÖª×°ÖÃÒÔ¼°ÖÇÄÜÖÕ¶Ë¡£½Å²½¸ÐÖª×°ÖÃ°üÀ¨¼ÓËÙ¶È´«¸ÐÆ÷¡¢ÍÓÂÝÒÇ£¬ÒÔ¼°À¶ÑÀÍ¨ÐÅÄ£¿é¡£ÖÇÄÜÖÕ¶Ë°üÀ¨´¦ÀíÆ÷£¬ÏÔÊ¾ÆÁºÍÀ¶ÑÀÍ¨ÐÅÄ£¿é£¬²¢ÄÜ¹»¼ÓÔØÊÒÄÚµØÍ¼¡£ÆäÖÐ½Å²½¸ÐÖª×°ÖÃ²ÉÓÃµÂÖÝÒÇÆ÷¹«Ë¾Éú²úµÄCC2541 Soc SensorTagÊµÏÖ£¬ÖÇÄÜÖÕ¶Ë²ÉÓÃÈýÐÇ¹«Ë¾µÄGalxy S5 Android ÖÇÄÜÊÖ»ú¡£½Å²½¸ÐÖª×°ÖÃÇ°ÈëÔÚÓÃ»§½Å²¿µÄÐ¬µêÖÐ£¬ÊµÊ±²É¼¯ÓÃ»§½Å²½ÒÆ¶¯µÄ¸ÐÖªÊý¾Ý£¬²¢Í¨¹ýÀ¶ÑÀÍ¨ÐÅÄ£¿é½«¸ÐÖªÊý¾Ý´«ÊäÖÁÖÇÄÜÖÕ¶Ë¡£ÖÇÄÜÖÕ¶Ë»ùÓÚÊÕ¼¯µÄ¸ÐÖªÊý¾Ý£¬¸ÐÖªÓÃ»§µÄÒÆ¶¯ÐÐÎª£¬»ùÓÚÓÃ»§µÄÌØÊâÐÐÎªÄ£Ê½¹ÀËã¿ÉÄÜµÄ²Î¿¼Î»ÖÃ¡£ÖÇÄÜÖÕ¶Ë»ùÓÚÊÕ¼¯µÄ¸ÐÖªÊý¾Ý£¬¶ÔÓÃ»§µÄÒÆ¶¯·½ÏòºÍÒÆ¶¯¾àÀë½øÐÐ¹ÀËã£¬¼ÆËã³öÓÃ»§µÄÒÆ¶¯¹ì¼££¬²¢½áºÏÊÒÄÚµØÍ¼µÄÍØÆË½á¹¹ºÍ²Î¿¼Î»ÖÃ£¬½«ÓÃ»§ÒÆ¶¯¹ì¼£È·¶¨ÔÚÊÒÄÚµØÍ¼ÖÐ£¬ÊµÏÖÊÒÄÚ¶¨Î»»úÖÆ¡£
+ÎÒÃÇÀûÓÃÕæÊµµÄÊµÑéÉè±¸ÊµÏÖÁËFootStep-TrakcerÏµÍ³¡£ÈçÍ¼\ref{fig:imp_overview} ËùÊ¾£¬¸ÃÏµÍ³°üÀ¨½Å²½¸ÐÖª×°ÖÃÒÔ¼°ÖÇÄÜÖÕ¶Ë¡£½Å²½¸ÐÖª×°ÖÃ°üÀ¨¼ÓËÙ¶È´«¸ÐÆ÷¡¢ÍÓÂÝÒÇ£¬ÒÔ¼°À¶ÑÀÍ¨ÐÅÄ£¿é¡£ÖÇÄÜÖÕ¶Ë°üÀ¨´¦ÀíÆ÷£¬ÏÔÊ¾ÆÁºÍÀ¶ÑÀÍ¨ÐÅÄ£¿é£¬²¢ÄÜ¹»¼ÓÔØÊÒÄÚµØÍ¼¡£ÆäÖÐ½Å²½¸ÐÖª×°ÖÃ²ÉÓÃµÂÖÝÒÇÆ÷¹«Ë¾Éú²úµÄCC2541 Soc SensorTagÊµÏÖ£¬ÖÇÄÜÖÕ¶Ë²ÉÓÃÈýÐÇ¹«Ë¾µÄGalxy S5 Android ÖÇÄÜÊÖ»ú¡£½Å²½¸ÐÖª×°ÖÃÇ°ÈëÔÚÓÃ»§½Å²¿µÄÐ¬µêÖÐ£¬ÊµÊ±²É¼¯ÓÃ»§½Å²½ÒÆ¶¯µÄ¸ÐÖªÊý¾Ý£¬²¢Í¨¹ýÀ¶ÑÀÍ¨ÐÅÄ£¿é½«¸ÐÖªÊý¾Ý´«ÊäÖÁÖÇÄÜÖÕ¶Ë¡£ÖÇÄÜÖÕ¶Ë»ùÓÚÊÕ¼¯µÄ¸ÐÖªÊý¾Ý£¬¸ÐÖªÓÃ»§µÄÒÆ¶¯ÐÐÎª£¬»ùÓÚÓÃ»§µÄÌØÊâÐÐÎªÄ£Ê½¹ÀËã¿ÉÄÜµÄ²Î¿¼Î»ÖÃ¡£ÖÇÄÜÖÕ¶Ë»ùÓÚÊÕ¼¯µÄ¸ÐÖªÊý¾Ý£¬¶ÔÓÃ»§µÄÒÆ¶¯·½ÏòºÍÒÆ¶¯¾àÀë½øÐÐ¹ÀËã£¬¼ÆËã³öÓÃ»§µÄÒÆ¶¯¹ì¼££¬²¢½áºÏÊÒÄÚµØÍ¼µÄÍØÆË½á¹¹ºÍ²Î¿¼Î»ÖÃ£¬½«ÓÃ»§ÒÆ¶¯¹ì¼£È·¶¨ÔÚÊÒÄÚµØÍ¼ÖÐ£¬ÊµÏÖÊÒÄÚ¶¨Î»»úÖÆ¡£
 
 \begin{figure}[!ht]
 \centering
@@ -279,6 +279,43 @@ Realistic experiment results show that, FootStep-Tracker is able to achieve an a
 \chapter{Ïà¹Ø¹¤×÷}
 \label{C:related}
 
+\section{¹ßÐÔ´«¸ÐÆ÷}
+
+ÏÖ´úÖÇÄÜÒÆ¶¯Éè±¸£¬ÀýÈçÖÇÄÜÊÖ»ú¡¢Æ½°åµçÄÔÖÐ´ó¶à´îÔØÁË¹ßÐÔ´«¸ÐÆ÷£¬ÓÃÒÔ°ïÖúÖÇÄÜÊÖ»úÈí¼þ¿ª·¢Õß¶ÔÖÇÄÜÊÖ»úÓÃ»§Ìá¹©¸ü¼Ó¶àÑù»¯µÄ·þÎñ£¬ÀýÈçÒ¡Ò»Ò¡ËÑË÷ÖÜ±ßµÄÅóÓÑ¹¦ÄÜ¡¢Æ½ºâÇòÓÎÏ·µÈ¡£¹ßÐÔ´«¸ÐÆ÷(Inertial measurement unit, IMU)ÊÇÓÃÀ´²âÁ¿ÊÜÁ¦¡¢½ÇËÙ¶È£¬ÓÐÊ±Ò²²âÁ¿ÖÜÎ§´Å³¡µÄµç×ÓÉè±¸£¬Ö÷Òª°üº¬¼ÓËÙ¶È¼Æ¡¢ÍÓÂÝÒÇºÍ´ÅÁ¦¼Æ¡£
+ÏÂÃæ¼òµ¥½éÉÜÓë±¾ÎÄÏà¹ØµÄÁ½Àà´«¸ÐÆ÷£º¼ÓËÙ¶È´«¸ÐÆ÷ºÍÍÓÂÝÒÇ´«¸ÐÆ÷£¬¼òÒª½éÉÜËûÃÇµÄ¹¤×÷Ô­ÀíÒÔ¼°Ó¦ÓÃ¡£
+
+\subsection{¼ÓËÙ¶È´«¸ÐÆ÷}
+
+¼ÓËÙ¶È´«¸ÐÆ÷ÊÇ²âÁ¿¹ÌÓÐ¼ÓËÙ¶ÈµÄµç×ÓÉè±¸¡£¹ÌÓÐ¼ÓËÙ¶ÈÊÇÖ¸°üº¬ÁËÎïÌåËùÊÜµ½µÄÖØÁ¦µÄ¼ÓËÙ¶È£¬¼´µ±´«¸ÐÆ÷Ð¾Æ¬¾²Ö¹°Ú·ÅÊ±£¬ÆäÑØÖØÁ¦·½ÏòµÄ¶ÁÊýÎªÖØÁ¦¼ÓËÙ¶Èg¡£
+¸ß¾«µÄ¼ÓËÙ¶È¼ÆÖÆ×÷¹¤ÒÕÊ®·Ö¸´ÔÓ¡£ÈçÍ¼\ref{fig:accelerometer}ËùÊ¾£¬´Ó¸ÅÄîÉÏ½²£¬µ¥ÖáµÄ¼ÓËÙ¶È¼ÆµÄ½á¹¹Îª¹Ì¶¨ÔÚµ¯»ÉÉÏµÄ×èÄá¿é¡£µ±¼ÓËÙ¶È¼Æ¼ÓËÙÊ±£¬×èÄá¿éµÄ¹ßÐÔÖÂÊ¹µ¯»É²úÉúÐÎ±ä£¬´Ó¶ø·´Ó¦Îª¼ÓËÙ¶È¼ÆµÄ¶ÁÊý¡£ÈýÖá¼ÓËÙ¼ÆµÄ½á¹¹¼´ÎªÈý¸öÏà»¥´¹Ö±µÄµ¥Öá¼ÓËÙ¶È¼Æ×éºÏ¶ø³É¡£
+¼ÓËÙ¶È¼Æ¾ßÓÐ¶àÖÖÓÃÍ¾¡£¸ß¾«¶ÈµÄ¼ÓËÙ¶È¼Æ±»¹ã·ºÓÃÓÚº½¿ÕºÍº½ÌìÒµÖÐ£¬ÓÃÒÔ¸¨Öúµ¼º½¡£ÏÖ´úÆ½°åµçÄÔºÍÖÇÄÜÊÖ»úÖÐÇ¶ÈëµÄ¼ÓËÙ¶È´«¸ÐÆ÷¿ÉÒÔÊ¹ÆÁÄ»×Ô¶¯Ðý×ªµ½ÕýÈ·µÄ½Ç¶È¡£
+
+
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width = 0.7\textwidth]{Figure/accelerometer.jpg}
+\caption{¼ÓËÙ¶È¼ÆÔ­ÀíÊ¾ÒâÍ¼}
+\label{fig:accelerometer}
+\end{figure}
+
+\subsection{ÍÓÂÝÒÇ´«¸ÐÆ÷}
+
+ÍÓÂÝÒÇ´«¸ÐÆ÷£¬ÓÖ³ÆÎª½ÇËÙ¶È´«¸ÐÆ÷£¬ÓÃÒÔ²âÁ¿ÎïÌåµÄÐý×ª½Ç¶È¡£ÈçÍ¼\ref{fig:gyroscope} ËùÊ¾£¬ÍÓÂÝÒÇÓÉÒ»¸öÈÆ×Å¿ÉÐý×ªµÄÖáÐý×ªµÄÔ²»·»òÕßÔ²ÅÌ×é³É¡£µ±Ô²»·Ðý×ªÊ±£¬Æä¿ÉÒÔ±íÊ¾ÎïÌåµÄÈýÎ¬³¯Ïò¡£ÍÓÂÝÒÇ´«¸ÐÆ÷¾ßÓÐÓÃÍ¾¹ã·º¡£ÓÉÓÚÍÓÂÝÒÇ¿ÉÒÔÌá¹©×¼È·µÄ·½Î»ºÍË®Æ½ÐÅÏ¢£¬Æä±»ÓÃÓÚº½º£¡¢º½¿ÕºÍÓîº½ÊÂÒµÖÐ¡£ÔÚµ¼µ¯¡¢ÎÀÐÇµÈ¶ÔÓÚÔËÐÐ¹ìµÀÓÐÑÏ¸ñÒªÇóµÄÏµÍ³ÖÐ£¬ÍÓÂÝÒÇ¿ÉÒÔ½øÐÐÔË¶¯¹ìµÀµÄÐ£Õý¡£ÏÖ´úÖÇÄÜÊÖ»úºÍÆ½°åÖÐÒ²Ç¶ÈëÁËÍÓÂÝÒÇ´«¸ÐÆ÷£¬ÆäÌá¹©ÁËÐÂÐÍµÄ½»»¥·½Ê½ºÍÓéÀÖ·½Ê½¡£µ±ÓÃ»§ÓÃÖÇÄÜÊÖ»ú½øÐÐÅÄÕÕÊ±£¬ÍÓÂÝÒÇ¿ÉÒÔÔÚ°´ÏÂ¿ìÃÅµÄË²¼ä¼ÆËã³öÊÖ»úµÄ¶¶¶¯Çé¿ö£¬´Ó¶ø½øÐÐÅÄÕÕ·À¶¶¡£´ËÍâ£¬ÍÓÂÝÒÇÒ²ÓÃÓÚ±£Ö¤ÎÞÈË»úµÄÔÆÌ¨ÎÈ¶¨¡£
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width = 0.5\textwidth]{Figure/gyroscope.jpg}
+\caption{ÍÓÂÝÒÇÔ­ÀíÊ¾ÒâÍ¼}
+\label{fig:gyroscope}
+\end{figure}
+
+\section{»ùÓÚ¹ßÐÔ´«¸ÐÆ÷µÄ½Å²½¸ÐÖª}
+
+\section{»ùÓÚ¹ßÐÔ´«¸ÐÆ÷µÄÊÒÄÚ¶¨Î»}
+
+\section{±¾ÕÂÐ¡½á}
+
 \chapter{»ùÓÚ½Å²½¸ÐÖªµÄÎÞÃª½ÚµãÊÒÄÚ¶¨Î»ÏµÍ³}
 \label{C:system}
 
@@ -302,7 +339,7 @@ Realistic experiment results show that, FootStep-Tracker is able to achieve an a
 \begin{figure}[!ht]
 \centering
 \includegraphics[width = 0.9\textwidth]{Figure/system_overview.eps}
-\caption{FootStep-TrackerÏµÍ³¿ò¼Ü¡£ÊäÈë´«¸ÐÆ÷Êý¾ÝºÍÊÒÄÚµØÍ¼£¬FootStep-TrackerÊä³öÓÃ»§ÔÚ¸ø¶¨µØÍ¼ÖÐµÄÊµÊ±Î»ÖÃ¡£}
+\caption{FootStep-TrackerÏµÍ³¿ò¼Ü¡£ÊäÈë´«¸ÐÆ÷Êý¾ÝºÍÊÒÄÚµØÍ¼£¬FootStep-Tracker Êä³öÓÃ»§ÔÚ¸ø¶¨µØÍ¼ÖÐµÄÊµÊ±Î»ÖÃ¡£}
 \label{fig:system_overview}
 \end{figure}
 
@@ -312,7 +349,7 @@ FootStep-Tracker´¦ÀíÓÉÓÃ»§½Å²¿Ç¶ÈëµÄ´«¸ÐÆ÷Ð¾Æ¬¸ÐÖªµÄ´«¸ÐÆ÷Êý¾Ý¡£
 ²»Ê§Ò»°ãÐÔ£¬ÎÒÃÇ²ÉÓÃµÂÖÝÒÇÆ÷¹«Ë¾Éú²úµÄCC2541 SensorTag\cite{sensortag}×÷Îª´«¸ÐÆ÷Ð¾Æ¬¡£
 ÎÒÃÇÉè¶¨¼ÓËÙ¶È¼ÆºÍÍÓÂÝÒÇµÄ²ÉÑùÆµÂÊÎª20Hz£¬Í¨¹ýÀ¶ÑÀ½«²É¼¯µÄ´«¸ÐÆ÷Êý¾Ý·¢ËÍ¸øÓÃ»§ÊÖ³ÖµÄÖÇÄÜÊÖ»ú¡£
 ÖÇÄÜÊÖ»ú¸ºÔð·ÖÎö¼ÆËã´«¸ÐÆ÷Êý¾Ý²¢Ìá¹©ÓëÓÃ»§½»»¥½Ó¿Ú¡£
-ÈçÍ¼\ref{fig:axes}£¬ÎªÁË·½±ãÏÂÎÄÌÖÂÛ£¬ÎÒÃÇÊ×ÏÈ¸ø³öSensorTag²¿ÊðÔÚÐ¬×ÓÖÐÊ±£¬Æä×ø±êÏµ¡£ÎÒÃÇ½«SnesorTagµÄxÖáÑØ×Å½ÅµÄ×óÓÒ·½Ïò°Ú·Å£¬yÖáÑØ×Å½ÅµÄÇ°ºó·½Ïò°Ú·Å£¬zÖáÑØ×Å´¹Ö±·½Ïò°Ú·Å¡£ÎÒÃÇ¼ÇÈýÖáµÄ¼ÓËÙ¶È·Ö±ðÎª$a_x$£¬$a_y$ºÍ$a_z$£¬ÈýÖáÍÓÂÝÒÇ½ÇËÙ¶ÈÎª$g_x$£¬$g_y$ºÍ$g_z$
+ÈçÍ¼\ref{fig:axes}£¬ÎªÁË·½±ãÏÂÎÄÌÖÂÛ£¬ÎÒÃÇÊ×ÏÈ¸ø³öSensorTag²¿ÊðÔÚÐ¬×ÓÖÐÊ±£¬Æä×ø±êÏµ¡£ÎÒÃÇ½«SnesorTagµÄxÖáÑØ×Å½ÅµÄ×óÓÒ·½Ïò°Ú·Å£¬yÖáÑØ×Å½ÅµÄÇ°ºó·½Ïò°Ú·Å£¬zÖáÑØ×Å´¹Ö±·½Ïò°Ú·Å¡£ÎÒÃÇ¼ÇÈýÖáµÄ¼ÓËÙ¶È·Ö±ðÎª$a_x$£¬$a_y$ºÍ$a_z$£¬ÈýÖáÍÓÂÝÒÇ½ÇËÙ¶ÈÎª$g_x$£¬$g_y$ºÍ$g_z$¡£
 
 \begin{figure}[!ht]
 \centering
@@ -401,7 +438,7 @@ FootStep-Tracker´¦ÀíÓÉÓÃ»§½Å²¿Ç¶ÈëµÄ´«¸ÐÆ÷Ð¾Æ¬¸ÐÖªµÄ´«¸ÐÆ÷Êý¾Ý¡£
 
 \begin{figure}[!ht]
 \centering
-\includegraphics[width=0.9\textwidth]{Figure/classification.eps}
+\includegraphics[width=1\textwidth]{Figure/classification.eps}
 \caption{ÐÐÎª·ÖÀàÆ÷¿ò¼Ü}
 \label{fig:activity_classifier}
 \end{figure}
@@ -472,7 +509,7 @@ SS & ¾²Ö¹Õ¾Á¢\\
 Í¼\ref{fig:acc_walk}ÖÐµÄºìÉ«·½¿òÎª½Å²¿ÇÐ¸î¼ì²âµ½ÈýÖá¼ÓËÙ¶ÈµÄ¡°¾²Ö¹Çø¼ä¡±¡£
 ÎªÁË·ÀÖ¹ÓÉÓë×ßÂ·ÏàËÆµÄÖÜÆÚÐÔÐÐÎª£¬ÀýÈç°ÚÍÈµ¼ÖÂµÄÎóÇÐ¸î£¬ÎÒÃÇ²»½ö½ö¼ì²âÇ°½ø·½ÏòyÖáÉÏµÄ¡°¾²Ö¹Çø¼ä¡±£¬Í¬Ñù¼ì²âxÖáºÍzÖáÉÏµÄ¡°¾²Ö¹Çø¼ä¡±¡£
 
-Èç¹ûÓÃ»§µ±Ç°µÄÐÐÎªÎª×ßÂ·£¬½Å²¿ÇÐ¸î½«Ô­Ê¼µÄÈýÖá¼ÓËÙ¶ÈÊý¾Ý$ax,ay,az$×÷ÎªÊäÈë£¬²»¶Ï·Ö±ð¼ì²âÈý¸öÖáÉÏµÄ¡°¾²Ö¹Çø¼ä¡±¡£¶ÔÓÚxÖáºÍyÖá£¬ÎÒÃÇ½«Á¬ÐøµÄÁù¸öÔÚ$0\pm0.5$·¶Î§µÄ¼ÓËÙ¶ÈÊý¾Ý±ê¼ÇÎªÒ»¸ö¡°¾²Ö¹Çø¼ä¡±¡£¶ÔÓÚzÖá£¬ÓÉÓÚÓÐÖØÁ¦¼ÓËÙ¶È·ÖÁ¿µÄ´æÔÚ£¬ÎÒÃÇ½«Á¬ÐøµÄÁù¸öÔÚ$9.8\pm0.5$·¶Î§µÄ¼ÓËÙ¶ÈÊý¾Ý±ê¼ÇÎªÒ»¸ö¡°¾²Ö¹Çø¼ä¡±¡£ÎÒÃÇ½«Ã¿¸öÖáÉÏµÄÁ¬ÐøÁ½¸ö¡°¾²Ö¹Çø¼ä¡±µÄ²¿·Ö×ö½»¼¯£¬ÆäÏà½»²¿·ÖÊý¾Ý×÷Îªµ±Ç°Ò»²½µÄÊý¾Ý¡£
+Èç¹ûÓÃ»§µ±Ç°µÄÐÐÎªÎª×ßÂ·£¬½Å²¿ÇÐ¸î½«Ô­Ê¼µÄÈýÖá¼ÓËÙ¶ÈÊý¾Ý$ax,ay,az$×÷ÎªÊäÈë£¬²»¶Ï·Ö±ð¼ì²âÈý¸öÖáÉÏµÄ¡°¾²Ö¹Çø¼ä¡±¡£¶ÔÓÚxÖáºÍyÖá£¬ÎÒÃÇ½«Á¬ÐøµÄÁù¸öÔÚ$0\pm0.5$ ·¶Î§µÄ¼ÓËÙ¶ÈÊý¾Ý±ê¼ÇÎªÒ»¸ö¡°¾²Ö¹Çø¼ä¡±¡£¶ÔÓÚzÖá£¬ÓÉÓÚÓÐÖØÁ¦¼ÓËÙ¶È·ÖÁ¿µÄ´æÔÚ£¬ÎÒÃÇ½«Á¬ÐøµÄÁù¸öÔÚ$9.8\pm0.5$·¶Î§µÄ¼ÓËÙ¶ÈÊý¾Ý±ê¼ÇÎªÒ»¸ö¡°¾²Ö¹Çø¼ä¡±¡£ÎÒÃÇ½«Ã¿¸öÖáÉÏµÄÁ¬ÐøÁ½¸ö¡°¾²Ö¹Çø¼ä¡±µÄ²¿·Ö×ö½»¼¯£¬ÆäÏà½»²¿·ÖÊý¾Ý×÷Îªµ±Ç°Ò»²½µÄÊý¾Ý¡£
 
 
 \begin{figure}[!ht]
@@ -497,7 +534,7 @@ SS & ¾²Ö¹Õ¾Á¢\\
 
 Í¼\ref{fig:phase} (a) ËùÊ¾ÎªÓÃ»§×ßÂ·Ê±½Å²¿µÄÔË¶¯¹ì¼£¡£ÈçÍ¼ËùÊ¾£¬¼ÓËÙ¶ÈyÖá²¢²»×ÜÊÇË®Æ½µÄ£¬ÎÒÃÇ½«yÖáµÄ·½ÏòÍ¶Ó°ÔÚË®Æ½ÃæÉÏ£¬²¢¼ÇÎª½Å²¿·½Ïò£¨foot direction£©£¬¼ÇyÖá·½ÏòÓë½Å²¿·½ÏòµÄ¼Ð½ÇÎª$\theta$¡£
 
-Í¼\ref{fig:phase} (b) ËùÊ¾ÎªÎªÓë (a) Ïà¶ÔÓ¦µÄ´«¸ÐÆ÷Êý¾Ý¡£ÈçÍ¼\ref{fig:axes}ËùÊ¾£¬ÔÚsensorµÄ×ø±êÏµÖÐ£¬Í¼\ref{fig:phase} (a) ÖÐÇ°½ø·½Ïò¼ÓËÙ¶ÈÎª$a_y$µÄÕý·½Ïò£¬½Å²¿ÄæÊ±ÕëÐý×ª·½ÏòÎª$g_x$µÄÕý·½Ïò¡£Í¼ÖÐ½«½Å²¿µÄÔË¶¯¹ì¼£·ÖÎª5¸ö½×¶Î£¬ÆäÃ¿¸ö½×¶ÎµÄÌØÕ÷Îª£º
+Í¼\ref{fig:phase} (b) ËùÊ¾ÎªÎªÓë (a) Ïà¶ÔÓ¦µÄ´«¸ÐÆ÷Êý¾Ý¡£ÈçÍ¼\ref{fig:axes} ËùÊ¾£¬ÔÚsensorµÄ×ø±êÏµÖÐ£¬Í¼\ref{fig:phase} (a) ÖÐÇ°½ø·½Ïò¼ÓËÙ¶ÈÎª$a_y$µÄÕý·½Ïò£¬½Å²¿ÄæÊ±ÕëÐý×ª·½ÏòÎª$g_x$µÄÕý·½Ïò¡£Í¼ÖÐ½«½Å²¿µÄÔË¶¯¹ì¼£·ÖÎª5¸ö½×¶Î£¬ÆäÃ¿¸ö½×¶ÎµÄÌØÕ÷Îª£º
 
 \begin{itemize}
 
@@ -579,14 +616,14 @@ FootStep-Tracker¸ù¾Ý·Ö¶ÎµÄÊý¾Ý£¬¸ù¾ÝËã·¨\ref{alg:fpe}£¬´ÓÔ­Ê¼Êý¾ÝÁ÷Ö®ÖÐ³éÈ¡¹Ø¼üÊ
 
 \subsubsection{²½³¤¹ÀËã}
 
-ÈçÍ¼\ref{fig:phase}ÖÐµÄºìÉ«ÐéÏßËùÊ¾£¬²½³¤²¢²»ÊÇ½ÅÔÚ¿ÕÖÐµÄÔË¶¯¹ì¼££¬¶øÊÇÆäÔÚË®Æ½µØÃæÉÏµÄÍ¶Ó°¡£¹«Ê½£¨\ref{eq:afoot}£©ÑØ×ÅË®Æ½½Å²¿·½ÏòµÄ¼ÓËÙ¶È$a_f$¿ÉÒÔÍ¨¹ý¼ÓËÙ¶È´«¸ÐÆ÷¶ÁÊý$a_y,a_z$ºÍÃ¿¸öÊ±¿ÌµÄ½Ç$\theta$¼ÆËãµÃ³ö¡£ÎÒÃÇ½«$a_y,a_z$ÒÔ¼Ð½Ç$\theta$Í¶Ó°ÔÚË®Æ½ÃæÉÏ£¬½«ÆäºÏ³ÉÎª$a_f$¡£
+ÈçÍ¼\ref{fig:phase}ÖÐµÄºìÉ«ÐéÏßËùÊ¾£¬²½³¤²¢²»ÊÇ½ÅÔÚ¿ÕÖÐµÄÔË¶¯¹ì¼££¬¶øÊÇÆäÔÚË®Æ½µØÃæÉÏµÄÍ¶Ó°¡£¹«Ê½£¨\ref{eq:afoot}£©ÑØ×ÅË®Æ½½Å²¿·½ÏòµÄ¼ÓËÙ¶È$a_f$¿ÉÒÔÍ¨¹ý¼ÓËÙ¶È´«¸ÐÆ÷¶ÁÊý$a_y,a_z$ºÍÃ¿¸öÊ±¿ÌµÄ½Ç$\theta$ ¼ÆËãµÃ³ö¡£ÎÒÃÇ½«$a_y,a_z$ÒÔ¼Ð½Ç$\theta$Í¶Ó°ÔÚË®Æ½ÃæÉÏ£¬½«ÆäºÏ³ÉÎª$a_f$¡£
 
 \begin{gather}
  a_{f}(t)=a_{y}(t) cos(\theta(t)) + a_{z}(t) sin(\theta(t)),\quad t \in [\mathit{T_{l}}, \mathit{T_{d}}]
 \label{eq:afoot}
 \end{gather}
 
-¹«Ê½£¨\ref{eq:theta}£©¼ÆËãÃ¿¸öÊ±¿Ì¼ÓËÙ¶ÈyÖáÓëË®Æ½½Å²½·½ÏòµÄ¼Ð½Ç$\theta(t)$¡£ÓÉÓÚÔÚÌ§½ÅÊ±¼ä¿ªÊ¼£¬³öÏÖÁË½ÅÃæµÄ×ª¶¯£¬ÎÒÃÇ¶ÔÓÚxÖáÍÓÂÝÒÇµÃµ½µÄ½ÇËÙ¶È´ÓÌ§½ÅÊ±¼ä¿ªÊ¼»ý·Ö£¬µÃµ½Ã¿¸öÊ±¼ä$t$Ê±µÄ½Ç¶È$\theta(t)$¡£
+¹«Ê½£¨\ref{eq:theta}£©¼ÆËãÃ¿¸öÊ±¿Ì¼ÓËÙ¶ÈyÖáÓëË®Æ½½Å²½·½ÏòµÄ¼Ð½Ç$\theta(t)$¡£ ÓÉÓÚÔÚÌ§½ÅÊ±¼ä¿ªÊ¼£¬³öÏÖÁË½ÅÃæµÄ×ª¶¯£¬ÎÒÃÇ¶ÔÓÚxÖáÍÓÂÝÒÇµÃµ½µÄ½ÇËÙ¶È´ÓÌ§½ÅÊ±¼ä¿ªÊ¼»ý·Ö£¬µÃµ½Ã¿¸öÊ±¼ä$t$Ê±µÄ½Ç¶È$\theta(t)$¡£
 
 \begin{gather}
 \theta(t)=\int_{\mathit{T_{u}}}^{t}g_x(t)\ dt, \quad t\in [\mathit{T_{u}}, \mathit{T_{r}}]
@@ -635,7 +672,7 @@ S_z &= \int_{T_l}^{T_d}\int_{T_l}^{t'}(a_{z}(t)sin(\theta(t))cos(\varphi))\ dtdt
 
 Í¼\ref{fig:after_calibration}ËùÊ¾ÎªÓÃ»§Ò»¸ö²½³¤Îª1.23mµÄ½Å²½£¬²½³¤¹ÀËãÆ÷µÄ¹ÀËã½á¹û¡£
 Í¼\ref{fig:after_calibration} (a) ÏÔÊ¾ÁËÔ­Ê¼¼ÓËÙ¶ÈÊý¾Ý$a_y$ÓëÐ£Õý¹ýµÄÇ°½ø·½ÏòÊý¾Ý$a_m$¡£
-Í¼\ref{fig:after_calibration} (b) ÏÔÊ¾ÁË¶ÔÓ¦µÄÎ»ÒÆÊý¾Ý¡£ÎÒÃÇ¶ÔÔ­Ê¼¼ÓËÙ¶È$a_y$ºÍÐ£ÕýºóµÄ¼ÓËÙ¶È$a_m$·Ö±ð½øÐÐÁ½´Î»ý·Ö¡£
+Í¼\ref{fig:after_calibration} (b) ÏÔÊ¾ÁË¶ÔÓ¦µÄÎ»ÒÆÊý¾Ý¡£ÎÒÃÇ¶ÔÔ­Ê¼¼ÓËÙ¶È$a_y$ ºÍÐ£ÕýºóµÄ¼ÓËÙ¶È$a_m$·Ö±ð½øÐÐÁ½´Î»ý·Ö¡£
 ¶ÔÓÚ$a_y$£¬ÎÒÃÇµÃµ½µÄ¹ÀËã²½³¤Îª1.86m¡£
 ¶ÔÓÚ$a_m$£¬ÎÒÃÇµÃµ½µÃ¹ÀËã²½³¤Îª1.23m¡£
 ²Î¿¼ÓÚÊµ¼Ê²½³¤1.23m£¬ÎÒÃÇµÄÐ£Õý·½·¨Ê¹µÃ²½³¤¹ÀËãÎó²î´Ó0.63m¼õÉÙÎª0.12m¡£
@@ -656,7 +693,7 @@ S_z &= \int_{T_l}^{T_d}\int_{T_l}^{t'}(a_{z}(t)sin(\theta(t))cos(\varphi))\ dtdt
 
 \subsubsection{Ë«½ÅÐ£Õý»úÖÆ}
 
-ÎªÁË¸ü½üÒ»²½µÄ¼õÉÙÀÛ»ýÎó²î£¬FootStep-Tracker½«Á½¸ö´«¸ÐÆ÷·Ö±ðÇ¶ÈëÓÃ»§µÄ×óÓÒÁ½¸öÐ¬×ÓÖÐ£¬²¢·Ö±ðµÄ½øÐÐ²½³¤¹ÀËã¡£ÓÉÓÚÔÚÄ³Ò»ÌØ¶¨Ê±¿Ì£¬Á½¸ö½ÅµÄÀÛ¼Æ²½³¤£¬¼´Á½½ÅµÄÎ»ÖÃ²»»áÏà²îÌ«Ô¶£¬ÎÒÃÇ¸ø³öË«½ÅÐ£ÕýµÄ»úÖÆ¡£µ±Á½¸ö½Å·Ö±ðµÄÀÛ¼Æ²½³¤Ïà²î´ïµ½1mÒÔÉÏÊ±£¬ÎÒÃÇ½«ËûÃÇµÄÆ½¾ùÖµ×÷Îªµ±Ç°µÄÓÃ»§ÐÐ×ß¾àÀë£¬²¢ÖØÖÃË«½ÅµÄÀÛ¼Æ²½³¤¡£
+ÎªÁË¸ü½üÒ»²½µÄ¼õÉÙÀÛ»ýÎó²î£¬FootStep-Tracker½«Á½¸ö´«¸ÐÆ÷·Ö±ðÇ¶ÈëÓÃ»§µÄ×óÓÒÁ½¸öÐ¬×ÓÖÐ£¬²¢·Ö±ðµÄ½øÐÐ²½³¤¹ÀËã¡£ÓÉÓÚÔÚÄ³Ò»ÌØ¶¨Ê±¿Ì£¬Á½¸ö½ÅµÄÀÛ¼Æ²½³¤£¬¼´Á½½ÅµÄÎ»ÖÃ²»»áÏà²îÌ«Ô¶£¬ÎÒÃÇ¸ø³öË«½ÅÐ£ÕýµÄ»úÖÆ¡£µ±Á½¸ö½Å·Ö±ðµÄÀÛ¼Æ²½³¤Ïà²î´ïµ½1m ÒÔÉÏÊ±£¬ÎÒÃÇ½«ËûÃÇµÄÆ½¾ùÖµ×÷Îªµ±Ç°µÄÓÃ»§ÐÐ×ß¾àÀë£¬²¢ÖØÖÃË«½ÅµÄÀÛ¼Æ²½³¤¡£
 
 \section{·½Ïò¹ÀËãÆ÷}
 \label{sec:step_direction_estimator}
@@ -679,7 +716,7 @@ S_z &= \int_{T_l}^{T_d}\int_{T_l}^{t'}(a_{z}(t)sin(\theta(t))cos(\varphi))\ dtdt
 \label{fig:gzl_90_walking}
 \end{figure}
 
-Í¼\ref{fig:sketch_turn}ÎªÒ»¸öËÄ²½µÄ×ó×ª¡£ÎÒÃÇ¿ÉÒÔ¿´µ½£¬ÓÃ»§ÈÆ×ÅÄ³¸öÐéÄâµÄµã£¬ÎÒÃÇ¼ÇÎªÔ­µã$O$£¬×ó×ªÁË$\alpha$¶È¡£¶ÔÓÚÒ»Ö»½ÅÀ´Ëµ£¬ÎªÁËÍê³ÉÕâ´Î$\alpha$µÄ×ªÍä£¬ËüÐèÒªÏÈºó×ªÁ½´Î£¬·Ö±ðÎª$\alpha_1,\alpha_2$¡£
+Í¼\ref{fig:sketch_turn}ÎªÒ»¸öËÄ²½µÄ×ó×ª¡£ÎÒÃÇ¿ÉÒÔ¿´µ½£¬ÓÃ»§ÈÆ×ÅÄ³¸öÐéÄâµÄµã£¬ÎÒÃÇ¼ÇÎªÔ­µã$O$£¬×ó×ªÁË$\alpha$¶È¡£¶ÔÓÚÒ»Ö»½ÅÀ´Ëµ£¬ÎªÁËÍê³ÉÕâ´Î$\alpha$ µÄ×ªÍä£¬ËüÐèÒªÏÈºó×ªÁ½´Î£¬·Ö±ðÎª$\alpha_1,\alpha_2$¡£
 
 \begin{figure}[!ht]
 \centering
@@ -712,7 +749,7 @@ S_z &= \int_{T_l}^{T_d}\int_{T_l}^{t'}(a_{z}(t)sin(\theta(t))cos(\varphi))\ dtdt
 
 \subsection{½â¾ö·½°¸}
 
-FootStep-TrackerÀûÓÃµÍÍ¨ÂË²¨È¥µôÓÃ»§×ßÖ±ÏßÊ±µÄÊý¾ÝÔëÉù£¬½«×ªÍä²½´ÓÖ±ÐÐ²½ÖÐÌáÈ¡³öÀ´¡£´ËÍâ£¬¶ÔÓÚÒ»²½À´Ëµ£¬ÎÒÃÇ·¢ÏÖ½Å²¿³öÏÖ×ªÍäÔË¶¯µÄÊ±¼äÔÚÉÏÎÄÌáµ½µÄµÚ£¨3£©½×¶Î£¬´ÓÌ§½ÅÊ±¼äµ½×ÅÂ½Ê±¼ä¡£ÕâÊÇÒòÎªÔÚµÚ£¨1£©-£¨2£©½×¶Î£¬½Å¸úÌ§Æð£¬×¼±¸ÏòÇ°ÒÆ¶¯¡£ÔÚµÚ£¨4£©-£¨5£©½×¶Î£¬½ÅÕýÔÚ×ÅµØ¡£ÕâÐ©½×¶ÎÖÐ£¬½Å²¿¶¼Ã»ÓÐÈÆ×ÅzÖáÐý×ª¡£ÎÒÃÇÊ¹ÓÃÉÏÎÄÌáµ½µÄËã·¨\ref{alg:fpe}£¬µÃµ½¸÷¸ö¹Ø¼üÊ±¼ä¡£
+FootStep-TrackerÀûÓÃµÍÍ¨ÂË²¨È¥µôÓÃ»§×ßÖ±ÏßÊ±µÄÊý¾ÝÔëÉù£¬½«×ªÍä²½´ÓÖ±ÐÐ²½ÖÐÌáÈ¡³öÀ´¡£´ËÍâ£¬¶ÔÓÚÒ»²½À´Ëµ£¬ÎÒÃÇ·¢ÏÖ½Å²¿³öÏÖ×ªÍäÔË¶¯µÄÊ±¼äÔÚÉÏÎÄÌáµ½µÄµÚ£¨3£©½×¶Î£¬´ÓÌ§½ÅÊ±¼äµ½×ÅÂ½Ê±¼ä¡£ÕâÊÇÒòÎªÔÚµÚ£¨1£©- £¨2£©½×¶Î£¬½Å¸úÌ§Æð£¬×¼±¸ÏòÇ°ÒÆ¶¯¡£ÔÚµÚ£¨4£©-£¨5£©½×¶Î£¬½ÅÕýÔÚ×ÅµØ¡£ÕâÐ©½×¶ÎÖÐ£¬½Å²¿¶¼Ã»ÓÐÈÆ×ÅzÖáÐý×ª¡£ÎÒÃÇÊ¹ÓÃÉÏÎÄÌáµ½µÄËã·¨\ref{alg:fpe}£¬µÃµ½¸÷¸ö¹Ø¼üÊ±¼ä¡£
 
 ÎÒÃÇÍ¨¹ýµÃµ½µÄÌ§½ÅÊ±¼äºÍ×ÅµØÊ±¼ä£¬ÀûÓÃ¹«Ê½(\ref{eq:turn_degree})¼ÆËãÓÃ»§µÄ×ªÍä½Ç¶È¡£ÓÉÓÚ½Å²¿ÒÔzÖáÎªÖá£¬ÎÒÃÇ´ÓÌ§½ÅÊ±¼äµ½×ÅµØÊ±¼ä¶Ô$g_z$»ý·Ö£¬µÃµ½½Å²¿·½Ïò$d_f$µÄÐý×ª½Ç¶È$\beta_i$¡£È»ºó£¬¸ù¾Ý¶¨Àí\ref{thm:equal}£¬ÎÒÃÇÓÐÇ°½ø·½ÏòµÄ×ª½ÇÓë½Å²¿·½ÏòµÄ×ª½ÇÏàµÈ£¬¼´${\alpha_i}={\beta_i}$¡£¶ÔÓÚ¶à²½µÄ×ªÍä£¬ÎÒÃÇ½«Ã¿Ò»²½µÄ×ªÍä½Ç¶ÈÀÛ¼Ó£¬´Ó¶øµÃµ½×ÜÌåµÄ×ªÍä½Ç¶È¡£
 
@@ -731,7 +768,7 @@ FootStep-TrackerÀûÓÃµÍÍ¨ÂË²¨È¥µôÓÃ»§×ßÖ±ÏßÊ±µÄÊý¾ÝÔëÉù£¬½«×ªÍä²½´ÓÖ±ÐÐ²½ÖÐÌáÈ¡³ö
 
 ÎªÁËÍ¨¹ýÐÐÎª¹ì¼£ºÍÊÒÄÚµØÍ¼È·¶¨ÓÃ»§µÄÈ·ÇÐÎ»ÖÃ£¬ÎÒÃÇÓÐÁËÈçÏÂÁ½¸öÏë·¨£ºÊ×ÏÈ£¬ÓÃ»§µÄÐÐÎª¹ì¼£ÊÜµ½ÊÒÄÚÎïÀíÍØÆË½á¹¹µÄÏÞÖÆ£¬Ò²¾ÍÊÇËµ£¬ÓÃ»§²»ÄÜ´©Ç½¡£µÚ¶þ£¬ÓÉÓÚ²Î¿¼µØµã£¬°üÀ¨Â¥ÌÝºÍµçÌÝ£¬ËüÃÇµÄÎ»ÖÃÔÚÊÒÄÚµØÍ¼ÖÐÊÇ¹Ì¶¨µÄ¡£ËùÒÔµ±ÓÃ»§ÔÚ½øÐÐ²Î¿¼ÐÐÎªÊ±£¬ÀýÈçÉÏµçÌÝ¡¢ÉÏÂ¥ÌÝ£¬ÎÒÃÇ¾Í¿ÉÒÔÈ·ÇÐµÄ¶¨Î»ÓÃ»§ÔÚ¼¸¸ö¿ÉÄÜµÄ²Î¿¼µØµãÉÏ¡£
 
-ÎªÁË¶¨Î»ÓÃ»§ºÍ¸ü½øÒ»²½µÄ×·×ÙºÍµ¼º½£¬ÎÒÃÇ²ÉÓÃÁËÌ°Ê³Éß²ßÂÔ\cite{snakegame}¡£ÈçÍ¼\ref{fig:Anakonda} (a) ËùÊ¾£¬ÓÃ»§³Ë×øµçÌÝÀ´µ½»·¾³ÖÐ£¬È»ºóÓÒ×ª×ßÁËÒ»Ð¡¶Î¾àÀë¡£´ËÊ±¸ù¾ÝÐÐ×ß¹ì¼£ºÍµçÌÝµÄÎ»ÖÃ£¬ÓÐÈý¸ö¿ÉÄÜµÄÓÃ»§Î»ÖÃ¡£Ëæ×ÅÓÃ»§ÐÐ×ß£¬µ½ÁËÈçÍ¼ (b) µÄÊ±¿Ì£¬ÓÉÓÚµØÍ¼ÍØÆË»·¾³µÄÏÞÖÆ£¬¿ÉÄÜµÄÐÐ×ß¹ì¼£ (2) ºÍ (3) ±»ÅÅ³ýµôÁË£¬´Ó¶øÉ¸Ñ¡³öÈ·ÇÐµÄÓÃ»§ÐÐÎª¹ì¼£(1)¡£
+ÎªÁË¶¨Î»ÓÃ»§ºÍ¸ü½øÒ»²½µÄ×·×ÙºÍµ¼º½£¬ÎÒÃÇ²ÉÓÃÁËÌ°Ê³Éß²ßÂÔ\cite{snake}¡£ÈçÍ¼\ref{fig:Anakonda} (a) ËùÊ¾£¬ÓÃ»§³Ë×øµçÌÝÀ´µ½»·¾³ÖÐ£¬È»ºóÓÒ×ª×ßÁËÒ»Ð¡¶Î¾àÀë¡£´ËÊ±¸ù¾ÝÐÐ×ß¹ì¼£ºÍµçÌÝµÄÎ»ÖÃ£¬ÓÐÈý¸ö¿ÉÄÜµÄÓÃ»§Î»ÖÃ¡£Ëæ×ÅÓÃ»§ÐÐ×ß£¬µ½ÁËÈçÍ¼ (b) µÄÊ±¿Ì£¬ÓÉÓÚµØÍ¼ÍØÆË»·¾³µÄÏÞÖÆ£¬¿ÉÄÜµÄÐÐ×ß¹ì¼£ (2) ºÍ (3) ±»ÅÅ³ýµôÁË£¬´Ó¶øÉ¸Ñ¡³öÈ·ÇÐµÄÓÃ»§ÐÐÎª¹ì¼£(1)¡£
 
 \begin{figure}[!ht]
 \centering
@@ -759,7 +796,7 @@ FootStep-TrackerÀûÓÃµÍÍ¨ÂË²¨È¥µôÓÃ»§×ßÖ±ÏßÊ±µÄÊý¾ÝÔëÉù£¬½«×ªÍä²½´ÓÖ±ÐÐ²½ÖÐÌáÈ¡³ö
 
 \subsection{ÊµÑéÉè¶¨}
 
-SensorTagµÄ²ÉÑùÆµÂÊÎª20Hz£¬ÆäÈçÍ¼\ref{fig:sensortag}ËùÊ¾µÄÇ¶ÈëÓÃ»§µÄÐ¬µæÖÐ¡£ÎÒÃÇÑ¡ÔñÎÒÃÇµÄÏµ°ì¹«Â¥×÷ÎªÎÒÃÇÆÀ¹ÀÊ¹ÓÃµÄÊÒÄÚ»·¾³£¬ÆäÃæ»ýÔ¼Îª56m$\times$63m¡£ÎÒÃÇ²ÉÓÃ·ÖÀà×¼È·ÂÊÆÀ¹ÀÐÐÎª·ÖÀàÆ÷£¬²ÉÓÃ¶¨Î»Îó²îÆÀ¹À²½³¤¹ÀËãÆ÷ºÍ·½Ïò¹ÀËãÆ÷¡£
+SensorTagµÄ²ÉÑùÆµÂÊÎª20Hz£¬ÆäÈçÍ¼\ref{fig:sensortag}ËùÊ¾µÄÇ¶ÈëÓÃ»§µÄÐ¬µæÖÐ¡£ÎÒÃÇÑ¡ÔñÎÒÃÇµÄÏµ°ì¹«Â¥×÷ÎªÎÒÃÇÆÀ¹ÀÊ¹ÓÃµÄÊÒÄÚ»·¾³£¬ÆäÃæ»ýÔ¼Îª56m$\times$63m¡£ ÎÒÃÇ²ÉÓÃ·ÖÀà×¼È·ÂÊÆÀ¹ÀÐÐÎª·ÖÀàÆ÷£¬²ÉÓÃ¶¨Î»Îó²îÆÀ¹À²½³¤¹ÀËãÆ÷ºÍ·½Ïò¹ÀËãÆ÷¡£
 
 \subsection{ÆÀ¹ÀÐÐÎª·ÖÀàÆ÷}
 
@@ -770,16 +807,25 @@ SensorTagµÄ²ÉÑùÆµÂÊÎª20Hz£¬ÆäÈçÍ¼\ref{fig:sensortag}ËùÊ¾µÄÇ¶ÈëÓÃ»§µÄÐ¬µæÖÐ¡£ÎÒÃÇ
 ËûÃÇÔÚ»·¾³ÖÐ×ßÂ·»òÕßÊÇÉÏÏÂÂ¥ÌÝ¡¢µçÌÝ¡£
 Í¼\ref{fig:activity_classifier}ÏÔÊ¾ÁËÐÐÎª·ÖÀàÆ÷µÄ×¼È·ÂÊ¡£
 ¶ÔÓÚÓÃ¾ö²ßÊ÷£¬¼´ÓÃÓÚ·ÖÀà¾²Ö¹Õ¾Á¢£¨SS£©£¬µçÌÝÖÐµÄ³¬ÖØ×´Ì¬£¨EHG£©ºÍµçÌÝÖÐµÄÊ§ÖØ×´Ì¬£¨EWL£©µÄ²¿·Ö£¬ËüÏà¶ÔÓÚHMM µÄ²¿·ÖÀ´Ëµ×¼È·ÂÊ¸ü¸ß¡£
-ÕâÊÇÒòÎª
+ÕâÊÇÒòÎªÕâÐ©ÐÐÎª¾ßÓÐÒ»Ð©±¾ÖÊµÄÇø±ð£¬ÀýÈç·½²îºÍÆ½¾ùÊý¡£
+È»¶ø£¬ÉÏÂ¥ÌÝ£¨UST£©£¬ÏÂÂ¥ÌÝ£¨DST£©ºÍ×ßÂ·£¨WALK£©Ïà»¥¸üÎªÏàËÆ¡£
+Æ½¾ùÇé¿öÏÂ£¬ÎÒÃÇ¾ßÓÐ´óÔ¼96.2\%µÄ·ÖÀà×¼È·ÂÊ¡£
 
 \begin{figure}[!ht]
 \centering
-\includegraphics[width=0.7\textwidth]{Figure/eva_classification.eps}
+\includegraphics[width=0.6\textwidth]{Figure/eva_classification.eps}
 \caption{ÐÐÎª·ÖÀàÆ÷×¼È·ÂÊ}
 \label{fig:eva_activity_classificaton}
 \end{figure}
 
 \subsection{ÆÀ¹À²½³¤¹ÀËãÆ÷}
+
+ÎªÁËÆÀ¹À²½³¤¹ÀËãÆ÷£¬ÎÒÃÇ¸ú×ÙÒ»¸ö´©×ÅFootStep-TrackerµÄÓÃ»§£¬ÑØ×ÅÒ»¸ö³¤Ô¼63m µÄ×ßÀÈÖ±ÏßÐÐ×ß¡£ÁíÍâ£¬×÷Îª¶Ô±È£¬ÎÒÃÇ²ÉÓÃ´«Í³µÄ¸ù¾ÝÉí¸ß¹ÀËã²½³¤£¬ÔÙÓÃ²½³¤³ËÒÔ²½ÊýµÄ·½·¨¹ÀËã¾àÀë¡£Í¼\ref{fig:eva_step_length} (a) ÏÔÊ¾ÁËÆä¶¨Î»Îó²î¡£
+ÈçÇúÏß\emph{One Foot}ÏÔÊ¾ÁË²½³¤¹ÀËãÆ÷Ö»×÷ÓÃÓÚÒ»Ö»½ÅÊ±µÄ¶¨Î»Îó²î¡£
+ÇúÏß\emph{Common Method}ÏÔÊ¾ÁË´«Í³·½·¨µÄ¶¨Î»Îó²î¡£
+ÇúÏß\emph{Double Feet}ÏÔÊ¾ÁË²½³¤¹ÀËãÆ÷²ÉÓÃË«½ÅÐ£ÕýºóµÄ¶¨Î»Îó²î¡£
+¶¨Î»Îó²î´Ó14.64\%(9.23m/63m)ºÍ14.60\%(9.2m/63m)¼õÉÙµ½4.19\%(2.63m/63m)¡£
+Í¼\ref{fig:eva_step_length} (b) ÏÔÊ¾ÁË²½³¤¹ÀËãÆ÷Îó²îµÄCDFÍ¼¡£Ã¿²½²½³¤µÄÎó²î´óÔ¼Î§ÈÆÔÚ0·Ö²¼£¬²ÉÓÃË«½ÅÐ£ÕýÊ±µÄ¶¨Î»Îó²îÓÐÐ§¼õÉÙÁË0.2m×óÓÒ¡£
 
 \begin{figure}[!ht]
 \centering
@@ -797,6 +843,11 @@ SensorTagµÄ²ÉÑùÆµÂÊÎª20Hz£¬ÆäÈçÍ¼\ref{fig:sensortag}ËùÊ¾µÄÇ¶ÈëÓÃ»§µÄÐ¬µæÖÐ¡£ÎÒÃÇ
 
 \subsection{ÆÀ¹À·½Ïò¹ÀËãÆ÷}
 
+ÎªÁËÆÀ¹À·½Ïò¹ÀËãÆ÷£¬ÎÒÃÇÑûÇëÁË8Î»ÓÃ»§£¬´Ó-180¶Èµ½+180¶È£¬ÒÔ30¶ÈÎªÁ£¶È£¬Ã¿´Î×ªÍä10 ´Î¡£Í¼\ref{fig:eva_step_direction} (a) ÏÔÊ¾ÁË½Ç¶ÈÎó²î¡£
+
+ÔÚÎÒÃÇµÄ»·¾³ÖÐ£¬ËùÓÐµÄ×ª½Ç¶¼ÊÇÖ±½Ç¡£ÎªÁË¸ü½øÒ»²½µÄÌá¸ß¶¨Î»×¼È·ÂÊ£¬ÎÒÃÇ²ÉÓÃÁ½½Å¹ÀËãµÄÁ½¸ö½Ç¶È×÷ÎªÌØÕ÷£¬ÀûÓÃÖ§³ÅÏòÁ¿»ú£¨Support Vector Machine£¬SVM£©½«×ªÍäÐÐÎª·ÖÀà³ÉÈýÀà£¬×ó×ª£¨LEFT£©£¬ÓÒ×ª£¨RIGHT£©ºÍµôÍ·£¨TURN\_AROUND£©¡£
+ÎÒÃÇÑûÇëÈý¸öÓÃ»§£¬¶ÔÓÚÃ¿Ò»¸ö×ªÍäÀà±ð¶¼×ªÍä30´Î¡£ÎÒÃÇÀûÓÃÊÕ¼¯µÄÊý¾ÝÑµÁ·SVMÄ£ÐÍ£¬È»ºóÎÒÃÇÔÙ5¸öÐÂÓÃ»§ÉÏ½øÐÐÔÚÏß²âÊÔ¡£Í¼\ref{fig:eva_step_direction} (b) ÏÔÊ¾ÁË·ÖÀàºóµÄ×ªÍäÎó²î¡£×óÓÒ×ªÍä¿ÉÒÔ±È½Ï×¼È·µÄÇø·Ö¿ª£¬ÕâÊÇÒòÎª$g_z$¾ßÓÐÕý¸ºÏà·´µÄ¶ÁÊý¡£È»¶øÇø·Ö×óÓÒ×ªºÍµôÍ·Ê±£¬»á³öÏÖÒ»Ð©ÎóÅÐ£¬ÕâÊÇÒòÎªËûÃÇÖ®¼äÖ»¾ßÓÐ½Ç¶ÈµÄ²î±ð¡£Æ½¾ùÇé¿öÏÂ£¬ÎÒÃÇµÄ×¼È·ÂÊ¿ÉÒÔ´ïµ½98.3\%¡£
+
 \begin{figure}[!ht]
 \centering
 	\begin{minipage}{0.5\linewidth}
@@ -813,33 +864,170 @@ SensorTagµÄ²ÉÑùÆµÂÊÎª20Hz£¬ÆäÈçÍ¼\ref{fig:sensortag}ËùÊ¾µÄÇ¶ÈëÓÃ»§µÄÐ¬µæÖÐ¡£ÎÒÃÇ
 
 \subsection{ÕæÊµ»·¾³ÖÐµÄ¶¨Î»ÑùÀýÑÐ¾¿}
 
+ÎªÁËÆÀ¹ÀFootStep-Tracker£¬ÎÒÃÇÑûÇëÁË5¸öÓÃ»§½øÐÐ²âÊÔ¡£ËûÃÇ´©×ÅFootStep-Tracker£¬ÑØ×ÅÈçÍ¼\ref{fig:path}ËùÊ¾µÄºìÉ«ÊµÏßµÄÂ·ÏßÐÐ¶¯¡£ÔÚÁù´Î×ªÍäÖ®ºó£¬Ëû³Ë×øÁíÒ»¸öµçÌÝÀë¿ªµ±Ç°ÊÒÄÚ»·¾³¡£Ê×ÏÈ£¬FootStep-Tracker ²¢²»ÄÜÈ·¶¨ÄÄ¸öµçÌÝÎªÓÃ»§µÄÈ·ÇÐÎ»ÖÃ¡£Í¼ÖÐµÄÀ¶É«ÐéÏßÏÔÊ¾ÁË¿ÉÄÜµÄÓÃ»§Î»ÖÃ¡£Ê×ÏÈ£¬ÓÃ»§×ßÁËÒ»Ð¡¶Î¾àÀë£¬È»ºóÓÒ×ª£¬Ö±×ßÁËÒ»¶ÎºÜ³¤µÄ¾àÀë¡£´ËÊ±£¬FootStep-TrackerÍ¨¹ýÌ°Ê³Éß²ßÂÔ\cite{snake}¿ÉÒÔÅÅ³ýÁËÐéÏßËùÊ¾µÄ¼¸¸öÓÃ»§ÐÐÎª¹ì¼£¡£Í¼\ref{fig:eva_case_study} (a) ÏÔÊ¾ÁËÒ»¸öÓÃ»§×ßÂ·µÄ²½ÊýÓë¶¨Î»Îó²îµÄ¹ØÏµ¡£ÔÚ¿ªÊ¼Ê±£¬FootStep-TrackerÓÉÓÚ»¹Ã»ÓÐÈ·¶¨ÓÃ»§µÄ¿ÉÄÜÎ»ÖÃ£¬¾ßÓÐ½Ï´óµÄ¶¨Î»Îó²î¡£Ëæ×ÅÓÃ»§¼ÌÐøÐÐ×ß£¬ÓÃ»§µÄÈ·ÇÐÎ»ÖÃÔÚÁù²½Ö®ºóÈ·¶¨£¬¶¨Î»Îó²îÈñ¼õµ½1m×óÓÒ¡£Í¼\ref{fig:eva_case_study} (b) ÏÔÊ¾ÁË×ªÍäÊýºÍ¶¨Î»Îó²îµÄ¹ØÏµ¡£ÓÉÓÚµÚÒ»¸ö×ªÍäÊ±£¬ÓÃ»§µÄÈ·ÇÐÎ»ÖÃ»¹Ã»ÓÐÈ·¶¨£¬²¢²»¾ßÓÐ²Î¿¼¼ÛÖµ¡£ÎÒÃÇ´ÓµÚ¶þ¸ö×ªÍä¿ªÊ¼£¬·¢ÏÖËæ×Å×ªÍäÊýÄ¿µÄÔö¼Ó£¬¶¨Î»Îó²î¿ÉÒÔÃ÷ÏÔ¼õÉÙ£¬´ËÍâË«½ÅÐ£ÕýÒ²¿ÉÒÔÓÐÐ§µÄ¼õÉÙÎó²î¡£Í¼\ref{fig:eva_case_study} (c) ÏÔÊ¾ÁËÆ½¾ùÎó²îÔÚ´óÔ¼1m×óÓÒ¡£
+
+\begin{figure}
+\centering
+\includegraphics[width=0.6\textwidth]{Figure/path.eps}
+\caption{Walking Path.}
+\label{fig:path}
+\end{figure}
+
 \begin{figure}[!ht]
 \centering
 	\begin{minipage}{0.33\linewidth}
-        \centerline{\includegraphics[width=0.9\textwidth]{Figure/eva_path.eps}}
+        \centerline{\includegraphics[width=1\textwidth]{Figure/eva_path.eps}}
         \centerline{(a) ½Ç¶ÈÎó²î}
     \end{minipage}%
 	\begin{minipage}{0.33\linewidth}
-        \centerline{\includegraphics[width=0.9\textwidth]{Figure/eva_error_turn.eps}}
+        \centerline{\includegraphics[width=1\textwidth]{Figure/eva_error_turn.eps}}
         \centerline{(b) ·ÖÀàºóµÄ½Ç¶ÈÎó²î}
     \end{minipage}%
     \begin{minipage}{0.33\linewidth}
-        \centerline{\includegraphics[width=0.9\textwidth]{Figure/eva_path_users.eps}}
+        \centerline{\includegraphics[width=1\textwidth]{Figure/eva_path_users.eps}}
         \centerline{(b) ·ÖÀàºóµÄ½Ç¶ÈÎó²î}
     \end{minipage}
 \caption{ÕæÊµ»·¾³ÖÐµÄ°¸ÀýÆÀ¹À}
 \label{fig:eva_case_study}
 \end{figure}
 
-
 \section{±¾ÕÂÐ¡½á}
+
+±¾ÕÂÖÐ£¬ÎÒÃÇ²ûÊÍÁË»ùÓÚ½Å²½¸ÐÖªµÄÎÞÃª½ÚµãÊÒÄÚ¶¨Î»ÏµÍ³¡£ÎÒÃÇ½«´«¸ÐÆ÷Ç¶ÈëÓÃ»§µÄÐ¬×ÓÖÐ£¬ÀûÓÃ¼ÓËÙ¶È¼ÆºÍÍÓÂÝÒÇ¹ÀËãÓÃ»§µÄ²½³¤ºÍÐÐ×ß·½Ïò¡£³ý´ËÖ®Íâ£¬ÎÒÃÇ¼ì²âÓÃ»§µÄ²Î¿¼ÐÐÎª£¬ÀýÈçÉÏÏÂÂ¥ÌÝºÍ³Ë×øµçÌÝ£¬ÒÔµÃµ½ÓÃ»§µÄ²Î¿¼µØµã°ïÖú¶¨Î»¡£ÎÒÃÇÔÚÒ»¸ö½Ï´óµÄÊÒÄÚ»·¾³ÖÐ¼ìÑéÎÒÃÇµÄÏµÍ³£¬¶¨Î»¾«¶È¿ÉÒÔ´ïµ½1m×óÓÒ¡£
 
 \chapter{»ùÓÚ½Å²½¸ÐÖªµÄÎÞÃª½ÚµãÊÒÄÚ¶¨Î»ÏµÍ³ÊµÏÖ}
 \label{C:implement}
 
+\section{ÏµÍ³ÊµÏÖ¸ÅÊö}
+
+ÔÚÓÚ½Å²½¸ÐÖªµÄÎÞÃª½ÚµãÊÒÄÚ¶¨Î»ÏµÍ³µÄ»ù´¡ÉÏ£¬ÎÒÃÇ¶ÔFootStep-Tracker ×öÁËÊµ¼ÊµÄÏµÍ³ÊµÏÖ¡£²»Ê§Ò»°ãÐÔ£¬ÎÒÃÇ²ÉÓÃµÂÖÝÒÇÆ÷¹«Ë¾Éú²úµÄSensorTag\cite{sensortag}×÷ÎªÇ¶ÈëÓÃ»§Ð¬×ÓÄÚµÄ´«¸ÐÆ÷Ð¾Æ¬£¬²ÉÓÃÈýÐÇ¹«Ë¾Éú²úµÄGlaxy S5ÖÇÄÜÊÖ»ú×÷ÎªÊý¾ÝµÄ´¦ÀíºÍ½çÃæÕ¹Ê¾Æ½Ì¨£¬¶ÔÏµÍ³½øÐÐÁË¹¦ÄÜÉÏµÄÊµÏÖºÍÐ§¹ûÑéÖ¤¡£
+
+±¾ÕÂÊ×ÏÈ½éÉÜÁËÏµÍ³ÊµÏÖµÄÓ²¼þÓëÈí¼þÆ½Ì¨£¬°üÀ¨±¾ÏµÍ³²ÉÓÃµÄÓ²¼þÆ½Ì¨Óëµ÷ÕûµÄÓ²¼þ²ÎÊý¡£ÔÚ´Ë»ù´¡ÉÏ£¬½éÉÜÁËÏµÍ³Éè¼ÆµÄ¸÷¸ö²¿·Ö£¬°üÀ¨Æä³¡¾°½á¹¹¡¢Êý¾ÝÁ÷ºÍ¹¤×÷Ô­Àí¡£×îºó£¬¶ÔÏµÍ³ÔÚAndroid Æ½Ì¨ÉÏµÄÊµÏÖÐ§¹û½øÐÐÕ¹Ê¾ºÍÐ§¹ûÑéÖ¤¡£
+
+\section{ÊµÏÖÆ½Ì¨}
+
+\subsection{Ó²¼þÆ½Ì¨}
+
+ÈçÍ¼\ref{fig:hardware}ËùÊ¾£¬FootStep-TrackerµÄÊµÏÖ²ÉÓÃÁËµÂÖÝÒÇÆ÷¹«Ë¾Éú²úµÄSensorTag\cite{sensortag} ×÷ÎªÇ¶ÈëÓÃ»§Ð¬×ÓÖÐµÄ´«¸ÐÆ÷Ð¾Æ¬¡£ÈýÐÇ¹«Ë¾Éú²úµÄGlaxy S5ÖÇÄÜÊÖ»ú×÷ÎªÊý¾ÝµÄ´¦ÀíºÍ½çÃæÕ¹Ê¾Æ½Ì¨¡£
+
+\begin{figure}[!ht]
+\centering
+	\begin{minipage}{0.5\linewidth}
+        \centerline{\includegraphics[width=1\textwidth]{Figure/sensortag.jpg}}
+        \centerline{(a) CC2541 SensorTag\cite{sensortag}}
+    \end{minipage}%
+	\begin{minipage}{0.5\linewidth}
+        \centerline{\includegraphics[width=1\textwidth]{Figure/s5.png}}
+        \centerline{(b) SAMSUNG GALAXY S5}
+    \end{minipage}
+\caption{Ó²¼þÆ½Ì¨}
+\label{fig:hardware}
+\end{figure}
+
+SensorTagÊÇµÂÖÝÒÇÆ÷¹«Ë¾¿ª·¢µÄÒµ½çÊ×¿îÀ¶ÑÀ¿ª·¢Ì×¼þ¡£Í¼\ref{fig:sensortag_arch} ËùÊ¾ÎªSensorTagµÄÏµÍ³¼Ü¹¹£¬SensorTag½«¶àÖÖ´«¸ÐÆ÷¼¯³ÉÔÚ»ùÓÚCC2541µÄµ¥°åÉÏ£¬ÆäÖÐ°üÀ¨ºìÍâÎÂ¶È´«¸ÐÆ÷¡¢Êª¶È´«¸ÐÆ÷¡¢ÆøÑ¹´«¸ÐÆ÷¡¢¼ÓËÙ¶È¼Æ¡¢ÍÓÂÝÒÇºÍ´ÅÁ¦¼Æ¡£Ö§³Ö¿ª·¢³Ö¶àÖÖÆ½Ì¨£¬°üÀ¨PC¡¢Android ºÍIOSÆ½Ì¨£¬²¢¿ÉÒÔÖ±½ÓÍ¨¹ýÖÇÄÜÊÖ»ú½øÐÐ¹Ì¼þµÄ°æ±¾¸üÐÂ¡£
+
+SensorTag²ÉÓÃÀ¶ÑÀµÍ¹¦ºÄ£¨Bluetooth low energy, BLE£©\footnote{}\cite{ble}×÷ÎªÊý¾Ý´«ÊäÐ­Òé¡£BLE½Ï´«Í³µÄÀ¶ÑÀÀ´Ëµ£¬Ö¼ÔÚ±£³ÖÍ¨Ñ¶·¶Î§µÄÍ¬Ê±£¬Ìá¹©¸üÉÙµÄºÄµçÁ¿¡£BLE ÔÚ2006 ÄêÊ×ÏÈÓÉNokiaÌá³ö£¬µ±Ê±±»³ÆÎª\textbf{Wibree}¡£ËæºóÔÚ2010Äê£¬Æä±»²¢ÈëÀ¶ÑÀ4.0Ð­Òé¡£
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.9\textwidth]{Figure/sensortag_arch.png}
+\caption{sensortagÏµÍ³¼Ü¹¹Í¼\cite{sensortag}}
+\label{fig:sensortag_arch}
+\end{figure}
+
+\subsection{Èí¼þÆ½Ì¨}
+
+FootStep-TrackerµÄÊµÏÖ²ÉÓÃJAVAÓïÑÔ\cite{java}¡£JAVAÎªSun Microsystems¹«Ë¾ÍÆ³öµÄÒ»ÖÖÃæÏò¶ÔÏóÉè¼ÆÓïÑÔ£¬Æä¾ßÓÐ¿çÆ½Ì¨¡¢¸ßÐ§¡¢°²È«µÈÓÅÊÆ£¬Æä¹ã·ºÓ¦ÓÃÓÚ¸öÈËµçÄÔ¡¢Êý¾ÝÖÐÐÄ¡¢³¬¼¶¼ÆËã»úµÈÆ½Ì¨£¬¾ßÓÐÊÀ½çÉÏ×î´óµÄ¿ª·¢ÕßÈºÌå¡£
+
+FootStep-TrackerÍ¨¹ýAndroid\cite{android}Æ½Ì¨ÊµÏÖÔÚÓÚÖÇÄÜÊÖ»úÉÏ¡£AndroidÆ½Ì¨ÓÉGoogle¹«Ë¾ÍÆ³ö£¬Æä»ùÓÚLinuxÆ½Ì¨£¬¾ßÓÐ¿ª·ÅÐÔÇ¿¡¢½»»¥ÐÔºÃ£¬¿ª·¢±ã½ÝµÈÓÅÊÆ£¬ÏÖÒÑÓëIOSÆ½Ì¨³ÉÎªÊÀ½çÉÏµÄÁ½´óÒÆ¶¯²Ù×÷ÏµÍ³Æ½Ì¨¡£
+
+\section{ÏµÍ³Éè¼Æ}
+
+Í¼\ref{fig:imp_scene}ËùÊ¾ÎªÏµÍ³µÄ³¡¾°Í¼¡£±¾ÏµÍ³ÎªÒ»ÖÖ»ùÓÚ½Å²½¸ÐÖªµÄÎÞÃª½ÚµãÊÒÄÚ¶¨Î»ÏµÍ³£¬Ö÷Òª°üÀ¨SnesorTagºÍGALAXY S5ÖÇÄÜÊÖ»ú£¬¶þÕßÍ¨¹ýÀ¶ÑÀµÍ¹¦ºÄ½øÐÐÊý¾Ý½»»¥¡£SensorTagÉÏ´îÔØ¼ÓËÙ¶È¼Æ¡¢ÍÓÂÝÒÇ×é³ÉµÄIMU Ä£¿éºÍBLEÀ¶ÑÀÍ¨ÐÅÄ£¿é¡£ÖÇÄÜÊÖ»ú´îÔØÊÒÄÚµØÍ¼£¬½ÓÊÕÀ´×ÔSensorTag´«ÊäµÄ´«¸ÐÆ÷Êý¾Ý£¬Í¨¹ý½øÐÐ·ÖÎö´¦Àí£¬¶¨Î»ÓÃ»§Î»ÖÃ²¢ÓëÓÃ»§ÓÑºÃµÄ½»»¥¡£
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.9\textwidth]{Figure/imp_scene.jpg}
+\caption{ÏµÍ³Éè¼Æ³¡¾°Í¼}
+\label{fig:imp_scene}
+\end{figure}
+
+Í¼\ref{fig:imp_data}ËùÊ¾ÎªÏµÍ³µÄÊý¾ÝÁ÷Í¼¡£±¾ÏµÍ³µÄ¾ßÌå¹¤×÷¹ý³ÌÎª£º
+
+\begin{enumerate}
+  \item ÓÃ»§Ë«½Å·Ö±ð´©×ÅÇ¶ÈëSensorTagµÄÐ¬×Ó¡£
+  \item ÖÇÄÜÊÖ»úµÄAndroidÓ¦ÓÃÖÐ¼ÓÔØÊÒÄÚµØÍ¼¡£ÊÒÄÚµØÍ¼ÖÐ°üº¬ÊÒÄÚ»·¾³°üÀ¨µÀÂ·ºÍ·¿¼äµÄÏêÏ¸ÍØÆËÐÅÏ¢£¬µçÌÝ¡¢Â¥ÌÝµÄ¾ßÌåÎ»ÖÃÓë´óÐ¡¡£
+  \item ÖÇÄÜÊÖ»úµÄÀ¶ÑÀÍ¨ÐÅÄ£¿éÓëSensorTagµÄÀ¶ÑÀÍ¨ÐÅÄ£¿é½øÐÐÅä¶Ô¡£
+  \item SensorTagÉÏ´îÔØµÄIMUÄ£¿éÍ¨¹ý¼ÓËÙ¶È¼ÆºÍÍÓÂÝÒÇ²É¼¯ÓÃ»§½Å²¿µÄ´«¸ÐÆ÷Êý¾Ý¡£
+  \item SensorTagµÄÀ¶ÑÀÍ¨ÐÅÄ£¿é½«²É¼¯µ½µÄ´«¸ÐÆ÷Êý¾Ý·¢ËÍ¸øÖÇÄÜÊÖ»úµÄÀ¶ÑÀÍ¨ÐÅÄ£¿é¡£
+  \item ÖÇÄÜÊÖ»úµÄ´¦ÀíÆ÷Í¨¹ýÊÕ¼¯µÄ´«¸ÐÆ÷Êý¾Ý£¬¹ÀËã³öÓÃ»§µÄÐÐÎªÄ£Ê½£¬½áºÏ¼ÓÔØµÄÊÒÄÚµØÍ¼£¬¹ÀËã³öÓÃ»§ËùÔÚµÄ²Î¿¼Î»ÖÃ¡£
+  \item µ±ÓÃ»§ÕýÔÚ×ßÂ·Ê±£¬ÖÇÄÜÊÖ»úµÄ´¦ÀíÆ÷Í¨¹ýÊÕ¼¯µÄ´«¸ÐÆ÷Êý¾Ý£¬¹ÀËã³öÓÃ»§µÄÐÐÎª¹ì¼£¡£
+  \item ÖÇÄÜÊÖ»ú½áºÏ¹ÀËã³öµÄÔË¶¯¹ì¼£ºÍ²Î¿¼Î»ÖÃ£¬¸ù¾ÝÊÒÄÚµØÍ¼µÄÍØÆËÐÅÏ¢£¬¹ÀËã³öÓÃ»§µÄ¾ßÌåÎ»ÖÃ£¬²¢Í¨¹ýÖÇÄÜÊÖ»úµÄÏÔÊ¾ÆÁÏÔÊ¾¡£
+\end{enumerate}
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.8\textwidth]{Figure/imp_data.jpg}
+\caption{ÏµÍ³Êý¾ÝÁ÷Í¼}
+\label{fig:imp_data}
+\end{figure}
+
+Í¼\ref{fig:imp_how}ËùÊ¾Îª±¾ÏµÍ³µÄ¹¤×÷Ô­ÀíÍ¼¡£ÆäÖÐ£¬ÖÇÄÜÊÖ»úÍ¨¹ý¼ÓËÙ¶ÈºÍÍÓÂÝÒÇÊý¾Ý½øÐÐÓÃ»§µÄÐÐÎª·ÖÀà¡£
+µ±ÓÃ»§ÔÚ×ßÂ·Ê±£¬ÒÔÃ¿Ò»²½Îªµ¥Î»£¬¼ÆËãÓÃ»§µÄÐÐ×ß¾àÀëºÍÐÐ×ß·½Ïò£¬½áºÏ³ÉÎªÓÃ»§µÄÐÐÎª¹ì¼£¡£
+µ±ÓÃ»§ÔÚÉÏÏÂÂ¥ÌÝ»òÊÇ³Ë×øµçÌÝÊ±£¬ÔÚÊÒÄÚµØÍ¼ÖÐÑ°ÕÒÂ¥ÌÝ»òµçÌÝµÄÎ»ÖÃ£¬×÷Îª²Î¿¼Î»ÖÃ¡£
+½áºÏÐÐ×ßÂ·ÏßÓë²Î¿¼µØµã£¬ÔÚÊÒÄÚµØÍ¼ÖÐ¸ù¾Ý²Î¿¼µØµãÈ·¶¨ÓÃ»§ÐÐ×ßÂ·ÏßµÄÈ·ÇÐÎ»ÖÃ£¬´Ó¶øÍê³ÉÓÃ»§µÄ¾«È·¶¨Î»¡£
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.9\textwidth]{Figure/imp_how.jpg}
+\caption{ÏµÍ³Ô­ÀíÍ¼}
+\label{fig:imp_how}
+\end{figure}
+
+
+\section{ÊµÏÖÐ§¹û}
+
+ÈçÍ¼\ref{fig:app_main}ËùÊ¾£¬ÔÚÍê³ÉSensorTagÓëÖÇÄÜÊÖ»úµÄÀ¶ÑÀÅä¶Ôºó£¬ÖÇÄÜÊÖ»úÕ¹Ê¾ÈçÏÂµÄAndorid App ¶¨Î»Ö÷½çÃæ¡£
+
+½çÃæ×óÉÏ²¿Îª¼Æ²½Æ÷ºÍÐÐÎªÊ¶±ð²¿·Ö¡£µ±ÓÃ»§ÔÚÊÒÄÚ»î¶¯Ê±£¬ActivityÊµÊ±ÏÔÊ¾ÐÐÎª·ÖÀàÆ÷¼ì²â³öµÄÓÃ»§µÄÐÐÎª£¬°üÀ¨¾²Ö¹Õ¾Á¢(Stand Still)£¬×ßÂ·(Walk)£¬ÉÏÂ¥ÌÝ(UST)£¬ÏÂÂ¥ÌÝ(DST)£¬ÉÏµçÌÝ(EA)ºÍÏÂµçÌÝ(ED)¡£µ±ÓÃ»§ÔÚ×ßÂ·Ê±£¬StepÊµÊ±ÏÔÊ¾ÓÃ»§×ßµÄ²½Êý¡£
+
+½çÃæÓÒÉÏ²¿ÎªÓÃ»§µÄÐÐÎª¹ì¼£¡£µ±ÓÃ»§ÔÚÊÒÄÚ»·¾³ÖÐ×ßÂ·Ê±£¬Í¨¹ý²½³¤¹ÀËãÆ÷ºÍ·½Ïò¹ÀËãÆ÷¹ÀËã³öÀ´µÄÐÐ¶¯¾àÀëºÍÐÐ¶¯·½ÏòÊµÊ±ºÏ³É¶ø³ÉÎªÐÐÎª¹ì¼£¡£
+
+½çÃæÖÐÉÏ²¿ÎªÀ¶ÑÀµÄRSSIºÍ´«¸ÐÆ÷µÄ¶ÁÊý²¿·Ö¡£ÆäÊµÊ±µÄÏÔÊ¾ÁËSnesorTagËù²É¼¯µÄ¼ÓËÙ¶ÈºÍÍÓÂÝÒÇÊý¾Ý¡£´ËÍâ£¬ÎªÁË²é¿´À¶ÑÀÊÇ·ñÊµÊ±±£³ÖÁ¬½Ó£¬Æä»¹ÏÔÊ¾ÁËÀ¶ÑÀµÄRSSIÊý¾Ý¡£
+
+½çÃæÏÂ°ë²¿ÎªÊÒÄÚµØÍ¼ÒÔ¼°ÓÃ»§ÔÚÊÒÄÚµØÍ¼ÖÐµÄÊµÊ±Î»ÖÃ¡£µ±ÓÃ»§ÔÚÊÒÄÚµØÍ¼ÖÐÐÐ¶¯Ê±£¬µØÍ¼ÖÐÊµÊ±ÏÔÊ¾ÓÃ»§µÄÎ»ÖÃ£¬²¢Ãè»æ³öÓÃ»§Ö®Ç°µÄÐÐÎª¹ì¼£¡£
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.4\textwidth]{Figure/app_main.png}
+\caption{AndroidÓ¦ÓÃ¶¨Î»½çÃæ}
+\label{fig:app_main}
+\end{figure}
+
+\section{±¾ÕÂÐ¡½á}
+
+±¾ÕÂÖÐ£¬ÎÒÃÇ²ûÊÍÁË»ùÓÚ½Å²½¸ÐÖªµÄÎÞÃª½Úµã¶¨Î»ÏµÍ³ÊµÏÖ¡£ÎÒÃÇ²ÉÓÃµÂÖÝÒÇÆ÷¹«Ë¾Éú²úµÄCC2541 SensorTagÐ¾Æ¬ÓëÈýÐÇ¹«Ë¾Éú²úµÄGALAXY S5×÷ÎªÊµÏÖµÄÓ²¼þÆ½Ì¨£¬²ÉÓÃJAVAÓïÑÔºÍAndroidÆ½Ì¨×÷ÎªÊµÏÖµÄÈí¼þÆ½Ì¨¡£ÔÚÖÇÄÜÊÖ»úÉÏ£¬ÎÒÃÇÊµÏÖÁËFootStep-Tracker App£¬µ±ÓÃ»§ÔÚÊÒÄÚÊµÊ±ÐÐ¶¯Ê±£¬App¿ÉÒÔÏÔÊ¾³öÓÃ»§µÄ²½Êý¡¢µ±Ç°ÐÐÎª¡¢ÐÐÎª¹ì¼££¬ÒÔ¼°ÔÚµØÍ¼ÖÐÓÃ»§µÄÈ·ÇÐÎ»ÖÃ¡£
+
 \chapter{×Ü½áÓëÕ¹Íû}
 \label{C:conclusion}
 
+\section{×Ü½á}
+
+½üÄêÀ´£¬Ëæ×ÅÎïÁªÍø¼¼Êõ¡¢¿É´©´÷¼ÆËãºÍÊÒÄÚ¶¨Î»¼¼ÊõµÄÅî²ª·¢Õ¹£¬ÈËÃÇµÄÉú»î¡¢¹¤×÷¡¢ÓéÀÖ·½Ê½¶¼ÔÚÖð²½µÄ¸Ä±ä¡£ÎïÁªÍø¡¢¿É´©´÷¼ÆËã¡¢ÊÒÄÚ¶¨Î»Èý´ó¼¼ÊõÔÚ°üÀ¨ÉÌÒµ¡¢ÔËÊä¡¢½»Í¨¡¢ÄÜÔ´¡¢¼Ò¾ÓµÈÐíÐí¶à¶àµÄÁìÓò¶¼¸øÈËÃÇÌá¹©ÁË¸ü¼Ó·½±ã¡¢°²È«ºÍ¸ßÐ§µÄÉú²ú·½Ê½¡£ÔÚÑ§Êõ½çºÍ¹¤Òµ½ç£¬´ó¶àÊýµÄÊÒÄÚ¶¨Î»·½°¸¶¼ÊÇÀûÓÃ¸¨Öú¶¨Î»ÉèÊ©£¬ÀýÈçWiFi ApºÍÀ¶ÑÀBeacon µÈ¶ÔÓÃ»§Ð¯´øµÄÖÇÄÜÉè±¸½øÐÐ¶¨Î»£¬ÕâÐ©·½°¸µÄ¾«¶ÈÊÜµ½Éè±¸µÄ²¿ÊðÃÜ¶ÈÓ°Ïì£¬¾ßÓÐÒ»¶¨µÄ¾ÖÏÞÐÔ¡£Æä²¿Êð³É±¾Ò²Ïà¶Ô½Ï¸ß£¬µ¥¸ö¶¨Î»½Úµãµ¥¼ÛÔÚ°ÙÔª×óÓÒ¡£´ËÍâ£¬ÔÚÃ»ÓÐÌáÇ°²¿Êð¶¨Î»¸¨ÖúÉèÊ©µÄ»·¾³ÖÐ£¬ÆäÎÞ·¨Íê³É¶¨Î»¡£ÎªÁËÓ¦¶ÔÕâÖÖÇé¿ö£¬ÔÚÑ§Êõ½ç£¬Ò²ÓÐÀûÓÃÊÖ»úµÄ´«¸ÐÆ÷µÈ¶ÔÓÃ»§½øÐÐÊÒÄÚµ¼º½µÄ·½°¸£¬µ«¶¨Î»Ð§¹ûÍùÍùÊÜµ½ÊÖ»ú²»Í¬°Ú·Å×ËÌ¬µÈÒòËØµÄÓ°Ïì£¬µ¼ÖÂ¶¨Î»Îó²î½Ï´ó»ò²¿·ÖÒÀÀµÓÚ¶¨Î»ÉèÊ©µÄ¸¨Öú¡£
+
+±¾ÎÄÊ×ÏÈÌá³öÁËFootStep-Tracker£¬Ò»ÖÖÎÞÃª½ÚµãµÄÊÒÄÚ¶¨Î»ÏµÍ³¡£±¾ÏµÍ³ÍêÈ«ÀûÓÃÇ¶ÈëÔÚÓÃ»§½Å²¿µÄ´«¸ÐÆ÷Ð¾Æ¬£¬ÎÞÐèÈÎºÎ¶¨Î»¸¨ÖúÉèÊ©¶ÔÓÃ»§½øÐÐÊÒÄÚ¶¨Î»¡£ÎÒÃÇÊ¹ÓÃ´«¸ÐÆ÷Ð¾Æ¬ÉÏµÄ¼ÓËÙ¶È¼ÆºÍÍÓÂÝÒÇ¸ÐÖªÓÃ»§ÔÚÊÒÄÚ»·¾³ÖÐµÄÐÐÎª£¬ÀýÈç×ßÂ·¡¢ÉÏÏÂÂ¥ÌÝ¡¢ÉÏÏÂµçÌÝµÈ¡£µ±ÓÃ»§ÔÚ×ßÂ·Ê±£¬ÎÒÃÇ¸ù¾Ý¹ÀËãµÄÓÃ»§ÐÐ×ß¾àÀëºÍÓÃ»§ÐÐ×ß·½Ïò£¬¹ÀËã³öÓÃ»§µÄÐÐÎª¹ì¼£¡£¶øµ±ÓÃ»§ÔÚÉÏÏÂÂ¥ÌÝ»òÕß³Ë×øµçÌÝÊ±£¬±¾ÏµÍ³½«Â¥ÌÝ»òµçÌÝ×÷Îª²Î¿¼Î»ÖÃ£¬°ïÖú½«Ïà¶ÔµÄÓÃ»§ÐÐÎª¹ì¼£È·¶¨Îª¾ø¶ÔµÄÓÃ»§ÔÚÊÒÄÚ»·¾³ÖÐµÄÎ»ÖÃ¡£´ËÍâ£¬±¾ÏµÍ³»¹ÀûÓÃÊÒÄÚ¿Õ¼äµÄÍØÆË½á¹¹¶Ô¹ÀËã³öµÄ¿ÉÄÜµÄ¶àÌõÓÃ»§ÐÐÎª¹ì¼£½øÐÐ¹ýÂËÉ¸Ñ¡£¬½ø¶øÊÕÁ²Îª×¼È·µÄÐÐÎª¹ì¼£¡£
+
+Æä´Î£¬±¾Î»Ìá³öÁË»ùÓÚ½Å²½¸ÐÖªµÄÎÞÃª½ÚµãÊÒÄÚ¶¨Î»ÏµÍ³µÄÊµÏÖ¡£ÎÒÃÇ²ÉÓÃµÂÖÝÒÇÆ÷¹«Ë¾Éú²úµÄSensorTagºÍÈýÐÇ¹«Ë¾Éú²úµÄGALAXY S5¶ÔÏµÍ³½øÐÐÁËÊµÏÖ¡£ÎÒÃÇ²ÉÓÃJavaÓïÑÔÔÚAndroidÆ½Ì¨ÉÏÊµÏÖÁËFootStep-TrackerÓ¦ÓÃ³ÌÐò¡£Æä¿ÉÒÔÊµÊ±µÄÏÔÊ¾SensorTag²É¼¯µ½µÄ´«¸ÐÆ÷Êý¾Ý¡¢ÓÃ»§µÄ²½Êý¡¢ÓÃ»§µÄÐÐÎª¹ì¼£ÒÔ¼°ÓÃ»§ÔÚÊÒÄÚµØÍ¼ÖÐµÄÎ»ÖÃ¡£
+
+\section{Õ¹Íû}
+
+Ëæ×ÅÎïÁªÍøµÄÐËÆð¡¢¿É´©´÷Éè±¸ºÍÊÒÄÚ¶¨Î»¼¼ÊõµÄÑ¸ÃÍ·¢Õ¹£¬´ø¸øÁËÈËÃÇÔ½À´Ô½¶àÉú»î±ãÀû¡¢Ïû·ÑÐèÇóÓëÉÌÒµ»ú»á¡£ËäÈ»ÒÑ¾­ÓÐºÜ¶àÑ§ÕßÑÐ¾¿ÈçºÎ½øÐÐ¾«È·µÄÊÒÄÚ¶¨Î»£¬Ò²Ìá³öÁËºÜ¶à¸ßÐ§µÄ½â¾ö·½°¸¡£È»¶ø£¬ÊÒÄÚ¶¨Î»¼¼ÊõµÄÊµ¼ÊÍÆ¹ãºÍÓ¦ÓÃ»¹´æÔÚ½Ï¶àµÄÎÊÌâ£¬ÀýÈçÈçºÎ¼õÉÙ¸¨Öú¶¨Î»ÉèÊ©µÄ²¿Êð³É±¾£¬ÈçºÎÌá¸ß¶¨Î»¾«¶ÈµÈ¡£±¾ÎÄÕë¶ÔÎÞÃª½ÚµãµÄÊÒÄÚ¶¨Î»ÏµÍ³½øÐÐÁËÑÐ¾¿£¬Ìá³öÁË»ùÓÚ½Å²½¸ÐÖªµÄÎÞÃª½ÚµãÊÒÄÚ¶¨Î»ÏµÍ³ÓëÏµÍ³ÊµÏÖ¡£ËäÈ»±¾ÎÄÌá³öµÄÕûÌ×ÊÒÄÚ¶¨Î»ÏµÍ³¾­¹ýÁËÀíÂÛºÍÕæÊµ»·¾³µÄÈÏÖ¤£¬µ«ÈÔÈ»´æÔÚÈô¸É²»×ã£¬½ñºó½«ÔÚÏÖÓÐ»ù´¡ÉÏ×ö¸üÎªÉîÈëµÄÑÐ¾¿ºÍÊµ¼ù£¬Ö÷ÒªÓÐÒ»ÏÂ¼¸¸ö·½Ãæ£º
+
+\begin{enumerate}
+  \item ÐÐÎª·ÖÀàÆ÷×¼È·ÐÔÎÊÌâ¡£ÐÐÎª·ÖÀàÆ÷²¿·ÖÒÀÀµÊý¾ÝÍÚ¾òËã·¨£¬È±·¦Âß¼­ÉÏµÄÇø·ÖÔ­ÀíÖ§³Ö¡£ÔÚÈ±·¦´óÁ¿ÑµÁ·µÄÇé¿öÏÂ£¬¶Ô²»Í¬ÓÃ»§µÄ·ÖÀàÐ§¹û²»Í¬¡£
+  \item ·½Ïò¹ÀËãÁ£¶ÈÎÊÌâ¡£Ä¿Ç°µÄ·½Ïò¹ÀËãÓÐÐ§Á£¶È½Ï´Ö£¬ÔÚ²ÉÓÃÐ¡ÓÚ90¶ÈµÄÇø·ÖÁ£¶ÈÊ±£¬·½Ïò¹ÀËã¾ßÓÐÒ»¶¨µÄÎó²î¡£
+  \item ÒÀÀµÊÒÄÚ»·¾³ÎÊÌâ¡£±¾ÏµÍ³ÒÀÀµÓÚÊÒÄÚÍØÆË»·¾³£¬ÔÚÊÒÄÚ»·¾³½ÏÎª¸´ÔÓµÄÇé¿öÏÂ£¬ÏµÍ³¿ÉÒÔ¿ìËÙÊÕÁ²¹ýÂËµô²»¿ÉÄÜµÄÓÃ»§Î»ÖÃ¡£¶øÔÚÊÒÄÚ»·¾³½ÏÎª¼òµ¥µÄÇé¿öÏÂ£¬±¾ÏµÍ³Ëù¼ÆËã³öµÄÐÐÎª¹ì¼£ÎÞ·¨È·¶¨Îª¾ø¶ÔµÄÓÃ»§Î»ÖÃ£¬ÔÚ¼«¶ËÇé¿öÏÂÉõÖÁÎÞ·¨Íê³É¶¨Î»¡£
+\end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% ¸½¼þ²¿·Ö

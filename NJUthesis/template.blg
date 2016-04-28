@@ -2,4 +2,6 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: template.aux
 The style file: NJUthesis.bst
 Database file #1: template.bib
 Warning--can't use both volume and number fields in IOTdaolun
-(There was 1 warning)
+Warning--empty pages in fp1
+Warning--empty pages in fp2
+(There were 3 warnings)

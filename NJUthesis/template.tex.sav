@@ -41,9 +41,10 @@
 \usepackage{enumitem}
 %Ðý×ª
 \usepackage{rotating}
-
+\usepackage{amsmath,amssymb,amsthm}
 \usepackage[linesnumbered,ruled,vlined]{algorithm2e}
 
+\newtheorem{myThm}{Theorem}
 
 \begin{document}
 
@@ -252,7 +253,7 @@ Realistic experiment results show that, FootStep-Tracker is able to achieve an a
 
 \subsection{»ùÓÚ½Å²½¸ÐÖªµÄÎÞÃª½ÚµãÊÒÄÚ¶¨Î»ÏµÍ³ÊµÏÖ}
 
-ÎÒÃÇÀûÓÃÕæÊµµÄÊµÑéÉè±¸ÊµÏÖÁËFootStep-TrakcerÏµÍ³¡£ÈçÍ¼\ref{fig:imp_overview}ËùÊ¾£¬¸ÃÏµÍ³°üÀ¨½Å²½¸ÐÖª×°ÖÃÒÔ¼°ÖÇÄÜÖÕ¶Ë¡£½Å²½¸ÐÖª×°ÖÃ°üÀ¨¼ÓËÙ¶È´«¸ÐÆ÷¡¢ÍÓÂÝÒÇ£¬ÒÔ¼°À¶ÑÀÍ¨ÐÅÄ£¿é¡£ÖÇÄÜÖÕ¶Ë°üÀ¨´¦ÀíÆ÷£¬ÏÔÊ¾ÆÁºÍÀ¶ÑÀÍ¨ÐÅÄ£¿é£¬²¢ÄÜ¹»¼ÓÔØÊÒÄÚµØÍ¼¡£ÆäÖÐ½Å²½¸ÐÖª×°ÖÃ²ÉÓÃµÂÖÝÒÇÆ÷¹«Ë¾Éú²úµÄCC2541 Soc SensorTagÊµÏÖ£¬ÖÇÄÜÖÕ¶Ë²ÉÓÃÈýÐÇ¹«Ë¾µÄGalxy S5 Android ÖÇÄÜÊÖ»ú¡£½Å²½¸ÐÖª×°ÖÃÇ°ÈëÔÚÓÃ»§½Å²¿µÄÐ¬µêÖÐ£¬ÊµÊ±²É¼¯ÓÃ»§½Å²½ÒÆ¶¯µÄ¸ÐÖªÊý¾Ý£¬²¢Í¨¹ýÀ¶ÑÀÍ¨ÐÅÄ£¿é½«¸ÐÖªÊý¾Ý´«ÊäÖÁÖÇÄÜÖÕ¶Ë¡£ÖÇÄÜÖÕ¶Ë»ùÓÚÊÕ¼¯µÄ¸ÐÖªÊý¾Ý£¬¸ÐÖªÓÃ»§µÄÒÆ¶¯ÐÐÎª£¬»ùÓÚÓÃ»§µÄÌØÊâÐÐÎªÄ£Ê½¹ÀËã¿ÉÄÜµÄ²Î¿¼Î»ÖÃ¡£ÖÇÄÜÖÕ¶Ë»ùÓÚÊÕ¼¯µÄ¸ÐÖªÊý¾Ý£¬¶ÔÓÃ»§µÄÒÆ¶¯·½ÏòºÍÒÆ¶¯¾àÀë½øÐÐ¹ÀËã£¬¼ÆËã³öÓÃ»§µÄÒÆ¶¯¹ì¼££¬²¢½áºÏÊÒÄÚµØÍ¼µÄÍØÆË½á¹¹ºÍ²Î¿¼Î»ÖÃ£¬½«ÓÃ»§ÒÆ¶¯¹ì¼£È·¶¨ÔÚÊÒÄÚµØÍ¼ÖÐ£¬ÊµÏÖÊÒÄÚ¶¨Î»»úÖÆ¡£
+ÎÒÃÇÀûÓÃÕæÊµµÄÊµÑéÉè±¸ÊµÏÖÁËFootStep-TrakcerÏµÍ³¡£ÈçÍ¼\ref{fig:imp_overview} ËùÊ¾£¬¸ÃÏµÍ³°üÀ¨½Å²½¸ÐÖª×°ÖÃÒÔ¼°ÖÇÄÜÖÕ¶Ë¡£½Å²½¸ÐÖª×°ÖÃ°üÀ¨¼ÓËÙ¶È´«¸ÐÆ÷¡¢ÍÓÂÝÒÇ£¬ÒÔ¼°À¶ÑÀÍ¨ÐÅÄ£¿é¡£ÖÇÄÜÖÕ¶Ë°üÀ¨´¦ÀíÆ÷£¬ÏÔÊ¾ÆÁºÍÀ¶ÑÀÍ¨ÐÅÄ£¿é£¬²¢ÄÜ¹»¼ÓÔØÊÒÄÚµØÍ¼¡£ÆäÖÐ½Å²½¸ÐÖª×°ÖÃ²ÉÓÃµÂÖÝÒÇÆ÷¹«Ë¾Éú²úµÄCC2541 Soc SensorTagÊµÏÖ£¬ÖÇÄÜÖÕ¶Ë²ÉÓÃÈýÐÇ¹«Ë¾µÄGalxy S5 Android ÖÇÄÜÊÖ»ú¡£½Å²½¸ÐÖª×°ÖÃÇ°ÈëÔÚÓÃ»§½Å²¿µÄÐ¬µêÖÐ£¬ÊµÊ±²É¼¯ÓÃ»§½Å²½ÒÆ¶¯µÄ¸ÐÖªÊý¾Ý£¬²¢Í¨¹ýÀ¶ÑÀÍ¨ÐÅÄ£¿é½«¸ÐÖªÊý¾Ý´«ÊäÖÁÖÇÄÜÖÕ¶Ë¡£ÖÇÄÜÖÕ¶Ë»ùÓÚÊÕ¼¯µÄ¸ÐÖªÊý¾Ý£¬¸ÐÖªÓÃ»§µÄÒÆ¶¯ÐÐÎª£¬»ùÓÚÓÃ»§µÄÌØÊâÐÐÎªÄ£Ê½¹ÀËã¿ÉÄÜµÄ²Î¿¼Î»ÖÃ¡£ÖÇÄÜÖÕ¶Ë»ùÓÚÊÕ¼¯µÄ¸ÐÖªÊý¾Ý£¬¶ÔÓÃ»§µÄÒÆ¶¯·½ÏòºÍÒÆ¶¯¾àÀë½øÐÐ¹ÀËã£¬¼ÆËã³öÓÃ»§µÄÒÆ¶¯¹ì¼££¬²¢½áºÏÊÒÄÚµØÍ¼µÄÍØÆË½á¹¹ºÍ²Î¿¼Î»ÖÃ£¬½«ÓÃ»§ÒÆ¶¯¹ì¼£È·¶¨ÔÚÊÒÄÚµØÍ¼ÖÐ£¬ÊµÏÖÊÒÄÚ¶¨Î»»úÖÆ¡£
 
 \begin{figure}[!ht]
 \centering
@@ -328,6 +329,7 @@ FootStep-Tracker´¦ÀíÓÉÓÃ»§½Å²¿Ç¶ÈëµÄ´«¸ÐÆ÷Ð¾Æ¬¸ÐÖªµÄ´«¸ÐÆ÷Êý¾Ý¡£
 \end{figure}
 
 \section{ÐÐÎª·ÖÀàÆ÷}
+\label{sec:activity_classifier}
 
 \subsection{ÑÐ¾¿¶¯»ú}
 
@@ -399,7 +401,7 @@ FootStep-Tracker´¦ÀíÓÉÓÃ»§½Å²¿Ç¶ÈëµÄ´«¸ÐÆ÷Ð¾Æ¬¸ÐÖªµÄ´«¸ÐÆ÷Êý¾Ý¡£
 
 \begin{figure}[!ht]
 \centering
-\includegraphics[width=0.9\textwidth]{Figure/classification.eps}
+\includegraphics[width=1\textwidth]{Figure/classification.eps}
 \caption{ÐÐÎª·ÖÀàÆ÷¿ò¼Ü}
 \label{fig:activity_classifier}
 \end{figure}
@@ -470,7 +472,7 @@ SS & ¾²Ö¹Õ¾Á¢\\
 Í¼\ref{fig:acc_walk}ÖÐµÄºìÉ«·½¿òÎª½Å²¿ÇÐ¸î¼ì²âµ½ÈýÖá¼ÓËÙ¶ÈµÄ¡°¾²Ö¹Çø¼ä¡±¡£
 ÎªÁË·ÀÖ¹ÓÉÓë×ßÂ·ÏàËÆµÄÖÜÆÚÐÔÐÐÎª£¬ÀýÈç°ÚÍÈµ¼ÖÂµÄÎóÇÐ¸î£¬ÎÒÃÇ²»½ö½ö¼ì²âÇ°½ø·½ÏòyÖáÉÏµÄ¡°¾²Ö¹Çø¼ä¡±£¬Í¬Ñù¼ì²âxÖáºÍzÖáÉÏµÄ¡°¾²Ö¹Çø¼ä¡±¡£
 
-Èç¹ûÓÃ»§µ±Ç°µÄÐÐÎªÎª×ßÂ·£¬½Å²¿ÇÐ¸î½«Ô­Ê¼µÄÈýÖá¼ÓËÙ¶ÈÊý¾Ý$ax,ay,az$×÷ÎªÊäÈë£¬²»¶Ï·Ö±ð¼ì²âÈý¸öÖáÉÏµÄ¡°¾²Ö¹Çø¼ä¡±¡£¶ÔÓÚxÖáºÍyÖá£¬ÎÒÃÇ½«Á¬ÐøµÄÁù¸öÔÚ$0\pm0.5$·¶Î§µÄ¼ÓËÙ¶ÈÊý¾Ý±ê¼ÇÎªÒ»¸ö¡°¾²Ö¹Çø¼ä¡±¡£¶ÔÓÚzÖá£¬ÓÉÓÚÓÐÖØÁ¦¼ÓËÙ¶È·ÖÁ¿µÄ´æÔÚ£¬ÎÒÃÇ½«Á¬ÐøµÄÁù¸öÔÚ$9.8\pm0.5$·¶Î§µÄ¼ÓËÙ¶ÈÊý¾Ý±ê¼ÇÎªÒ»¸ö¡°¾²Ö¹Çø¼ä¡±¡£ÎÒÃÇ½«Ã¿¸öÖáÉÏµÄÁ¬ÐøÁ½¸ö¡°¾²Ö¹Çø¼ä¡±µÄ²¿·Ö×ö½»¼¯£¬ÆäÏà½»²¿·ÖÊý¾Ý×÷Îªµ±Ç°Ò»²½µÄÊý¾Ý¡£
+Èç¹ûÓÃ»§µ±Ç°µÄÐÐÎªÎª×ßÂ·£¬½Å²¿ÇÐ¸î½«Ô­Ê¼µÄÈýÖá¼ÓËÙ¶ÈÊý¾Ý$ax,ay,az$×÷ÎªÊäÈë£¬²»¶Ï·Ö±ð¼ì²âÈý¸öÖáÉÏµÄ¡°¾²Ö¹Çø¼ä¡±¡£¶ÔÓÚxÖáºÍyÖá£¬ÎÒÃÇ½«Á¬ÐøµÄÁù¸öÔÚ$0\pm0.5$ ·¶Î§µÄ¼ÓËÙ¶ÈÊý¾Ý±ê¼ÇÎªÒ»¸ö¡°¾²Ö¹Çø¼ä¡±¡£¶ÔÓÚzÖá£¬ÓÉÓÚÓÐÖØÁ¦¼ÓËÙ¶È·ÖÁ¿µÄ´æÔÚ£¬ÎÒÃÇ½«Á¬ÐøµÄÁù¸öÔÚ$9.8\pm0.5$·¶Î§µÄ¼ÓËÙ¶ÈÊý¾Ý±ê¼ÇÎªÒ»¸ö¡°¾²Ö¹Çø¼ä¡±¡£ÎÒÃÇ½«Ã¿¸öÖáÉÏµÄÁ¬ÐøÁ½¸ö¡°¾²Ö¹Çø¼ä¡±µÄ²¿·Ö×ö½»¼¯£¬ÆäÏà½»²¿·ÖÊý¾Ý×÷Îªµ±Ç°Ò»²½µÄÊý¾Ý¡£
 
 
 \begin{figure}[!ht]
@@ -481,6 +483,7 @@ SS & ¾²Ö¹Õ¾Á¢\\
 \end{figure}
 
 \section{²½³¤¹ÀËãÆ÷}
+\label{sec:step_length_estimator}
 
 \subsection{ÑÐ¾¿¶¯»ú}
 
@@ -494,7 +497,7 @@ SS & ¾²Ö¹Õ¾Á¢\\
 
 Í¼\ref{fig:phase} (a) ËùÊ¾ÎªÓÃ»§×ßÂ·Ê±½Å²¿µÄÔË¶¯¹ì¼£¡£ÈçÍ¼ËùÊ¾£¬¼ÓËÙ¶ÈyÖá²¢²»×ÜÊÇË®Æ½µÄ£¬ÎÒÃÇ½«yÖáµÄ·½ÏòÍ¶Ó°ÔÚË®Æ½ÃæÉÏ£¬²¢¼ÇÎª½Å²¿·½Ïò£¨foot direction£©£¬¼ÇyÖá·½ÏòÓë½Å²¿·½ÏòµÄ¼Ð½ÇÎª$\theta$¡£
 
-Í¼\ref{fig:phase} (b) ËùÊ¾ÎªÎªÓë (a) Ïà¶ÔÓ¦µÄ´«¸ÐÆ÷Êý¾Ý¡£ÈçÍ¼\ref{fig:axes}ËùÊ¾£¬ÔÚsensorµÄ×ø±êÏµÖÐ£¬Í¼\ref{fig:phase} (a) ÖÐÇ°½ø·½Ïò¼ÓËÙ¶ÈÎª$a_y$µÄÕý·½Ïò£¬½Å²¿ÄæÊ±ÕëÐý×ª·½ÏòÎª$g_x$µÄÕý·½Ïò¡£Í¼ÖÐ½«½Å²¿µÄÔË¶¯¹ì¼£·ÖÎª5¸ö½×¶Î£¬ÆäÃ¿¸ö½×¶ÎµÄÌØÕ÷Îª£º
+Í¼\ref{fig:phase} (b) ËùÊ¾ÎªÎªÓë (a) Ïà¶ÔÓ¦µÄ´«¸ÐÆ÷Êý¾Ý¡£ÈçÍ¼\ref{fig:axes} ËùÊ¾£¬ÔÚsensorµÄ×ø±êÏµÖÐ£¬Í¼\ref{fig:phase} (a) ÖÐÇ°½ø·½Ïò¼ÓËÙ¶ÈÎª$a_y$µÄÕý·½Ïò£¬½Å²¿ÄæÊ±ÕëÐý×ª·½ÏòÎª$g_x$µÄÕý·½Ïò¡£Í¼ÖÐ½«½Å²¿µÄÔË¶¯¹ì¼£·ÖÎª5¸ö½×¶Î£¬ÆäÃ¿¸ö½×¶ÎµÄÌØÕ÷Îª£º
 
 \begin{itemize}
 
@@ -562,8 +565,8 @@ FootStep-Tracker¸ù¾Ý·Ö¶ÎµÄÊý¾Ý£¬¸ù¾ÝËã·¨\ref{alg:fpe}£¬´ÓÔ­Ê¼Êý¾ÝÁ÷Ö®ÖÐ³éÈ¡¹Ø¼üÊ
 ÔÚ×ÅµØÊ±¼ä£¨landing time£¬$T_d$£©Ê±£¬½Å¸ú×ÅµØ£¬$a_y$±äÎª¸ºÊý¡£ÎÒÃÇÔÚ¸ø¶¨µÄÊý¾Ý¶ÎÖÐ£¬ÀëµØÊ±¼äºó£¬Ñ°ÕÒµÚÒ»¸ö$a_y<0$µÄµã×÷Îª×ÅµØÊ±¼ä¡£
 ÔÚ¾²Ö¹Ê±¼ä£¨rest time£¬$T_r$£©Ê±£¬$a_y,g_x$ÔÙ´ÎÎª0¡£ÎÒÃÇÔÚ¸ø¶¨µÄÊý¾Ý¶ÎÖÐ£¬×ÅµØÊ±¼äºó£¬Ñ°ÕÒµÚÒ»¸ö$a_y,g_x$Îª0µÄµã×÷Îª¾²Ö¹Ê±¼ä¡£
 
-\begin{algorithm}[!ht]
-	\caption{¹Ø¼üÊ±¼ä³éÈ¡.}
+\begin{algorithm}
+    \caption{¹Ø¼üÊ±¼ä³éÈ¡}
 	\label{alg:fpe}
 	\KwIn {´«¸ÐÆ÷Êý¾ÝÁ÷$ a_y, g_x $, ÇÐ¸îºÃµÄ±¾²½Êý¾Ý $D_{s}$}
 	\KwOut { Ì§½ÅÊ±¼ä£¨Uplift time $ T_{u} $£©, ÀëµØÊ±¼ä£¨liftoff time $ T_{l} $£©, ×ÅµØÊ±¼ä£¨landing time $ T_{d} $£©, ¾²Ö¹Ê±¼ä£¨rest time $ T_{r} $}£©
@@ -583,7 +586,7 @@ FootStep-Tracker¸ù¾Ý·Ö¶ÎµÄÊý¾Ý£¬¸ù¾ÝËã·¨\ref{alg:fpe}£¬´ÓÔ­Ê¼Êý¾ÝÁ÷Ö®ÖÐ³éÈ¡¹Ø¼üÊ
 \label{eq:afoot}
 \end{gather}
 
-¹«Ê½£¨\ref{eq:theta}£©¼ÆËãÃ¿¸öÊ±¿Ì¼ÓËÙ¶ÈyÖáÓëË®Æ½½Å²½·½ÏòµÄ¼Ð½Ç$\theta(t)$¡£ÓÉÓÚÔÚÌ§½ÅÊ±¼ä¿ªÊ¼£¬³öÏÖÁË½ÅÃæµÄ×ª¶¯£¬ÎÒÃÇ¶ÔÓÚxÖáÍÓÂÝÒÇµÃµ½µÄ½ÇËÙ¶È´ÓÌ§½ÅÊ±¼ä¿ªÊ¼»ý·Ö£¬µÃµ½Ã¿¸öÊ±¼ä$t$Ê±µÄ½Ç¶È$\theta(t)$¡£
+¹«Ê½£¨\ref{eq:theta}£©¼ÆËãÃ¿¸öÊ±¿Ì¼ÓËÙ¶ÈyÖáÓëË®Æ½½Å²½·½ÏòµÄ¼Ð½Ç$\theta(t)$¡£ ÓÉÓÚÔÚÌ§½ÅÊ±¼ä¿ªÊ¼£¬³öÏÖÁË½ÅÃæµÄ×ª¶¯£¬ÎÒÃÇ¶ÔÓÚxÖáÍÓÂÝÒÇµÃµ½µÄ½ÇËÙ¶È´ÓÌ§½ÅÊ±¼ä¿ªÊ¼»ý·Ö£¬µÃµ½Ã¿¸öÊ±¼ä$t$Ê±µÄ½Ç¶È$\theta(t)$¡£
 
 \begin{gather}
 \theta(t)=\int_{\mathit{T_{u}}}^{t}g_x(t)\ dt, \quad t\in [\mathit{T_{u}}, \mathit{T_{r}}]
@@ -619,7 +622,9 @@ S_z &= \int_{T_l}^{T_d}\int_{T_l}^{t'}(a_{z}(t)sin(\theta(t))cos(\varphi))\ dtdt
 \label{eq:sn}
 \end{equation}
 
-ÎªÁË¹ÀËã²½³¤£¬ÎÒÃÇ»¹ÐèÒª¹ÀËã½ÇÉÏ¶È$\varphi$¡£ÈçÍ¼\ref{fig:phi}ËùÊ¾£¬
+ÎªÁË¹ÀËã²½³¤£¬ÎÒÃÇ»¹ÐèÒª¹ÀËã½ÇÉÏ¶È$\varphi$¡£ÈçÍ¼\ref{fig:phi}ËùÊ¾£¬ÎÒÃÇÈÃÓÃ»§Ö±ÏßÐÐ×ßÒ»¶Î¹Ì¶¨µÄ¾àÀë$s$£¬È»ºóÎÒÃÇÓÃ$a_f$½øÐÐÁ½´Î»ý·Ö£¬µÃµ½ÑØ×Å½Å²½·½ÏòµÄÎ»ÒÆ$s_f$¡£
+ÓÉÓÚ$\Delta{s_f}$Óë$\Delta{s}$Ö®¼äµÄ¼Ð½ÇÎª$\varphi$£¬ÎÒÃÇÍ¨¹ý$\varphi=arccos(\frac{\Delta{s}}{\Delta{s_f}})$µÃµ½$\varphi$¡£
+´ËÍâ£¬ÓÉÓÚ$s_f$Îª$\Delta{s_f}$µÄºÍ£¬$s$Îª$\Delta{s}$µÄºÍ¡£Òò´ËÎÒÃÇÓÐ$\varphi=arccos(\frac{s}{s_f})$¡£
 
 \begin{figure}[!ht]
 \centering
@@ -628,16 +633,262 @@ S_z &= \int_{T_l}^{T_d}\int_{T_l}^{t'}(a_{z}(t)sin(\theta(t))cos(\varphi))\ dtdt
 \label{fig:phi}
 \end{figure}
 
+Í¼\ref{fig:after_calibration}ËùÊ¾ÎªÓÃ»§Ò»¸ö²½³¤Îª1.23mµÄ½Å²½£¬²½³¤¹ÀËãÆ÷µÄ¹ÀËã½á¹û¡£
+Í¼\ref{fig:after_calibration} (a) ÏÔÊ¾ÁËÔ­Ê¼¼ÓËÙ¶ÈÊý¾Ý$a_y$ÓëÐ£Õý¹ýµÄÇ°½ø·½ÏòÊý¾Ý$a_m$¡£
+Í¼\ref{fig:after_calibration} (b) ÏÔÊ¾ÁË¶ÔÓ¦µÄÎ»ÒÆÊý¾Ý¡£ÎÒÃÇ¶ÔÔ­Ê¼¼ÓËÙ¶È$a_y$ºÍÐ£ÕýºóµÄ¼ÓËÙ¶È$a_m$·Ö±ð½øÐÐÁ½´Î»ý·Ö¡£
+¶ÔÓÚ$a_y$£¬ÎÒÃÇµÃµ½µÄ¹ÀËã²½³¤Îª1.86m¡£
+¶ÔÓÚ$a_m$£¬ÎÒÃÇµÃµ½µÃ¹ÀËã²½³¤Îª1.23m¡£
+²Î¿¼ÓÚÊµ¼Ê²½³¤1.23m£¬ÎÒÃÇµÄÐ£Õý·½·¨Ê¹µÃ²½³¤¹ÀËãÎó²î´Ó0.63m¼õÉÙÎª0.12m¡£
+
+\begin{figure}[!ht]
+\centering
+	\begin{minipage}{0.5\linewidth}
+        \centerline{\includegraphics[width=0.9\textwidth]{Figure/ay_calibrate.eps}}
+        \centerline{(a) ¼ÓËÙ¶È½ÃÕý}
+    \end{minipage}%
+	\begin{minipage}{0.5\linewidth}
+        \centerline{\includegraphics[width=0.9\textwidth]{Figure/sy_calibrate.eps}}
+        \centerline{(b) Î»ÒÆÐ£Õý}
+    \end{minipage}
+\caption{²½³¤¹ÀËãµÄ°¸ÀýÑÐ¾¿}
+\label{fig:after_calibration}
+\end{figure}
+
 \subsubsection{Ë«½ÅÐ£Õý»úÖÆ}
 
+ÎªÁË¸ü½üÒ»²½µÄ¼õÉÙÀÛ»ýÎó²î£¬FootStep-Tracker½«Á½¸ö´«¸ÐÆ÷·Ö±ðÇ¶ÈëÓÃ»§µÄ×óÓÒÁ½¸öÐ¬×ÓÖÐ£¬²¢·Ö±ðµÄ½øÐÐ²½³¤¹ÀËã¡£ÓÉÓÚÔÚÄ³Ò»ÌØ¶¨Ê±¿Ì£¬Á½¸ö½ÅµÄÀÛ¼Æ²½³¤£¬¼´Á½½ÅµÄÎ»ÖÃ²»»áÏà²îÌ«Ô¶£¬ÎÒÃÇ¸ø³öË«½ÅÐ£ÕýµÄ»úÖÆ¡£µ±Á½¸ö½Å·Ö±ðµÄÀÛ¼Æ²½³¤Ïà²î´ïµ½1m ÒÔÉÏÊ±£¬ÎÒÃÇ½«ËûÃÇµÄÆ½¾ùÖµ×÷Îªµ±Ç°µÄÓÃ»§ÐÐ×ß¾àÀë£¬²¢ÖØÖÃË«½ÅµÄÀÛ¼Æ²½³¤¡£
+
 \section{·½Ïò¹ÀËãÆ÷}
+\label{sec:step_direction_estimator}
+
+\subsection{ÑÐ¾¿¶¯»úºÍÌôÕ½}
+
+ÎªÁËµÃµ½ÓÃ»§µÄÐÐÎª¹ì¼££¬ÎÒÃÇÍ¬ÑùÐèÒª¼ÆËã³öÓÃ»§µÄÐÐ×ß·½Ïò¡£
+ÓÉÓÚÎÒÃÇ½«´«¸ÐÆ÷Ç¶Èëµ½ÓÃ»§µÄÐ¬×ÓÖÐ£¬ÎÒÃÇ¿ÉÒÔ¹ÀËãÓÃ»§½Å²¿×ßÂ·Ê±µÄÏà¶Ô×ª½Ç¡£È»¶ø£¬½Å²¿µÄÏà¶Ô×ª½Ç²¢²»ÊÇÈËÌåµÄÐÐ×ß·½Ïò±ä»¯¡£ËùÒÔ£¬ÎÒÃÇÐèÒªÍ¨¹ý¹ÀËã³öµÄ½Å²¿µÄ·½Ïò±ä»¯¶ø½øÒ»²½¹ÀËãÓÃ»§ÐÐ×ß·½ÏòµÄ±ä»¯¡£
+
+\subsection{ÊµÑé¹Û²ì}
+
+µ±ÓÃ»§×ó/ÓÒ×ªÊ±£¬ËûÃÇÍ¨³£ÒÔ´¹Ö±µÄ·½ÏòÎªÖá£¬ÈçÍ¼\ref{fig:axes} (b) ËùÊ¾£¬zÖáÓëÖØÁ¦·½ÏòÏà·´£¬Òò´ËÎÒÃÇÖ÷Òª¹Ø×¢Óë×ªÍä¶¯×÷×îÎªÏà¹ØµÄ$g_z$¡£
+
+Í¼\ref{fig:gzl_90_walking}ËùÊ¾ÎªÓÃ»§ÔÚÒ»¸ö90¶È×ó×ªÊ±£¬´«¸ÐÆ÷²É¼¯µ½µÄÊý¾Ý¡£Í¼ÖÐºìÉ«·½¿òÎª×ªÍäÊ±²É¼¯µ½µÄÊý¾Ý£¬¶ÔÓÚÒ»¸ö90¶ÈµÄ×ó×ªÀ´Ëµ£¬×ó½ÅÓÐÁ½²½µ¼ÖÂÁËÕâ´Î×ó×ª£¬ÓÒ½ÅÔÚ×ó½ÅµÄÕâÁ½²½Ö®¼äÓÐÒ»²½¡£´ËÍâ£¬µ±ÓÃ»§ÏòÇ°ÐÐ×ßÊ±£¬ÓÉÓÚ½Å²¿ÇáÎ¢µÄ×óÓÒ°Ú¶¯ºÍ°Ë×Ö½ÅµÄ¹ØÏµ£¬$g_z$Ò²ÓÐÇáÎ¢µÄ²¨¶¯¡£
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.9\textwidth]{Figure/gz_turn_l90.eps}
+\caption{ÓÃ»§×ó×ªÊ±µÄ´«¸ÐÆ÷Êý¾Ý}
+\label{fig:gzl_90_walking}
+\end{figure}
+
+Í¼\ref{fig:sketch_turn}ÎªÒ»¸öËÄ²½µÄ×ó×ª¡£ÎÒÃÇ¿ÉÒÔ¿´µ½£¬ÓÃ»§ÈÆ×ÅÄ³¸öÐéÄâµÄµã£¬ÎÒÃÇ¼ÇÎªÔ­µã$O$£¬×ó×ªÁË$\alpha$¶È¡£¶ÔÓÚÒ»Ö»½ÅÀ´Ëµ£¬ÎªÁËÍê³ÉÕâ´Î$\alpha$ µÄ×ªÍä£¬ËüÐèÒªÏÈºó×ªÁ½´Î£¬·Ö±ðÎª$\alpha_1,\alpha_2$¡£
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.9\textwidth]{Figure/turn_sketch.eps}
+\caption{Ò»¸ö$\alpha$¶ÈµÄ×ó×ª}
+\label{fig:sketch_turn}
+\end{figure}
+
+¶ÔÓÚÄ³¸öÌØ¶¨ÓÃ»§À´Ëµ£¬ÎÒÃÇ¼Ù¶¨ÔÚÆäÐÐ×ßµÄ¹ý³ÌÖÐ£¬½Å²¿·½Ïò£¨foot direction, $d_f$£©ºÍÐÐ×ß·½Ïò£¨moving direction£¬$d_m$£©µÄ¼Ð½ÇÊÇ²»±äµÄ¡£
+ÔÚÎÒÃÇµÄ³¡¾°ÖÐ£¬Õâ¸ö¼ÙÉèÊÇºÏÀíµÄ¡£ÕâÊÇÒòÎª¶ÔÓÚÄ³Ò»¸öÌØ¶¨µÄÓÃ»§À´Ëµ£¬Æä×ßÂ·µÄÏ°¹ß£¬ÀýÈç°Ë×Ö½ÅµÄ³Ì¶È£¬ÔÚÒ»¸öÏàµ±³¤µÄÊ±¼äÄÚÊÇ²»±äµÄ¡£
+
+ÎªÁË¹ÀËã³öÓÃ»§µÄ×ªÍä½Ç¶È$\alpha_i$£¬ÎÒÃÇ¸ø³öÈçÏÂ¶¨Àí£¬
+
+\begin{thm}
+¼ÙÉè½Å²¿·½Ïò£¨foot direction, $d_f$£©ºÍÐÐ×ß·½Ïò£¨moving direction£¬$d_m$£©µÄ¼Ð½Ç$\varphi$ ÊÇ²»±äµÄ¡£ÄÇÃ´½Å²¿µÄ×ª½Ç$\alpha_i$ÓëÈËÌå×ªÍäµÄ½Ç¶È$\beta_i$ÊÇÏàµÈµÄ.
+\label{thm:equal}
+\end{thm}
+
+\begin{proof}
+²»Ê§Ò»°ãÐÔ£¬ÈçÍ¼\ref{fig:turn_theta}ËùÊ¾£¬ÓÃ»§ÈÆ×Åµã$O$×ªÍäÁË$\alpha$½Ç¡£Áî´Ó$O$ µ½ÓÃ»§½ÅµÄ·½ÏòÎª$d_o$£¬½Å²½·½ÏòÎª$d_f$, ÐÐ×ß·½ÏòÎª$d_m$, Æä¼Ð½ÇÎª$ \varphi_i $ ºÍ $ \varphi_{i+1} $£¬½Å²½·½ÏòµÄÐý×ª½ÇÎª $ \beta_i $, Ç°½ø·½ÏòµÄÐý×ª½ÇÎª$ \gamma $¡£
+ÓÉ$d_w$´¹Ö±ÓÚ$d_o$£¬ÄÇÃ´ÓÐ$\alpha_i=\gamma$. ÓÉÓÚ¶Ô¶¥½ÇÏàµÈ£¬ÎÒÃÇÓÐ$ \gamma + \varphi_i +\lambda = \beta_i + \varphi_{i+1} + \lambda $¡£¸ù¾Ý¼ÙÉè£¬$ \varphi_i = \varphi_{i+1} $£¬ÄÇÃ´ $ \gamma = \beta_i $¡£ËùÒÔÎÒÃÇÓÐ$ \alpha_i = \beta_i $¡£
+\end{proof}
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.9\textwidth]{Figure/turn_theta.eps}
+\caption{Foot direction and moving direction}
+\label{fig:turn_theta}
+\end{figure}
+
+\subsection{½â¾ö·½°¸}
+
+FootStep-TrackerÀûÓÃµÍÍ¨ÂË²¨È¥µôÓÃ»§×ßÖ±ÏßÊ±µÄÊý¾ÝÔëÉù£¬½«×ªÍä²½´ÓÖ±ÐÐ²½ÖÐÌáÈ¡³öÀ´¡£´ËÍâ£¬¶ÔÓÚÒ»²½À´Ëµ£¬ÎÒÃÇ·¢ÏÖ½Å²¿³öÏÖ×ªÍäÔË¶¯µÄÊ±¼äÔÚÉÏÎÄÌáµ½µÄµÚ£¨3£©½×¶Î£¬´ÓÌ§½ÅÊ±¼äµ½×ÅÂ½Ê±¼ä¡£ÕâÊÇÒòÎªÔÚµÚ£¨1£©-£¨2£©½×¶Î£¬½Å¸úÌ§Æð£¬×¼±¸ÏòÇ°ÒÆ¶¯¡£ÔÚµÚ£¨4£©-£¨5£©½×¶Î£¬½ÅÕýÔÚ×ÅµØ¡£ÕâÐ©½×¶ÎÖÐ£¬½Å²¿¶¼Ã»ÓÐÈÆ×ÅzÖáÐý×ª¡£ÎÒÃÇÊ¹ÓÃÉÏÎÄÌáµ½µÄËã·¨\ref{alg:fpe}£¬µÃµ½¸÷¸ö¹Ø¼üÊ±¼ä¡£
+
+ÎÒÃÇÍ¨¹ýµÃµ½µÄÌ§½ÅÊ±¼äºÍ×ÅµØÊ±¼ä£¬ÀûÓÃ¹«Ê½(\ref{eq:turn_degree})¼ÆËãÓÃ»§µÄ×ªÍä½Ç¶È¡£ÓÉÓÚ½Å²¿ÒÔzÖáÎªÖá£¬ÎÒÃÇ´ÓÌ§½ÅÊ±¼äµ½×ÅµØÊ±¼ä¶Ô$g_z$»ý·Ö£¬µÃµ½½Å²¿·½Ïò$d_f$µÄÐý×ª½Ç¶È$\beta_i$¡£È»ºó£¬¸ù¾Ý¶¨Àí\ref{thm:equal}£¬ÎÒÃÇÓÐÇ°½ø·½ÏòµÄ×ª½ÇÓë½Å²¿·½ÏòµÄ×ª½ÇÏàµÈ£¬¼´${\alpha_i}={\beta_i}$¡£¶ÔÓÚ¶à²½µÄ×ªÍä£¬ÎÒÃÇ½«Ã¿Ò»²½µÄ×ªÍä½Ç¶ÈÀÛ¼Ó£¬´Ó¶øµÃµ½×ÜÌåµÄ×ªÍä½Ç¶È¡£
+
+\begin{equation}
+\begin{aligned}
+& \alpha   =\sum_{i=1}^{n} \alpha_i \\
+& \alpha_i =\beta_i =\int_{\mathit{T_{l}}}^{\mathit{T_{d}}}g_z(t) \ dt
+\label{eq:turn_degree}
+\end{aligned}
+\end{equation}
+
+\section{²Î¿¼µØµã¹À¼Æ}
+
+Í¨¹ý²½³¤¹ÀËãÆ÷\ref{sec:step_length_estimator}ºÍ·½Ïò¹ÀËãÆ÷\ref{sec:step_direction_estimator}£¬ÎÒÃÇ¿ÉÒÔ×¼È·µÄ¹ÀËãÓÃ»§µÄÐÐÎª¹ì¼£¡£
+È»¶ø£¬ÎÒÃÇÈÔÈ»ÐèÒª½«ÐÐÎª¹ì¼£Ç¶Èëµ½È«¾ÖµÄÊÒÄÚµØÍ¼ÖÐ¡£
+
+ÎªÁËÍ¨¹ýÐÐÎª¹ì¼£ºÍÊÒÄÚµØÍ¼È·¶¨ÓÃ»§µÄÈ·ÇÐÎ»ÖÃ£¬ÎÒÃÇÓÐÁËÈçÏÂÁ½¸öÏë·¨£ºÊ×ÏÈ£¬ÓÃ»§µÄÐÐÎª¹ì¼£ÊÜµ½ÊÒÄÚÎïÀíÍØÆË½á¹¹µÄÏÞÖÆ£¬Ò²¾ÍÊÇËµ£¬ÓÃ»§²»ÄÜ´©Ç½¡£µÚ¶þ£¬ÓÉÓÚ²Î¿¼µØµã£¬°üÀ¨Â¥ÌÝºÍµçÌÝ£¬ËüÃÇµÄÎ»ÖÃÔÚÊÒÄÚµØÍ¼ÖÐÊÇ¹Ì¶¨µÄ¡£ËùÒÔµ±ÓÃ»§ÔÚ½øÐÐ²Î¿¼ÐÐÎªÊ±£¬ÀýÈçÉÏµçÌÝ¡¢ÉÏÂ¥ÌÝ£¬ÎÒÃÇ¾Í¿ÉÒÔÈ·ÇÐµÄ¶¨Î»ÓÃ»§ÔÚ¼¸¸ö¿ÉÄÜµÄ²Î¿¼µØµãÉÏ¡£
+
+ÎªÁË¶¨Î»ÓÃ»§ºÍ¸ü½øÒ»²½µÄ×·×ÙºÍµ¼º½£¬ÎÒÃÇ²ÉÓÃÁËÌ°Ê³Éß²ßÂÔ\cite{snake}¡£ÈçÍ¼\ref{fig:Anakonda} (a) ËùÊ¾£¬ÓÃ»§³Ë×øµçÌÝÀ´µ½»·¾³ÖÐ£¬È»ºóÓÒ×ª×ßÁËÒ»Ð¡¶Î¾àÀë¡£´ËÊ±¸ù¾ÝÐÐ×ß¹ì¼£ºÍµçÌÝµÄÎ»ÖÃ£¬ÓÐÈý¸ö¿ÉÄÜµÄÓÃ»§Î»ÖÃ¡£Ëæ×ÅÓÃ»§ÐÐ×ß£¬µ½ÁËÈçÍ¼ (b) µÄÊ±¿Ì£¬ÓÉÓÚµØÍ¼ÍØÆË»·¾³µÄÏÞÖÆ£¬¿ÉÄÜµÄÐÐ×ß¹ì¼£ (2) ºÍ (3) ±»ÅÅ³ýµôÁË£¬´Ó¶øÉ¸Ñ¡³öÈ·ÇÐµÄÓÃ»§ÐÐÎª¹ì¼£(1)¡£
+
+\begin{figure}[!ht]
+\centering
+	\begin{minipage}{0.5\linewidth}
+        \centerline{\includegraphics[width=0.9\textwidth]{Figure/Anakonda1.eps}}
+        \centerline{(a) ¿ÉÄÜµÄÐÐÎª¹ì¼£}
+    \end{minipage}%
+	\begin{minipage}{0.5\linewidth}
+        \centerline{\includegraphics[width=0.9\textwidth]{Figure/Anakonda2.eps}}
+        \centerline{(b) ¹ýÂËµô²»¿ÉÄÜµÄÐÐÎª¹ì¼£}
+    \end{minipage}
+\caption{Ì°Ê³Éß²ßÂÔ}
+\label{fig:Anakonda}
+\end{figure}
+
+ÓÉÓÚÎÒÃÇÒÑ¾­Í¨¹ýÐÐÎª·ÖÀàÆ÷\ref{sec:activity_classifier}£¬Èç¹ûÓÃ»§ÕýÔÚÉÏÏÂµçÌÝ»òÕßÂ¥ÌÝ£¬ÎÒÃÇÔÚµØÍ¼ÖÐÕÒµ½µçÌÝºÍÂ¥ÌÝµÄÎ»ÖÃ×÷Îª²Î¿¼µØµã¡£Í¨¹ýÌ°Ê³Éß²ßÂÔ£¬ÎÒÃÇ¿ÉÒÔ½øÒ»²½È·¶¨È·ÇÐµÄÓÃ»§Î»ÖÃ£¬½ø¶ø½øÐÐ³ÖÐø¶¨Î»¡£
 
 \section{ÊµÑéÑéÖ¤¼°½á¹û·ÖÎö}
 
+\subsection{ÏµÍ³ÊµÏÖ}
+
+\noindent\textbf{Ó²¼þ£º}ÎÒÃÇµÄÏµÍ³°üº¬ÓÉµÂÖÝÒÇÆ÷¹«Ë¾Éú²úµÄCC2541 SensorTag\cite{sensortag}ºÍÒ»Ì¨ÈýÐÇGalaxy S5°²×¿ÖÇÄÜÊÖ»ú¡£
+
+\noindent\textbf{Èí¼þ£º}ÎÒÃÇµÄÏµÍ³²ÉÓÃJAVAÓïÑÔ£¬ÊµÏÖÓÚ°²×¿Æ½Ì¨¡£´«¸ÐÆ÷Í¨¹ýÀ¶ÑÀÏòÖÇÄÜÊÖ»ú´«ÊäÊý¾Ý¡£ÖÇÄÜÊÖ»úÀûÓÃ´«¸ÐÆ÷Êý¾Ý¶¨Î»ºÍ×·×ÙÓÃ»§µÄÎ»ÖÃ£¬²¢Ìá¹©Í¼ÐÎ½»»¥½çÃæ£¨Graphical User Interface£¬GUI£©¡£
+
+\subsection{ÊµÑéÉè¶¨}
+
+SensorTagµÄ²ÉÑùÆµÂÊÎª20Hz£¬ÆäÈçÍ¼\ref{fig:sensortag}ËùÊ¾µÄÇ¶ÈëÓÃ»§µÄÐ¬µæÖÐ¡£ÎÒÃÇÑ¡ÔñÎÒÃÇµÄÏµ°ì¹«Â¥×÷ÎªÎÒÃÇÆÀ¹ÀÊ¹ÓÃµÄÊÒÄÚ»·¾³£¬ÆäÃæ»ýÔ¼Îª56m$\times$63m¡£ ÎÒÃÇ²ÉÓÃ·ÖÀà×¼È·ÂÊÆÀ¹ÀÐÐÎª·ÖÀàÆ÷£¬²ÉÓÃ¶¨Î»Îó²îÆÀ¹À²½³¤¹ÀËãÆ÷ºÍ·½Ïò¹ÀËãÆ÷¡£
+
+\subsection{ÆÀ¹ÀÐÐÎª·ÖÀàÆ÷}
+
+ÎªÁËÆÀ¹ÀÐÐÎª·ÖÀàÆ÷£¬ÎÒÃÇÊ×ÏÈ²É¼¯ÁËÉÏÎÄÖÐÌáµ½µÄ6¸öÐÐÎªµÄ´«¸ÐÆ÷Êý¾Ý¡£
+¶ÔÓÚÃ¿Ò»¸öÐÐÎª£¬ÎÒÃÇÊÕ¼¯ÁËÀ´×Ô3¸öÓÃ»§µÄ500¸ö´°¿ÚµÄ¼ÓËÙ¶ÈºÍÍÓÂÝÒÇÊý¾Ý¡£
+È»ºóÎÒÃÇÀûÓÃÕâÐ©Êý¾ÝÀ´ÑµÁ·HMMÄ£ÐÍÒÔ¼°È·¶¨¾ö²ßÊ÷µÄãÐÖµ¡£
+ÎÒÃÇ½«ÑµÁ·ºÃµÄ·ÖÀàÆ÷ÔÚÏßÎªÖ®Ç°µÄ3¸öÓÃ»§ºÍ5¸öÐÂµÄÓÃ»§½øÐÐÐÐÎª·ÖÀà¡£
+ËûÃÇÔÚ»·¾³ÖÐ×ßÂ·»òÕßÊÇÉÏÏÂÂ¥ÌÝ¡¢µçÌÝ¡£
+Í¼\ref{fig:activity_classifier}ÏÔÊ¾ÁËÐÐÎª·ÖÀàÆ÷µÄ×¼È·ÂÊ¡£
+¶ÔÓÚÓÃ¾ö²ßÊ÷£¬¼´ÓÃÓÚ·ÖÀà¾²Ö¹Õ¾Á¢£¨SS£©£¬µçÌÝÖÐµÄ³¬ÖØ×´Ì¬£¨EHG£©ºÍµçÌÝÖÐµÄÊ§ÖØ×´Ì¬£¨EWL£©µÄ²¿·Ö£¬ËüÏà¶ÔÓÚHMM µÄ²¿·ÖÀ´Ëµ×¼È·ÂÊ¸ü¸ß¡£
+ÕâÊÇÒòÎªÕâÐ©ÐÐÎª¾ßÓÐÒ»Ð©±¾ÖÊµÄÇø±ð£¬ÀýÈç·½²îºÍÆ½¾ùÊý¡£
+È»¶ø£¬ÉÏÂ¥ÌÝ£¨UST£©£¬ÏÂÂ¥ÌÝ£¨DST£©ºÍ×ßÂ·£¨WALK£©Ïà»¥¸üÎªÏàËÆ¡£
+Æ½¾ùÇé¿öÏÂ£¬ÎÒÃÇ¾ßÓÐ´óÔ¼96.2\%µÄ·ÖÀà×¼È·ÂÊ¡£
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.7\textwidth]{Figure/eva_classification.eps}
+\caption{ÐÐÎª·ÖÀàÆ÷×¼È·ÂÊ}
+\label{fig:eva_activity_classificaton}
+\end{figure}
+
+\subsection{ÆÀ¹À²½³¤¹ÀËãÆ÷}
+
+ÎªÁËÆÀ¹À²½³¤¹ÀËãÆ÷£¬ÎÒÃÇ¸ú×ÙÒ»¸ö´©×ÅFootStep-TrackerµÄÓÃ»§£¬ÑØ×ÅÒ»¸ö³¤Ô¼63m µÄ×ßÀÈÖ±ÏßÐÐ×ß¡£ÁíÍâ£¬×÷Îª¶Ô±È£¬ÎÒÃÇ²ÉÓÃ´«Í³µÄ¸ù¾ÝÉí¸ß¹ÀËã²½³¤£¬ÔÙÓÃ²½³¤³ËÒÔ²½ÊýµÄ·½·¨¹ÀËã¾àÀë¡£Í¼\ref{fig:eva_step_length} (a) ÏÔÊ¾ÁËÆä¶¨Î»Îó²î¡£
+ÈçÇúÏß\emph{One Foot}ÏÔÊ¾ÁË²½³¤¹ÀËãÆ÷Ö»×÷ÓÃÓÚÒ»Ö»½ÅÊ±µÄ¶¨Î»Îó²î¡£
+ÇúÏß\emph{Common Method}ÏÔÊ¾ÁË´«Í³·½·¨µÄ¶¨Î»Îó²î¡£
+ÇúÏß\emph{Double Feet}ÏÔÊ¾ÁË²½³¤¹ÀËãÆ÷²ÉÓÃË«½ÅÐ£ÕýºóµÄ¶¨Î»Îó²î¡£
+¶¨Î»Îó²î´Ó14.64\%(9.23m/63m)ºÍ14.60\%(9.2m/63m)¼õÉÙµ½4.19\%(2.63m/63m)¡£
+Í¼\ref{fig:eva_step_length} (b) ÏÔÊ¾ÁË²½³¤¹ÀËãÆ÷Îó²îµÄCDFÍ¼¡£Ã¿²½²½³¤µÄÎó²î´óÔ¼Î§ÈÆÔÚ0·Ö²¼£¬²ÉÓÃË«½ÅÐ£ÕýÊ±µÄ¶¨Î»Îó²îÓÐÐ§¼õÉÙÁË0.2m×óÓÒ¡£
+
+\begin{figure}[!ht]
+\centering
+	\begin{minipage}{0.5\linewidth}
+        \centerline{\includegraphics[width=0.9\textwidth]{Figure/eva_stride_length.eps}}
+        \centerline{(a) ÓÃ»§Ö±ÏßÐÐ×ßµÄ¶¨Î»Îó²î}
+    \end{minipage}%
+	\begin{minipage}{0.5\linewidth}
+        \centerline{\includegraphics[width=0.9\textwidth]{Figure/eva_step_length_error_cdf.eps}}
+        \centerline{(b) ¶¨Î»Îó²îCDF}
+    \end{minipage}
+\caption{ÆÀ¹À²½³¤¹ÀËãÆ÷}
+\label{fig:eva_step_length}
+\end{figure}
+
+\subsection{ÆÀ¹À·½Ïò¹ÀËãÆ÷}
+
+ÎªÁËÆÀ¹À·½Ïò¹ÀËãÆ÷£¬ÎÒÃÇÑûÇëÁË8Î»ÓÃ»§£¬´Ó-180¶Èµ½+180¶È£¬ÒÔ30¶ÈÎªÁ£¶È£¬Ã¿´Î×ªÍä10 ´Î¡£Í¼\ref{fig:eva_step_direction} (a) ÏÔÊ¾ÁË½Ç¶ÈÎó²î¡£
+
+ÔÚÎÒÃÇµÄ»·¾³ÖÐ£¬ËùÓÐµÄ×ª½Ç¶¼ÊÇÖ±½Ç¡£ÎªÁË¸ü½øÒ»²½µÄÌá¸ß¶¨Î»×¼È·ÂÊ£¬ÎÒÃÇ²ÉÓÃÁ½½Å¹ÀËãµÄÁ½¸ö½Ç¶È×÷ÎªÌØÕ÷£¬ÀûÓÃÖ§³ÅÏòÁ¿»ú£¨Support Vector Machine£¬SVM£©½«×ªÍäÐÐÎª·ÖÀà³ÉÈýÀà£¬×ó×ª£¨LEFT£©£¬ÓÒ×ª£¨RIGHT£©ºÍµôÍ·£¨TURN\_AROUND£©¡£
+ÎÒÃÇÑûÇëÈý¸öÓÃ»§£¬¶ÔÓÚÃ¿Ò»¸ö×ªÍäÀà±ð¶¼×ªÍä30´Î¡£ÎÒÃÇÀûÓÃÊÕ¼¯µÄÊý¾ÝÑµÁ·SVMÄ£ÐÍ£¬È»ºóÎÒÃÇÔÙ5¸öÐÂÓÃ»§ÉÏ½øÐÐÔÚÏß²âÊÔ¡£Í¼\ref{fig:eva_step_direction} (b) ÏÔÊ¾ÁË·ÖÀàºóµÄ×ªÍäÎó²î¡£×óÓÒ×ªÍä¿ÉÒÔ±È½Ï×¼È·µÄÇø·Ö¿ª£¬ÕâÊÇÒòÎª$g_z$¾ßÓÐÕý¸ºÏà·´µÄ¶ÁÊý¡£È»¶øÇø·Ö×óÓÒ×ªºÍµôÍ·Ê±£¬»á³öÏÖÒ»Ð©ÎóÅÐ£¬ÕâÊÇÒòÎªËûÃÇÖ®¼äÖ»¾ßÓÐ½Ç¶ÈµÄ²î±ð¡£Æ½¾ùÇé¿öÏÂ£¬ÎÒÃÇµÄ×¼È·ÂÊ¿ÉÒÔ´ïµ½98.3\%¡£
+
+\begin{figure}[!ht]
+\centering
+	\begin{minipage}{0.5\linewidth}
+        \centerline{\includegraphics[width=0.9\textwidth]{Figure/theta_cal_l.eps}}
+        \centerline{(a) ½Ç¶ÈÎó²î}
+    \end{minipage}%
+	\begin{minipage}{0.5\linewidth}
+        \centerline{\includegraphics[width=0.9\textwidth]{Figure/eva_turn_cla.eps}}
+        \centerline{(b) ·ÖÀàºóµÄ½Ç¶ÈÎó²î}
+    \end{minipage}
+\caption{ÆÀ¹À·½Ïò¹ÀËãÆ÷}
+\label{fig:eva_step_direction}
+\end{figure}
+
+\subsection{ÕæÊµ»·¾³ÖÐµÄ¶¨Î»ÑùÀýÑÐ¾¿}
+
+ÎªÁËÆÀ¹ÀFootStep-Tracker£¬ÎÒÃÇÑûÇëÁË5¸öÓÃ»§½øÐÐ²âÊÔ¡£ËûÃÇ´©×ÅFootStep-Tracker£¬ÑØ×ÅÈçÍ¼\ref{fig:path}ËùÊ¾µÄºìÉ«ÊµÏßµÄÂ·ÏßÐÐ¶¯¡£ÔÚÁù´Î×ªÍäÖ®ºó£¬Ëû³Ë×øÁíÒ»¸öµçÌÝÀë¿ªµ±Ç°ÊÒÄÚ»·¾³¡£Ê×ÏÈ£¬FootStep-Tracker²¢²»ÄÜÈ·¶¨ÄÄ¸öµçÌÝÎªÓÃ»§µÄÈ·ÇÐÎ»ÖÃ¡£Í¼ÖÐµÄÀ¶É«ÐéÏßÏÔÊ¾ÁË¿ÉÄÜµÄÓÃ»§Î»ÖÃ¡£Ê×ÏÈ£¬ÓÃ»§×ßÁËÒ»Ð¡¶Î¾àÀë£¬È»ºóÓÒ×ª£¬Ö±×ßÁËÒ»¶ÎºÜ³¤µÄ¾àÀë¡£´ËÊ±£¬FootStep-TrackerÍ¨¹ýÌ°Ê³Éß²ßÂÔ\cite{snake}¿ÉÒÔÅÅ³ýÁËÐéÏßËùÊ¾µÄ¼¸¸öÓÃ»§ÐÐÎª¹ì¼£¡£Í¼\ref{fig:eva_case_study} (a) ÏÔÊ¾ÁËÒ»¸öÓÃ»§×ßÂ·µÄ²½ÊýÓë¶¨Î»Îó²îµÄ¹ØÏµ¡£ÔÚ¿ªÊ¼Ê±£¬FootStep-TrackerÓÉÓÚ»¹Ã»ÓÐÈ·¶¨ÓÃ»§µÄ¿ÉÄÜÎ»ÖÃ£¬¾ßÓÐ½Ï´óµÄ¶¨Î»Îó²î¡£Ëæ×ÅÓÃ»§¼ÌÐøÐÐ×ß£¬ÓÃ»§µÄÈ·ÇÐÎ»ÖÃÔÚÁù²½Ö®ºóÈ·¶¨£¬¶¨Î»Îó²îÈñ¼õµ½1m×óÓÒ¡£Í¼\ref{fig:eva_case_study} (b) ÏÔÊ¾ÁË×ªÍäÊýºÍ¶¨Î»Îó²îµÄ¹ØÏµ¡£ÓÉÓÚµÚÒ»¸ö×ªÍäÊ±£¬ÓÃ»§µÄÈ·ÇÐÎ»ÖÃ»¹Ã»ÓÐÈ·¶¨£¬²¢²»¾ßÓÐ²Î¿¼¼ÛÖµ¡£ÎÒÃÇ´ÓµÚ¶þ¸ö×ªÍä¿ªÊ¼£¬·¢ÏÖËæ×Å×ªÍäÊýÄ¿µÄÔö¼Ó£¬¶¨Î»Îó²î¿ÉÒÔÃ÷ÏÔ¼õÉÙ£¬´ËÍâË«½ÅÐ£ÕýÒ²¿ÉÒÔÓÐÐ§µÄ¼õÉÙÎó²î¡£Í¼\ref{fig:eva_case_study} (c) ÏÔÊ¾ÁËÆ½¾ùÎó²îÔÚ´óÔ¼1m×óÓÒ¡£
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{Figure/path.eps}
+\caption{Walking Path.}
+\label{fig:path}
+\end{figure}
+
+\begin{figure}[!ht]
+\centering
+	\begin{minipage}{0.33\linewidth}
+        \centerline{\includegraphics[width=0.9\textwidth]{Figure/eva_path.eps}}
+        \centerline{(a) ½Ç¶ÈÎó²î}
+    \end{minipage}%
+	\begin{minipage}{0.33\linewidth}
+        \centerline{\includegraphics[width=0.9\textwidth]{Figure/eva_error_turn.eps}}
+        \centerline{(b) ·ÖÀàºóµÄ½Ç¶ÈÎó²î}
+    \end{minipage}%
+    \begin{minipage}{0.33\linewidth}
+        \centerline{\includegraphics[width=0.9\textwidth]{Figure/eva_path_users.eps}}
+        \centerline{(b) ·ÖÀàºóµÄ½Ç¶ÈÎó²î}
+    \end{minipage}
+\caption{ÕæÊµ»·¾³ÖÐµÄ°¸ÀýÆÀ¹À}
+\label{fig:eva_case_study}
+\end{figure}
+
 \section{±¾ÕÂÐ¡½á}
+
+±¾ÕÂÖÐ£¬ÎÒÃÇ²ûÊÍÁË»ùÓÚ½Å²½¸ÐÖªµÄÎÞÃª½ÚµãÊÒÄÚ¶¨Î»ÏµÍ³¡£ÎÒÃÇ½«´«¸ÐÆ÷Ç¶ÈëÓÃ»§µÄÐ¬×ÓÖÐ£¬ÀûÓÃ¼ÓËÙ¶È¼ÆºÍÍÓÂÝÒÇ¹ÀËãÓÃ»§µÄ²½³¤ºÍÐÐ×ß·½Ïò¡£³ý´ËÖ®Íâ£¬ÎÒÃÇ¼ì²âÓÃ»§µÄ²Î¿¼ÐÐÎª£¬ÀýÈçÉÏÏÂÂ¥ÌÝºÍ³Ë×øµçÌÝ£¬ÒÔµÃµ½ÓÃ»§µÄ²Î¿¼µØµã°ïÖú¶¨Î»¡£ÎÒÃÇÔÚÒ»¸ö½Ï´óµÄÊÒÄÚ»·¾³ÖÐ¼ìÑéÎÒÃÇµÄÏµÍ³£¬¶¨Î»¾«¶È¿ÉÒÔ´ïµ½1m×óÓÒ¡£
 
 \chapter{»ùÓÚ½Å²½¸ÐÖªµÄÎÞÃª½ÚµãÊÒÄÚ¶¨Î»ÏµÍ³ÊµÏÖ}
 \label{C:implement}
+
+\section{ÏµÍ³ÊµÏÖ¸ÅÊö}
+
+ÔÚÓÚ½Å²½¸ÐÖªµÄÎÞÃª½ÚµãÊÒÄÚ¶¨Î»ÏµÍ³µÄ»ù´¡ÉÏ£¬ÎÒÃÇ¶ÔFootStep-Tracker ×öÁËÊµ¼ÊµÄÏµÍ³ÊµÏÖ¡£ÎÒÃÇ²ÉÓÃµÂÖÝÒÇÆ÷¹«Ë¾Éú²úµÄSensorTag\cite{sensortag}ºÍÈýÐÇ¹«Ë¾Éú²úµÄGlaxy S5¶ÔÏµÍ³½øÐÐÁËÊµÏÖ¡£
+
+±¾ÕÂÊ×ÏÈ½éÉÜÁËÏµÍ³ÊµÏÖµÄÓ²¼þÓëÈí¼þÆ½Ì¨¡£ÔÚ´Ë»ù´¡ÉÏ£¬½éÉÜÁËÏµÍ³Éè¼ÆµÄ¸÷¸ö²¿·Ö£¬°üÀ¨Æä³¡¾°½á¹¹¡¢Êý¾ÝÁ÷ºÍ¹¤×÷Ô­Àí¡£×îºó£¬¶ÔÏµÍ³ÔÚAndroidÆ½Ì¨ÉÏµÄÊµÏÖÐ§¹û½øÐÐÕ¹Ê¾¡£
+
+\section{ÊµÏÖÆ½Ì¨}
+
+\subsection{Ó²¼þÆ½Ì¨}
+
+FootStep-TrackerµÄÊµÏÖ²ÉÓÃÁËµÂÖÝÒÇÆ÷¹«Ë¾Éú²úµÄSensorTag\cite{sensortag}×÷ÎªÇ¶ÈëÓÃ»§Ð¬×ÓÖÐµÄ´«¸ÐÆ÷Ð¾Æ¬¡£
+
+\begin{figure}
+\centering
+\includegraphics[width=0.7\textwidth]{Figure/sensortag.jpg}
+\caption{µÂÖÝÒÇÆ÷¹«Ë¾Éú²úµÄCC2541 SensorTag\cite{sensortag}Al-Osh1987}
+\label{fig:sensortag}
+\end{figure}
+
+
+
+\subsection{Èí¼þÆ½Ì¨}
+
+\section{ÏµÍ³Éè¼Æ}
+
+\section{ÊµÏÖÐ§¹û}
+
+\section{±¾ÕÂÐ¡½á}
 
 \chapter{×Ü½áÓëÕ¹Íû}
 \label{C:conclusion}

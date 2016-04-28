@@ -18,6 +18,18 @@
   internet is changing everything}.
 \newblock \bibinfo{journal}{CISCO white paper} \bibinfo{volume}{1},
   \bibinfo{pages}{1--11}.
+%Type = Inproceedings
+\bibitem[{Gogolak 等(2011)Gogolak, Pletl 和~ Kukolj}]{fp1}
+\bibinfo{author}{Gogolak, L.}, \bibinfo{author}{Pletl, S.},
+  \bibinfo{author}{Kukolj, D.}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Indoor fingerprint localization in wsn environment
+  based on neural network}, in: \bibinfo{booktitle}{Proc. of IEEE SISY}.
+%Type = Inproceedings
+\bibitem[{He 等(2015)He, Hu 和~ Chan}]{fp2}
+\bibinfo{author}{He, S.}, \bibinfo{author}{Hu, T.}, \bibinfo{author}{Chan,
+  S.H.G.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Contour-based trilateration for indoor fingerprinting
+  localization}, in: \bibinfo{booktitle}{Proc. of ACM SenSys}.
 %Type = Unpublished
 \bibitem[{IDC(2014)}]{IotMarket}
 \bibinfo{author}{IDC}, \bibinfo{year}{2014}.
@@ -30,17 +42,5 @@
 \newblock \bibinfo{title}{Sensortag}.
 \newblock
   \bibinfo{note}{\url{http://www.ti.com/lsds/ti/analog/sensors/overview.page}}.
-%Type = Misc
-\bibitem[{Wikipedia(2016a)}]{snake}
-\bibinfo{author}{Wikipedia}, \bibinfo{year}{2016}a.
-\newblock \bibinfo{title}{Snake (video game)}.
-\newblock
-  \bibinfo{note}{\url{https://en.wikipedia.org/wiki/Snake_(video_game)}}.
-%Type = Misc
-\bibitem[{Wikipedia(2016b)}]{WearableComputer}
-\bibinfo{author}{Wikipedia}, \bibinfo{year}{2016}b.
-\newblock \bibinfo{title}{Wearable computer}.
-\newblock
-  \bibinfo{note}{\url{https://en.wikipedia.org/wiki/Wearable_computer}}.
 
 \end{thebibliography}
