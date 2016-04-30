@@ -24,49 +24,6 @@
   year = {2014}
 }
 
-
-@misc{WearableComputer,
-  author = {Wikipedia},
-  title = {Wearable computer},
-  note = {\url{https://en.wikipedia.org/wiki/Wearable_computer}},
-  year = {2016}
-}
-
-@misc{snake,
-  author = {Wikipedia},
-  title = {Snake (video game)},
-  note = {\url{https://en.wikipedia.org/wiki/Snake_(video_game)}},
-  year = {2016}
-}
-
-@misc{s5,
-  author = {Samsung},
-  title = {Samsung GALAXY S5},
-  note = {\url{http://www.samsung.com/cn/promotions/s5/index.html}},
-  year = {2014}
-}
-
-@misc{ble,
-  author = {Bluetooth SIG},
-  title = {Bluetooth Smart (Low Energy) Technology},
-  note = {\url{https://developer.bluetooth.org/TechnologyOverview/Pages/BLE.aspx}},
-  year = {2016}
-}
-
-@misc{java,
-  author = {ORACLE},
-  title = {JAVA},
-  note = {\url{https://www.java.com/zh_CN/}},
-  year = {2016}
-}
-
-@misc{android,
-  author = {Google},
-  title = {Android},
-  note = {\url{https://www.android.com/}},
-  year = {2016}
-}
-
 @article{ciscoIoT,
   title={The internet of things: How the next evolution of the internet is changing everything},
   author={Evans, Dave},
@@ -74,6 +31,49 @@
   volume={1},
   pages={1--11},
   year={2011}
+}
+
+@inproceedings{fp1,
+  title={Indoor fingerprint localization in WSN environment based on neural network},
+  author={Gogolak, Laslo and Pletl, Silvester and Kukolj, Dragan},
+  booktitle={Proc. of IEEE SISY},
+  year={2011},
+}
+
+@inproceedings{fp2,
+  title={Contour-based Trilateration for Indoor Fingerprinting Localization},
+  author={He, Suining and Hu, Tianyang and Chan, S-H Gary},
+  booktitle={Proc. of ACM SenSys},
+  year={2015}
+}
+
+@inproceedings{fp3,
+  title={WiFi fingerprint indoor positioning system using probability distribution comparison},
+  author={Le Dortz, Nicolas and Gain, Florian and Zetterberg, Per},
+  booktitle={Proc. of IEEE ICASSP},
+  year={2012},
+  organization={IEEE}
+}
+
+@inproceedings{fp4,
+  title={Locating in fingerprint space: wireless indoor localization with little human intervention},
+  author={Yang, Zheng and Wu, Chenshu and Liu, Yunhao},
+  booktitle={Proc. of ACM MobiCom},
+  year={2012}
+}
+
+@article{landmarc1,
+  title={LANDMARC: indoor location sensing using active RFID},
+  author={Ni, Lionel M and Liu, Yunhao and Lau, Yiu Cho and Patil, Abhishek P},
+  journal={Wireless networks},
+  year={2004}
+}
+
+@inproceedings{landmarc2,
+  title={RFID 2D-localization improvement using modified LANDMARC with linear MMSE estimation},
+  author={Sansanayuth, Thitipong and Suksompong, Prapun and Chareonlarpnopparut, Chalie and Taparugssanagorn, Attaphongse},
+  booktitle={Proc. of IEEE ISCIT},
+  year={2013}
 }
 
 @ARTICLE{Al-Osh1987,

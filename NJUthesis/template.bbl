@@ -1,4 +1,4 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{11}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -64,5 +64,18 @@
 \newblock \bibinfo{title}{Sensortag}.
 \newblock
   \bibinfo{note}{\url{http://www.ti.com/lsds/ti/analog/sensors/overview.page}}.
+%Type = Inproceedings
+\bibitem[{Wann 等(2006)Wann, Yeh 和~ Hsueh}]{aoa1}
+\bibinfo{author}{Wann, C.D.}, \bibinfo{author}{Yeh, Y.J.},
+  \bibinfo{author}{Hsueh, C.S.}, \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{Hybrid tdoa/aoa indoor positioning and tracking using
+  extended kalman filters}, in: \bibinfo{booktitle}{Proc. of IEEE VTC}.
+%Type = Inproceedings
+\bibitem[{Yang 等(2012)Yang, Wu 和~ Liu}]{fp4}
+\bibinfo{author}{Yang, Z.}, \bibinfo{author}{Wu, C.}, \bibinfo{author}{Liu,
+  Y.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Locating in fingerprint space: wireless indoor
+  localization with little human intervention}, in: \bibinfo{booktitle}{Proc.
+  of ACM MobiCom}.
 
 \end{thebibliography}
