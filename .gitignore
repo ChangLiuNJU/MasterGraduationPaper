@@ -82,3 +82,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+NJUthesis/template.aux
+*.aux
+NJUthesis/template.bbl

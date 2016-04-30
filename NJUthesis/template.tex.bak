@@ -177,7 +177,7 @@ Realistic experiment results show that, FootStep-Tracker is able to achieve an a
 
 \section{ÑÐ¾¿±³¾°£º¿É´©´÷Éè±¸}
 
-¿É´©´÷Éè±¸£¨Wearable computer£©Îª¿É´©´÷ÓÚÉíÉÏ³öÍâ½øÐÐ»î¶¯µÄÎ¢ÐÍµç×ÓÉè±¸\cite{WearableComputer}¡£
+¿É´©´÷Éè±¸£¨Wearable computer£©Îª¿É´©´÷ÓÚÉíÉÏ³öÍâ½øÐÐ»î¶¯µÄÎ¢ÐÍµç×ÓÉè±¸\footnote{https://en.wikipedia.org/wiki/Wearable\_computer}¡£
 ÈçÍ¼\ref{fig:MenAndDevice}ËùÊ¾£¬¸ù¾ÝciscoµÄÒ»Ïî±¨¸æ£¬Æ½¾ùÃ¿ÈËËùÓµÓÐµÄÖÇÄÜÉè±¸ÊýÁ¿ÒÑ¾­´Ó2003ÄêµÄ0.08Ì¨Ã¿ÈËÔö³¤µ½ÁË2015ÄêµÄ 3.47Ì¨Ã¿ÈË¡£
 ¸ù¾ÝÆäÔ¤ÆÚ£¬µ½2020Äê£¬Æ½¾ùÃ¿ÈË½«ÓµÓÐ6.58Ì¨ÖÇÄÜÉè±¸£¬ÕâÆäÖÐµÄ¾ø´ó¶àÊÇ¶¼ÊÇ¿É´©´÷Éè±¸¡£¿É´©´÷Éè±¸¶ÔÓÚÈËÃÇµÄÉú»î´øÀ´ÁËÖî¶à±ãÀû¡£Ê×ÏÈ£¬¿É´©´÷Éè±¸¶ÔÓÚÓÃ»§Ê¹ÓÃÆðÀ´¸ü¼ÓµÄ·½±ã£¬ÖÇÄÜÊÖ»·¡¢ÊÖ±íµÈÖÇÄÜÉè±¸½Ï´«Í³µÄµçÄÔÀ´Ëµ¸ü¼Ó±ãÓÚÐ¯´ø¡£Æä´Î£¬¿É´©´÷Éè±¸¿ÉÒÔÔöÇ¿ÈËÌåµÄÄÜÁ¦£¬°éËæ×ÅÇ¿´óµÄÔÆ·þÎñ£¬¿É´©´÷Éè±¸Ò²¾ßÓÐÁËÇ¿´óµÄ¼ÆËãÄÜÁ¦£¬´Ó¶ø¸øÈËÁË¸³ÓèÁËÈËÌå²»¾ßÓÐµÄ¡°³¬ÄÜÁ¦¡±¡£µÚÈý£¬¿É´©´÷Éè±¸¿ÉÒÔ24Åå´÷£¬²¢ÇÒ¾ßÓÐ¼à¿ØÈËÌåÔË¶¯ºÍ¸÷ÏîÉúÀíÖ¸±êµÄ¹¦ÄÜ£¬¸øÎÒÃÇ´øÀ´ÁË¸üÈ«ÃæÓÐÐ§µÄ½¡¿µºÍÒ½ÁÆ¼ì²â·þÎñ¡£
 
@@ -249,7 +249,7 @@ Realistic experiment results show that, FootStep-Tracker is able to achieve an a
 
 \subsubsection{»ùÓÚ½Å²½¸ÐÖªµÄ²Î¿¼µØµã¹ÀËãÆ÷}
 
-²Î¿¼µØµã¹ÀËãÆ÷¸ù¾Ý²É¼¯µ½µÄÓÃ»§½Å²¿´«¸ÐÆ÷Êý¾Ý£¬Í¨¹ýÐÐÎª·ÖÀàÆ÷£¬µÃµ½ÓÃ»§µ±Ç°µÄÐÐÎª¡£µ±ÓÃ»§½øÐÐÒ»Ð©ÌØ¶¨µÄÐÐÎªÊ±£¬ÀýÈçÉÏÏÂµçÌÝ£¬ÉÏÏÂÂ¥ÌÝ£¬ÎÒÃÇ¾Í¿ÉÒÔµÃµ½ÓÃ»§µ±Ç°ÔÚÊÒÄÚµØÍ¼ÖÐµÄ¿ÉÄÜµØµã£¬¼´ËùËµµÄ²Î¿¼µØµã£¬ÀýÈçµçÌÝºÍÂ¥ÌÝ¡£½øÒ»²½£¬ÀûÓÃÊÒÄÚµØÍ¼ÖÐµÄÍØÆËÏÞÖÆ£¬ÀûÓÃÀàËÆÓÚSnake Game\cite{snake}µÄÉ¸Ñ¡²ßÂÔ£¬¾Í¿ÉÒÔÏà¶ÔµÄÓÃ»§ÔË¶¯¹ì¼£¾Í¿ÉÒÔÈ·¶¨ÎªÊÒÄÚµØÍ¼ÖÐ¾ø¶ÔµÄÔË¶¯¹ì¼£¡£
+²Î¿¼µØµã¹ÀËãÆ÷¸ù¾Ý²É¼¯µ½µÄÓÃ»§½Å²¿´«¸ÐÆ÷Êý¾Ý£¬Í¨¹ýÐÐÎª·ÖÀàÆ÷£¬µÃµ½ÓÃ»§µ±Ç°µÄÐÐÎª¡£µ±ÓÃ»§½øÐÐÒ»Ð©ÌØ¶¨µÄÐÐÎªÊ±£¬ÀýÈçÉÏÏÂµçÌÝ£¬ÉÏÏÂÂ¥ÌÝ£¬ÎÒÃÇ¾Í¿ÉÒÔµÃµ½ÓÃ»§µ±Ç°ÔÚÊÒÄÚµØÍ¼ÖÐµÄ¿ÉÄÜµØµã£¬¼´ËùËµµÄ²Î¿¼µØµã£¬ÀýÈçµçÌÝºÍÂ¥ÌÝ¡£½øÒ»²½£¬ÀûÓÃÊÒÄÚµØÍ¼ÖÐµÄÍØÆËÏÞÖÆ£¬ÀûÓÃÀàËÆÓÚSnake Game\footnote{https://en.wikipedia.org/wiki/Snake\_(video\_game)}µÄÉ¸Ñ¡²ßÂÔ£¬¾Í¿ÉÒÔÏà¶ÔµÄÓÃ»§ÔË¶¯¹ì¼£¾Í¿ÉÒÔÈ·¶¨ÎªÊÒÄÚµØÍ¼ÖÐ¾ø¶ÔµÄÔË¶¯¹ì¼£¡£
 
 \subsection{»ùÓÚ½Å²½¸ÐÖªµÄÎÞÃª½ÚµãÊÒÄÚ¶¨Î»ÏµÍ³ÊµÏÖ}
 
@@ -288,9 +288,7 @@ Realistic experiment results show that, FootStep-Tracker is able to achieve an a
 
 ¼ÓËÙ¶È´«¸ÐÆ÷ÊÇ²âÁ¿¹ÌÓÐ¼ÓËÙ¶ÈµÄµç×ÓÉè±¸¡£¹ÌÓÐ¼ÓËÙ¶ÈÊÇÖ¸°üº¬ÁËÎïÌåËùÊÜµ½µÄÖØÁ¦µÄ¼ÓËÙ¶È£¬¼´µ±´«¸ÐÆ÷Ð¾Æ¬¾²Ö¹°Ú·ÅÊ±£¬ÆäÑØÖØÁ¦·½ÏòµÄ¶ÁÊýÎªÖØÁ¦¼ÓËÙ¶Èg¡£
 ¸ß¾«µÄ¼ÓËÙ¶È¼ÆÖÆ×÷¹¤ÒÕÊ®·Ö¸´ÔÓ¡£ÈçÍ¼\ref{fig:accelerometer}ËùÊ¾£¬´Ó¸ÅÄîÉÏ½²£¬µ¥ÖáµÄ¼ÓËÙ¶È¼ÆµÄ½á¹¹Îª¹Ì¶¨ÔÚµ¯»ÉÉÏµÄ×èÄá¿é¡£µ±¼ÓËÙ¶È¼Æ¼ÓËÙÊ±£¬×èÄá¿éµÄ¹ßÐÔÖÂÊ¹µ¯»É²úÉúÐÎ±ä£¬´Ó¶ø·´Ó¦Îª¼ÓËÙ¶È¼ÆµÄ¶ÁÊý¡£ÈýÖá¼ÓËÙ¼ÆµÄ½á¹¹¼´ÎªÈý¸öÏà»¥´¹Ö±µÄµ¥Öá¼ÓËÙ¶È¼Æ×éºÏ¶ø³É¡£
-¼ÓËÙ¶È¼Æ¾ßÓÐ¶àÖÖÓÃÍ¾¡£¸ß¾«¶ÈµÄ¼ÓËÙ¶È¼Æ±»¹ã·ºÓÃÓÚº½¿ÕºÍº½ÌìÒµÖÐ£¬ÓÃÒÔ¸¨Öúµ¼º½¡£ÏÖ´úÆ½°åµçÄÔºÍÖÇÄÜÊÖ»úÖÐÇ¶ÈëµÄ¼ÓËÙ¶È´«¸ÐÆ÷¿ÉÒÔÊ¹ÆÁÄ»×Ô¶¯Ðý×ªµ½ÕýÈ·µÄ½Ç¶È¡£
-
-
+¼ÓËÙ¶È¼Æ¾ßÓÐ¶àÖÖÓÃÍ¾¡£¸ß¾«¶ÈµÄ¼ÓËÙ¶È¼Æ±»¹ã·ºÓÃÓÚº½¿ÕºÍº½ÌìÒµÖÐ£¬ÓÃÒÔ¸¨Öúµ¼º½¡£ÏÖ´úÆ½°åµçÄÔºÍÖÇÄÜÊÖ»úÖÐÇ¶ÈëµÄ¼ÓËÙ¶È´«¸ÐÆ÷¸øÓÃ»§´øÀ´ÁËÐÂµÄ½»»¥·½Ê½£¬ÀýÈçÖÇÄÜÊÖ»úµÄÆÁÄ»¿ÉÒÔ¸ù¾Ý¼ÓËÙ¶È¼Æ¸ÐÖªµÄÖØÁ¦µÄ·½Ïò×Ô¶¯Ðý×ªµ½ÕýÈ·µÄ½Ç¶È£¬¼´ºáÆÁ¡¢ÊúÆÁ×Ô¶¯ÇÐ»»¡£ÌÚÑ¶¹«Ë¾µÄÎ¢ÐÅÒ¡Ò»Ò¡¹¦ÄÜÒ²ÊÇÀûÓÃ¼ÓËÙ¶È¼Æ¸ÐÓ¦ÊÖ»úµÄÒ¡»Î¡£´ËÍâ£¬ÔÚÓÎÏ·ÖÐ£¬¼ÓËÙ¶È¼Æ¿ÉÒÔÍ¨¹ý¼ì²âÊÖ»úÆÁÄ»µÄÇãÐ±½Ç¶È£¬´Ó¶øÌá¹©ÐÂµÄÓéÀÖ·½Ê½£¬ÀýÈç³ÉÎª·½ÏòÅÌµÈ¹¦ÄÜ¡£
 
 \begin{figure}[!ht]
 \centering
@@ -301,7 +299,7 @@ Realistic experiment results show that, FootStep-Tracker is able to achieve an a
 
 \subsection{ÍÓÂÝÒÇ´«¸ÐÆ÷}
 
-ÍÓÂÝÒÇ´«¸ÐÆ÷£¬ÓÖ³ÆÎª½ÇËÙ¶È´«¸ÐÆ÷£¬ÓÃÒÔ²âÁ¿ÎïÌåµÄÐý×ª½Ç¶È¡£ÈçÍ¼\ref{fig:gyroscope} ËùÊ¾£¬ÍÓÂÝÒÇÓÉÒ»¸öÈÆ×Å¿ÉÐý×ªµÄÖáÐý×ªµÄÔ²»·»òÕßÔ²ÅÌ×é³É¡£µ±Ô²»·Ðý×ªÊ±£¬Æä¿ÉÒÔ±íÊ¾ÎïÌåµÄÈýÎ¬³¯Ïò¡£ÍÓÂÝÒÇ´«¸ÐÆ÷¾ßÓÐÓÃÍ¾¹ã·º¡£ÓÉÓÚÍÓÂÝÒÇ¿ÉÒÔÌá¹©×¼È·µÄ·½Î»ºÍË®Æ½ÐÅÏ¢£¬Æä±»ÓÃÓÚº½º£¡¢º½¿ÕºÍÓîº½ÊÂÒµÖÐ¡£ÔÚµ¼µ¯¡¢ÎÀÐÇµÈ¶ÔÓÚÔËÐÐ¹ìµÀÓÐÑÏ¸ñÒªÇóµÄÏµÍ³ÖÐ£¬ÍÓÂÝÒÇ¿ÉÒÔ½øÐÐÔË¶¯¹ìµÀµÄÐ£Õý¡£ÏÖ´úÖÇÄÜÊÖ»úºÍÆ½°åÖÐÒ²Ç¶ÈëÁËÍÓÂÝÒÇ´«¸ÐÆ÷£¬ÆäÌá¹©ÁËÐÂÐÍµÄ½»»¥·½Ê½ºÍÓéÀÖ·½Ê½¡£µ±ÓÃ»§ÓÃÖÇÄÜÊÖ»ú½øÐÐÅÄÕÕÊ±£¬ÍÓÂÝÒÇ¿ÉÒÔÔÚ°´ÏÂ¿ìÃÅµÄË²¼ä¼ÆËã³öÊÖ»úµÄ¶¶¶¯Çé¿ö£¬´Ó¶ø½øÐÐÅÄÕÕ·À¶¶¡£´ËÍâ£¬ÍÓÂÝÒÇÒ²ÓÃÓÚ±£Ö¤ÎÞÈË»úµÄÔÆÌ¨ÎÈ¶¨¡£
+ÍÓÂÝÒÇ´«¸ÐÆ÷£¬ÓÖ³ÆÎª½ÇËÙ¶È´«¸ÐÆ÷£¬ÓÃÒÔ²âÁ¿ÎïÌåµÄÐý×ª½Ç¶È¡£ÈçÍ¼\ref{fig:gyroscope} ËùÊ¾£¬ÍÓÂÝÒÇÓÉÒ»¸öÈÆ×Å¿ÉÐý×ªµÄÖáÐý×ªµÄÔ²»·»òÕßÔ²ÅÌ×é³É¡£µ±Ô²»·Ðý×ªÊ±£¬Æä¿ÉÒÔ±íÊ¾ÎïÌåµÄÈýÎ¬³¯Ïò¡£ÍÓÂÝÒÇ´«¸ÐÆ÷¾ßÓÐÓÃÍ¾¹ã·º¡£ÓÉÓÚÍÓÂÝÒÇ¿ÉÒÔÌá¹©×¼È·µÄ·½Î»ºÍË®Æ½ÐÅÏ¢£¬Æä±»ÓÃÓÚº½º£¡¢º½¿ÕºÍÓîº½ÊÂÒµÖÐ¡£ÔÚµ¼µ¯¡¢ÎÀÐÇµÈ¶ÔÓÚÔËÐÐ¹ìµÀÓÐÑÏ¸ñÒªÇóµÄÏµÍ³ÖÐ£¬ÍÓÂÝÒÇ¿ÉÒÔ½øÐÐÔË¶¯¹ìµÀµÄÐ£Õý¡£ÔÚÎÞÈË»úÁìÓò£¬ÍÓÂÝÒÇÓÃÓÚ±£Ö¤ÎÞÈË»úµÄÔÆÌ¨ÎÈ¶¨¡£ÏÖ´úÖÇÄÜÊÖ»úºÍÆ½°åÖÐÒ²Ç¶ÈëÁËÍÓÂÝÒÇ´«¸ÐÆ÷£¬ÆäÌá¹©ÁËÐÂÐÍµÄ½»»¥·½Ê½ºÍÓéÀÖ·½Ê½¡£µ±ÓÃ»§ÓÃÖÇÄÜÊÖ»ú½øÐÐÅÄÕÕÊ±£¬ÍÓÂÝÒÇ¿ÉÒÔÔÚ°´ÏÂ¿ìÃÅµÄË²¼ä¼ÆËã³öÊÖ»úµÄ¶¶¶¯Çé¿ö£¬´Ó¶ø½øÐÐÅÄÕÕ·À¶¶¡£ÍÓÂÝÒÇ»¹¿ÉÒÔ¸¨ÖúGPS½øÐÐÊÖ»úµÄ¶¨Î»£¬µ±ÊÖ»ú½ÓÊÕ²»µ½GPSÐÅºÅÊ±£¬ÊÖ»úÍ¨¹ýÍÓÂÝÒÇ¼ÆËãÆ«º½£¬´Ó¶øÊµÏÖ¸¨Öúµ¼º½¡£
 
 \begin{figure}[!ht]
 \centering
@@ -310,9 +308,11 @@ Realistic experiment results show that, FootStep-Tracker is able to achieve an a
 \label{fig:gyroscope}
 \end{figure}
 
-\section{»ùÓÚ¹ßÐÔ´«¸ÐÆ÷µÄ½Å²½¸ÐÖª}
+\section{»ùÓÚ¶¨Î»ÉèÊ©µÄÊÒÄÚ¶¨Î»}
 
-\section{»ùÓÚ¹ßÐÔ´«¸ÐÆ÷µÄÊÒÄÚ¶¨Î»}
+»ùÓÚ¶¨Î»ÉèÊ©µÄÊÒÄÚ¶¨Î»·½°¸´ó¶àÀûÓÃÎÞÏßÐÅºÅ½øÐÐÊÒÄÚ¶¨Î»£¬ÀýÈçÎÞÏßÉäÆµÐÅºÅ¡¢Wifi ÐÅºÅºÍÀ¶ÑÀÐÅºÅ£¬ÔÚÊÒÄÚ»·¾³ÖÐ½øÐÐ¶ÔÈË»òÎïÌåµÄ¶¨Î»»ò×·×Ù¡£Ðí¶à¶¨Î»Ëã·¨ÀýÈçFingerprint\cite{fp1,fp2}ºÍLANDMARC
+
+\section{ÎÞ¶¨Î»ÉèÊ©µÄÊÒÄÚ¶¨Î»}
 
 \section{±¾ÕÂÐ¡½á}
 
@@ -768,7 +768,7 @@ FootStep-TrackerÀûÓÃµÍÍ¨ÂË²¨È¥µôÓÃ»§×ßÖ±ÏßÊ±µÄÊý¾ÝÔëÉù£¬½«×ªÍä²½´ÓÖ±ÐÐ²½ÖÐÌáÈ¡³ö
 
 ÎªÁËÍ¨¹ýÐÐÎª¹ì¼£ºÍÊÒÄÚµØÍ¼È·¶¨ÓÃ»§µÄÈ·ÇÐÎ»ÖÃ£¬ÎÒÃÇÓÐÁËÈçÏÂÁ½¸öÏë·¨£ºÊ×ÏÈ£¬ÓÃ»§µÄÐÐÎª¹ì¼£ÊÜµ½ÊÒÄÚÎïÀíÍØÆË½á¹¹µÄÏÞÖÆ£¬Ò²¾ÍÊÇËµ£¬ÓÃ»§²»ÄÜ´©Ç½¡£µÚ¶þ£¬ÓÉÓÚ²Î¿¼µØµã£¬°üÀ¨Â¥ÌÝºÍµçÌÝ£¬ËüÃÇµÄÎ»ÖÃÔÚÊÒÄÚµØÍ¼ÖÐÊÇ¹Ì¶¨µÄ¡£ËùÒÔµ±ÓÃ»§ÔÚ½øÐÐ²Î¿¼ÐÐÎªÊ±£¬ÀýÈçÉÏµçÌÝ¡¢ÉÏÂ¥ÌÝ£¬ÎÒÃÇ¾Í¿ÉÒÔÈ·ÇÐµÄ¶¨Î»ÓÃ»§ÔÚ¼¸¸ö¿ÉÄÜµÄ²Î¿¼µØµãÉÏ¡£
 
-ÎªÁË¶¨Î»ÓÃ»§ºÍ¸ü½øÒ»²½µÄ×·×ÙºÍµ¼º½£¬ÎÒÃÇ²ÉÓÃÁËÌ°Ê³Éß²ßÂÔ\cite{snake}¡£ÈçÍ¼\ref{fig:Anakonda} (a) ËùÊ¾£¬ÓÃ»§³Ë×øµçÌÝÀ´µ½»·¾³ÖÐ£¬È»ºóÓÒ×ª×ßÁËÒ»Ð¡¶Î¾àÀë¡£´ËÊ±¸ù¾ÝÐÐ×ß¹ì¼£ºÍµçÌÝµÄÎ»ÖÃ£¬ÓÐÈý¸ö¿ÉÄÜµÄÓÃ»§Î»ÖÃ¡£Ëæ×ÅÓÃ»§ÐÐ×ß£¬µ½ÁËÈçÍ¼ (b) µÄÊ±¿Ì£¬ÓÉÓÚµØÍ¼ÍØÆË»·¾³µÄÏÞÖÆ£¬¿ÉÄÜµÄÐÐ×ß¹ì¼£ (2) ºÍ (3) ±»ÅÅ³ýµôÁË£¬´Ó¶øÉ¸Ñ¡³öÈ·ÇÐµÄÓÃ»§ÐÐÎª¹ì¼£(1)¡£
+ÎªÁË¶¨Î»ÓÃ»§ºÍ¸ü½øÒ»²½µÄ×·×ÙºÍµ¼º½£¬ÎÒÃÇ²ÉÓÃÁËÌ°Ê³Éß²ßÂÔ\footnote{https://en.wikipedia.org/wiki/Snake\_(video\_game)}¡£ÈçÍ¼\ref{fig:Anakonda} (a) ËùÊ¾£¬ÓÃ»§³Ë×øµçÌÝÀ´µ½»·¾³ÖÐ£¬È»ºóÓÒ×ª×ßÁËÒ»Ð¡¶Î¾àÀë¡£´ËÊ±¸ù¾ÝÐÐ×ß¹ì¼£ºÍµçÌÝµÄÎ»ÖÃ£¬ÓÐÈý¸ö¿ÉÄÜµÄÓÃ»§Î»ÖÃ¡£Ëæ×ÅÓÃ»§ÐÐ×ß£¬µ½ÁËÈçÍ¼ (b) µÄÊ±¿Ì£¬ÓÉÓÚµØÍ¼ÍØÆË»·¾³µÄÏÞÖÆ£¬¿ÉÄÜµÄÐÐ×ß¹ì¼£ (2) ºÍ (3) ±»ÅÅ³ýµôÁË£¬´Ó¶øÉ¸Ñ¡³öÈ·ÇÐµÄÓÃ»§ÐÐÎª¹ì¼£(1)¡£
 
 \begin{figure}[!ht]
 \centering
@@ -864,7 +864,7 @@ SensorTagµÄ²ÉÑùÆµÂÊÎª20Hz£¬ÆäÈçÍ¼\ref{fig:sensortag}ËùÊ¾µÄÇ¶ÈëÓÃ»§µÄÐ¬µæÖÐ¡£ÎÒÃÇ
 
 \subsection{ÕæÊµ»·¾³ÖÐµÄ¶¨Î»ÑùÀýÑÐ¾¿}
 
-ÎªÁËÆÀ¹ÀFootStep-Tracker£¬ÎÒÃÇÑûÇëÁË5¸öÓÃ»§½øÐÐ²âÊÔ¡£ËûÃÇ´©×ÅFootStep-Tracker£¬ÑØ×ÅÈçÍ¼\ref{fig:path}ËùÊ¾µÄºìÉ«ÊµÏßµÄÂ·ÏßÐÐ¶¯¡£ÔÚÁù´Î×ªÍäÖ®ºó£¬Ëû³Ë×øÁíÒ»¸öµçÌÝÀë¿ªµ±Ç°ÊÒÄÚ»·¾³¡£Ê×ÏÈ£¬FootStep-Tracker ²¢²»ÄÜÈ·¶¨ÄÄ¸öµçÌÝÎªÓÃ»§µÄÈ·ÇÐÎ»ÖÃ¡£Í¼ÖÐµÄÀ¶É«ÐéÏßÏÔÊ¾ÁË¿ÉÄÜµÄÓÃ»§Î»ÖÃ¡£Ê×ÏÈ£¬ÓÃ»§×ßÁËÒ»Ð¡¶Î¾àÀë£¬È»ºóÓÒ×ª£¬Ö±×ßÁËÒ»¶ÎºÜ³¤µÄ¾àÀë¡£´ËÊ±£¬FootStep-TrackerÍ¨¹ýÌ°Ê³Éß²ßÂÔ\cite{snake}¿ÉÒÔÅÅ³ýÁËÐéÏßËùÊ¾µÄ¼¸¸öÓÃ»§ÐÐÎª¹ì¼£¡£Í¼\ref{fig:eva_case_study} (a) ÏÔÊ¾ÁËÒ»¸öÓÃ»§×ßÂ·µÄ²½ÊýÓë¶¨Î»Îó²îµÄ¹ØÏµ¡£ÔÚ¿ªÊ¼Ê±£¬FootStep-TrackerÓÉÓÚ»¹Ã»ÓÐÈ·¶¨ÓÃ»§µÄ¿ÉÄÜÎ»ÖÃ£¬¾ßÓÐ½Ï´óµÄ¶¨Î»Îó²î¡£Ëæ×ÅÓÃ»§¼ÌÐøÐÐ×ß£¬ÓÃ»§µÄÈ·ÇÐÎ»ÖÃÔÚÁù²½Ö®ºóÈ·¶¨£¬¶¨Î»Îó²îÈñ¼õµ½1m×óÓÒ¡£Í¼\ref{fig:eva_case_study} (b) ÏÔÊ¾ÁË×ªÍäÊýºÍ¶¨Î»Îó²îµÄ¹ØÏµ¡£ÓÉÓÚµÚÒ»¸ö×ªÍäÊ±£¬ÓÃ»§µÄÈ·ÇÐÎ»ÖÃ»¹Ã»ÓÐÈ·¶¨£¬²¢²»¾ßÓÐ²Î¿¼¼ÛÖµ¡£ÎÒÃÇ´ÓµÚ¶þ¸ö×ªÍä¿ªÊ¼£¬·¢ÏÖËæ×Å×ªÍäÊýÄ¿µÄÔö¼Ó£¬¶¨Î»Îó²î¿ÉÒÔÃ÷ÏÔ¼õÉÙ£¬´ËÍâË«½ÅÐ£ÕýÒ²¿ÉÒÔÓÐÐ§µÄ¼õÉÙÎó²î¡£Í¼\ref{fig:eva_case_study} (c) ÏÔÊ¾ÁËÆ½¾ùÎó²îÔÚ´óÔ¼1m×óÓÒ¡£
+ÎªÁËÆÀ¹ÀFootStep-Tracker£¬ÎÒÃÇÑûÇëÁË5¸öÓÃ»§½øÐÐ²âÊÔ¡£ËûÃÇ´©×ÅFootStep-Tracker£¬ÑØ×ÅÈçÍ¼\ref{fig:path}ËùÊ¾µÄºìÉ«ÊµÏßµÄÂ·ÏßÐÐ¶¯¡£ÔÚÁù´Î×ªÍäÖ®ºó£¬Ëû³Ë×øÁíÒ»¸öµçÌÝÀë¿ªµ±Ç°ÊÒÄÚ»·¾³¡£Ê×ÏÈ£¬FootStep-Tracker ²¢²»ÄÜÈ·¶¨ÄÄ¸öµçÌÝÎªÓÃ»§µÄÈ·ÇÐÎ»ÖÃ¡£Í¼ÖÐµÄÀ¶É«ÐéÏßÏÔÊ¾ÁË¿ÉÄÜµÄÓÃ»§Î»ÖÃ¡£Ê×ÏÈ£¬ÓÃ»§×ßÁËÒ»Ð¡¶Î¾àÀë£¬È»ºóÓÒ×ª£¬Ö±×ßÁËÒ»¶ÎºÜ³¤µÄ¾àÀë¡£´ËÊ±£¬FootStep-TrackerÍ¨¹ýÌ°Ê³Éß²ßÂÔ\footnote{https://en.wikipedia.org/wiki/Snake\_(video\_game)}¿ÉÒÔÅÅ³ýÁËÐéÏßËùÊ¾µÄ¼¸¸öÓÃ»§ÐÐÎª¹ì¼£¡£Í¼\ref{fig:eva_case_study} (a) ÏÔÊ¾ÁËÒ»¸öÓÃ»§×ßÂ·µÄ²½ÊýÓë¶¨Î»Îó²îµÄ¹ØÏµ¡£ÔÚ¿ªÊ¼Ê±£¬FootStep-TrackerÓÉÓÚ»¹Ã»ÓÐÈ·¶¨ÓÃ»§µÄ¿ÉÄÜÎ»ÖÃ£¬¾ßÓÐ½Ï´óµÄ¶¨Î»Îó²î¡£Ëæ×ÅÓÃ»§¼ÌÐøÐÐ×ß£¬ÓÃ»§µÄÈ·ÇÐÎ»ÖÃÔÚÁù²½Ö®ºóÈ·¶¨£¬¶¨Î»Îó²îÈñ¼õµ½1m ×óÓÒ¡£Í¼\ref{fig:eva_case_study} (b) ÏÔÊ¾ÁË×ªÍäÊýºÍ¶¨Î»Îó²îµÄ¹ØÏµ¡£ÓÉÓÚµÚÒ»¸ö×ªÍäÊ±£¬ÓÃ»§µÄÈ·ÇÐÎ»ÖÃ»¹Ã»ÓÐÈ·¶¨£¬²¢²»¾ßÓÐ²Î¿¼¼ÛÖµ¡£ÎÒÃÇ´ÓµÚ¶þ¸ö×ªÍä¿ªÊ¼£¬·¢ÏÖËæ×Å×ªÍäÊýÄ¿µÄÔö¼Ó£¬¶¨Î»Îó²î¿ÉÒÔÃ÷ÏÔ¼õÉÙ£¬´ËÍâË«½ÅÐ£ÕýÒ²¿ÉÒÔÓÐÐ§µÄ¼õÉÙÎó²î¡£Í¼\ref{fig:eva_case_study} (c) ÏÔÊ¾ÁËÆ½¾ùÎó²îÔÚ´óÔ¼1m ×óÓÒ¡£
 
 \begin{figure}
 \centering
@@ -908,7 +908,7 @@ SensorTagµÄ²ÉÑùÆµÂÊÎª20Hz£¬ÆäÈçÍ¼\ref{fig:sensortag}ËùÊ¾µÄÇ¶ÈëÓÃ»§µÄÐ¬µæÖÐ¡£ÎÒÃÇ
 
 \subsection{Ó²¼þÆ½Ì¨}
 
-ÈçÍ¼\ref{fig:hardware}ËùÊ¾£¬FootStep-TrackerµÄÊµÏÖ²ÉÓÃÁËµÂÖÝÒÇÆ÷¹«Ë¾Éú²úµÄSensorTag\cite{sensortag} ×÷ÎªÇ¶ÈëÓÃ»§Ð¬×ÓÖÐµÄ´«¸ÐÆ÷Ð¾Æ¬¡£ÈýÐÇ¹«Ë¾Éú²úµÄGlaxy S5ÖÇÄÜÊÖ»ú×÷ÎªÊý¾ÝµÄ´¦ÀíºÍ½çÃæÕ¹Ê¾Æ½Ì¨¡£
+ÈçÍ¼\ref{fig:hardware}ËùÊ¾£¬FootStep-TrackerµÄÊµÏÖ²ÉÓÃÁËµÂÖÝÒÇÆ÷¹«Ë¾Éú²úµÄSensorTag\cite{sensortag} ×÷ÎªÇ¶ÈëÓÃ»§Ð¬×ÓÖÐµÄ´«¸ÐÆ÷Ð¾Æ¬¡£ÈýÐÇ¹«Ë¾Éú²úµÄGalaxy S5\footnote{http://www.samsung.com/cn/promotions/s5/index.html}ÖÇÄÜÊÖ»ú×÷ÎªÊý¾ÝµÄ´¦ÀíºÍ½çÃæÕ¹Ê¾Æ½Ì¨¡£
 
 \begin{figure}[!ht]
 \centering
@@ -918,7 +918,7 @@ SensorTagµÄ²ÉÑùÆµÂÊÎª20Hz£¬ÆäÈçÍ¼\ref{fig:sensortag}ËùÊ¾µÄÇ¶ÈëÓÃ»§µÄÐ¬µæÖÐ¡£ÎÒÃÇ
     \end{minipage}%
 	\begin{minipage}{0.5\linewidth}
         \centerline{\includegraphics[width=1\textwidth]{Figure/s5.png}}
-        \centerline{(b) SAMSUNG GALAXY S5}
+        \centerline{(b) SAMSUNG Galaxy S5}
     \end{minipage}
 \caption{Ó²¼þÆ½Ì¨}
 \label{fig:hardware}
@@ -926,7 +926,7 @@ SensorTagµÄ²ÉÑùÆµÂÊÎª20Hz£¬ÆäÈçÍ¼\ref{fig:sensortag}ËùÊ¾µÄÇ¶ÈëÓÃ»§µÄÐ¬µæÖÐ¡£ÎÒÃÇ
 
 SensorTagÊÇµÂÖÝÒÇÆ÷¹«Ë¾¿ª·¢µÄÒµ½çÊ×¿îÀ¶ÑÀ¿ª·¢Ì×¼þ¡£Í¼\ref{fig:sensortag_arch} ËùÊ¾ÎªSensorTagµÄÏµÍ³¼Ü¹¹£¬SensorTag½«¶àÖÖ´«¸ÐÆ÷¼¯³ÉÔÚ»ùÓÚCC2541µÄµ¥°åÉÏ£¬ÆäÖÐ°üÀ¨ºìÍâÎÂ¶È´«¸ÐÆ÷¡¢Êª¶È´«¸ÐÆ÷¡¢ÆøÑ¹´«¸ÐÆ÷¡¢¼ÓËÙ¶È¼Æ¡¢ÍÓÂÝÒÇºÍ´ÅÁ¦¼Æ¡£Ö§³Ö¿ª·¢³Ö¶àÖÖÆ½Ì¨£¬°üÀ¨PC¡¢Android ºÍIOSÆ½Ì¨£¬²¢¿ÉÒÔÖ±½ÓÍ¨¹ýÖÇÄÜÊÖ»ú½øÐÐ¹Ì¼þµÄ°æ±¾¸üÐÂ¡£
 
-SensorTag²ÉÓÃÀ¶ÑÀµÍ¹¦ºÄ£¨Bluetooth low energy, BLE£©\footnote{}\cite{ble}×÷ÎªÊý¾Ý´«ÊäÐ­Òé¡£BLE½Ï´«Í³µÄÀ¶ÑÀÀ´Ëµ£¬Ö¼ÔÚ±£³ÖÍ¨Ñ¶·¶Î§µÄÍ¬Ê±£¬Ìá¹©¸üÉÙµÄºÄµçÁ¿¡£BLE ÔÚ2006 ÄêÊ×ÏÈÓÉNokiaÌá³ö£¬µ±Ê±±»³ÆÎª\textbf{Wibree}¡£ËæºóÔÚ2010Äê£¬Æä±»²¢ÈëÀ¶ÑÀ4.0Ð­Òé¡£
+SensorTag²ÉÓÃÀ¶ÑÀµÍ¹¦ºÄ£¨Bluetooth low energy, BLE£©\footnote{https://developer.bluetooth.org/TechnologyOverview/Pages/BLE.aspx}×÷ÎªÊý¾Ý´«ÊäÐ­Òé¡£BLE½Ï´«Í³µÄÀ¶ÑÀÀ´Ëµ£¬Ö¼ÔÚ±£³ÖÍ¨Ñ¶·¶Î§µÄÍ¬Ê±£¬Ìá¹©¸üÉÙµÄºÄµçÁ¿¡£BLE ÔÚ2006 ÄêÊ×ÏÈÓÉNokiaÌá³ö£¬µ±Ê±±»³ÆÎª\textbf{Wibree}¡£ËæºóÔÚ2010Äê£¬Æä±»²¢ÈëÀ¶ÑÀ4.0Ð­Òé¡£
 
 \begin{figure}[!ht]
 \centering
@@ -937,9 +937,9 @@ SensorTag²ÉÓÃÀ¶ÑÀµÍ¹¦ºÄ£¨Bluetooth low energy, BLE£©\footnote{}\cite{ble}×÷ÎªÊý¾
 
 \subsection{Èí¼þÆ½Ì¨}
 
-FootStep-TrackerµÄÊµÏÖ²ÉÓÃJAVAÓïÑÔ\cite{java}¡£JAVAÎªSun Microsystems¹«Ë¾ÍÆ³öµÄÒ»ÖÖÃæÏò¶ÔÏóÉè¼ÆÓïÑÔ£¬Æä¾ßÓÐ¿çÆ½Ì¨¡¢¸ßÐ§¡¢°²È«µÈÓÅÊÆ£¬Æä¹ã·ºÓ¦ÓÃÓÚ¸öÈËµçÄÔ¡¢Êý¾ÝÖÐÐÄ¡¢³¬¼¶¼ÆËã»úµÈÆ½Ì¨£¬¾ßÓÐÊÀ½çÉÏ×î´óµÄ¿ª·¢ÕßÈºÌå¡£
+FootStep-TrackerµÄÊµÏÖ²ÉÓÃJAVAÓïÑÔ\footnote{https://www.java.com/zh\_CN}¡£JAVA ÎªSun Microsystems¹«Ë¾ÍÆ³öµÄÒ»ÖÖÃæÏò¶ÔÏóÉè¼ÆÓïÑÔ£¬Æä¾ßÓÐ¿çÆ½Ì¨¡¢¸ßÐ§¡¢°²È«µÈÓÅÊÆ£¬Æä¹ã·ºÓ¦ÓÃÓÚ¸öÈËµçÄÔ¡¢Êý¾ÝÖÐÐÄ¡¢³¬¼¶¼ÆËã»úµÈÆ½Ì¨£¬¾ßÓÐÊÀ½çÉÏ×î´óµÄ¿ª·¢ÕßÈºÌå¡£
 
-FootStep-TrackerÍ¨¹ýAndroid\cite{android}Æ½Ì¨ÊµÏÖÔÚÓÚÖÇÄÜÊÖ»úÉÏ¡£AndroidÆ½Ì¨ÓÉGoogle¹«Ë¾ÍÆ³ö£¬Æä»ùÓÚLinuxÆ½Ì¨£¬¾ßÓÐ¿ª·ÅÐÔÇ¿¡¢½»»¥ÐÔºÃ£¬¿ª·¢±ã½ÝµÈÓÅÊÆ£¬ÏÖÒÑÓëIOSÆ½Ì¨³ÉÎªÊÀ½çÉÏµÄÁ½´óÒÆ¶¯²Ù×÷ÏµÍ³Æ½Ì¨¡£
+FootStep-TrackerÍ¨¹ýAndroid\footnote{https://www.android.com}Æ½Ì¨ÊµÏÖÔÚÓÚÖÇÄÜÊÖ»úÉÏ¡£AndroidÆ½Ì¨ÓÉGoogle¹«Ë¾ÍÆ³ö£¬Æä»ùÓÚLinuxÆ½Ì¨£¬¾ßÓÐ¿ª·ÅÐÔÇ¿¡¢½»»¥ÐÔºÃ£¬¿ª·¢±ã½ÝµÈÓÅÊÆ£¬ÏÖÒÑÓëIOSÆ½Ì¨³ÉÎªÊÀ½çÉÏµÄÁ½´óÒÆ¶¯²Ù×÷ÏµÍ³Æ½Ì¨¡£
 
 \section{ÏµÍ³Éè¼Æ}
 
@@ -1087,11 +1087,7 @@ FootStep-TrackerÍ¨¹ýAndroid\cite{android}Æ½Ì¨ÊµÏÖÔÚÓÚÖÇÄÜÊÖ»úÉÏ¡£AndroidÆ½Ì¨ÓÉGo
 \begin{thanks}
 \vskip 18pt
 
-Ê×ÏÈ¸ÐÐ»ÎÒµÄ¸¸Ä¸¶ÔÎÒ
-
-¸ÐÐ»ÎÒµÄÅ®ÅóÓÑñÒÓñæÃ¶ÔÎÒ
-
-¸ÐÐ»ÎÒµÄµ¼Ê¦Ð»ÀÚ¸±½ÌÊÚºÍÂ½É£è´½ÌÊÚ¶ÔÎÒµÄ¾«ÐÄÖ¸µ¼ºÍ°ïÖú
+Ê×ÏÈ¸ÐÐ»ÎÒµÄ
 
 \end{thanks}
 
