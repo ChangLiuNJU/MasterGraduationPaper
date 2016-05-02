@@ -326,14 +326,20 @@ Yang\cite{fp4}等人提出的LiFS就是基于空间指纹的室内定位系统。图\ref{fig:fp}为其系
 
 \begin{figure}[!ht]
 \centering
-\includegraphics[width = 0.8\textwidth]{Figure/fp.jpg}
+\includegraphics[width = 0.9\textwidth]{Figure/fp.jpg}
 \caption{LiFS系统架构图}
 \label{fig:fp}
 \end{figure}
 
-\section{无定位设施的室内定位}
+\section{无锚节点的室内定位}
+
+在许多室内环境中，并不具备部署或大量部署定位锚节点设施的条件，或者部署起来成本过高，于是无锚节点的室内定位方案应运而生。当前最前沿的无锚节点的室内定位方案，特别是室内行人导航主要是利用用户身上携带的智能设备中的惯性传感器，通过传感器感知的加速度，角速度，磁场等物理信号，估算用户在室内环境中的位置。在学术界也提出了许多室内定位方案，例如基于航位推测法、脚步感知等方案，可以有效的解决在没有定位锚节点的情况下的室内定位。
 
 \subsection{航位推测法}
+
+航位推测法（Dead-reckoning）是一种根据目标之前确定的、已知的位置来估算目标当前位置的方法。
+
+\subsection{脚步感知}
 
 \section{本章小结}
 

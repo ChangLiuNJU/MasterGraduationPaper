@@ -20,9 +20,10 @@
 \contentsline {section}{\numberline {2.2}基于定位设施的室内定位}{10}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}基于参考锚节点的定位}{11}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}基于空间指纹的定位}{11}{subsection.2.2.2}
-\contentsline {section}{\numberline {2.3}无定位设施的室内定位}{11}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}航位推测法}{11}{subsection.2.3.1}
-\contentsline {section}{\numberline {2.4}本章小结}{11}{section.2.4}
+\contentsline {section}{\numberline {2.3}无锚节点的室内定位}{11}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}航位推测法}{12}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}脚步感知}{12}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}本章小结}{12}{section.2.4}
 \contentsline {chapter}{\numberline {第三章\hspace {0.3em}}基于脚步感知的无锚节点室内定位系统}{13}{chapter.3}
 \contentsline {section}{\numberline {3.1}问题场景描述}{13}{section.3.1}
 \contentsline {section}{\numberline {3.2}系统概述}{13}{section.3.2}
