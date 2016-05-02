@@ -7,6 +7,7 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces 加速度计原理示意图}}{10}{figure.2.1}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces 陀螺仪原理示意图}}{10}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces LiFS系统架构图}}{12}{figure.2.3}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces FootStep-Tracker系统框架。输入传感器数据和室内地图，FootStep-Tracker 输出用户在给定地图中的实时位置。}}{14}{figure.3.1}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces SensorTag坐标轴部署.}}{15}{figure.3.2}
